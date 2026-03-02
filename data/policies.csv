@@ -1,0 +1,1501 @@
+policy_id,age,gender,state,occupation,marital_status,credit_score,policy_type,annual_premium,policy_start_date,years_as_customer,num_prior_claims,has_violations
+POL-00001,58,Male,CA,Construction Worker,Divorced,550,Standard,1546.53,2020-07-28,2,6,0
+POL-00002,19,Male,OH,Mechanic,Single,503,Comprehensive,2153.3,2023-04-21,8,0,0
+POL-00003,62,Female,NJ,Accountant,Married,520,Premium,1266.58,2022-02-17,3,5,0
+POL-00004,56,Female,TX,Construction Worker,Widowed,849,Basic,7798.37,2022-02-14,2,8,0
+POL-00005,71,Female,MD,Mechanic,Single,346,Standard,6298.01,2020-06-12,7,1,1
+POL-00006,35,Female,VA,Nurse,Divorced,663,Standard,5526.31,2023-12-08,2,2,0
+POL-00007,28,Female,WA,Accountant,Married,632,Basic,2217.86,2020-03-06,10,6,0
+POL-00008,22,Male,MD,Student,Divorced,517,Comprehensive,3467.24,2023-08-09,14,2,0
+POL-00009,26,Male,MO,Driver,Divorced,738,Comprehensive,3214.97,2020-10-10,15,1,0
+POL-00010,73,Male,PA,Retail Worker,Married,732,Basic,3385.75,2023-05-05,14,8,0
+POL-00011,53,Male,NY,Retail Worker,Divorced,648,Basic,2701.25,2020-11-19,14,0,0
+POL-00012,50,Male,IN,Student,Single,605,Standard,1646.29,2024-04-10,5,8,0
+POL-00013,56,Female,TN,Software Engineer,Single,671,Premium,2295.89,2021-05-08,2,1,1
+POL-00014,70,Male,MO,Doctor,Married,431,Comprehensive,7601.37,2020-12-04,8,8,1
+POL-00015,31,Male,MI,Electrician,Divorced,748,Comprehensive,1407.53,2021-04-05,2,5,0
+POL-00016,55,Male,MD,Mechanic,Single,372,Basic,2217.06,2020-03-05,10,1,0
+POL-00017,35,Female,OH,Driver,Married,784,Standard,6384.65,2024-07-11,13,3,0
+POL-00018,24,Female,VA,Electrician,Widowed,778,Basic,5550.23,2023-08-16,3,0,1
+POL-00019,64,Female,NY,Mechanic,Married,494,Comprehensive,1551.37,2021-01-10,8,7,0
+POL-00020,73,Male,MA,Doctor,Single,351,Basic,7767.47,2024-03-23,7,2,1
+POL-00021,49,Female,OH,Freelancer,Widowed,360,Standard,3342.3,2022-03-10,8,7,0
+POL-00022,45,Female,PA,Mechanic,Divorced,522,Basic,4843.85,2023-01-15,1,5,0
+POL-00023,21,Female,IN,Student,Married,358,Basic,6885.07,2020-05-20,2,3,1
+POL-00024,25,Male,MD,Chef,Single,383,Comprehensive,5430.3,2023-03-03,10,4,0
+POL-00025,60,Female,GA,Accountant,Widowed,434,Premium,3929.18,2024-03-19,2,0,1
+POL-00026,57,Male,FL,Driver,Married,818,Premium,1493.42,2021-12-15,2,3,0
+POL-00027,36,Male,MA,Freelancer,Divorced,841,Basic,5508.97,2023-02-09,9,1,0
+POL-00028,34,Male,NY,Construction Worker,Married,578,Premium,5036.22,2024-01-09,10,3,0
+POL-00029,50,Female,NC,Student,Single,394,Comprehensive,6720.11,2020-03-31,0,5,0
+POL-00030,58,Female,IL,Construction Worker,Widowed,737,Basic,1339.05,2024-12-13,4,8,0
+POL-00031,71,Female,MD,Driver,Married,740,Standard,813.72,2022-01-16,1,5,0
+POL-00032,61,Male,NY,Sales Manager,Widowed,458,Standard,6984.54,2024-06-26,5,6,0
+POL-00033,29,Female,AZ,Doctor,Married,573,Standard,6405.31,2020-08-09,12,0,1
+POL-00034,32,Male,MA,Sales Manager,Divorced,533,Standard,677.48,2021-01-30,12,5,0
+POL-00035,73,Male,NC,Sales Manager,Widowed,849,Premium,7544.28,2020-08-24,8,2,0
+POL-00036,20,Male,WI,Electrician,Divorced,621,Comprehensive,5046.57,2022-11-13,3,6,0
+POL-00037,34,Male,AZ,Software Engineer,Married,672,Comprehensive,1024.8,2023-09-22,10,5,0
+POL-00038,64,Female,IN,Accountant,Widowed,634,Comprehensive,5729.06,2023-02-09,4,3,1
+POL-00039,60,Female,IL,Chef,Divorced,715,Basic,2779.06,2021-03-06,13,5,1
+POL-00040,46,Female,OH,Driver,Widowed,473,Basic,2628.4,2023-09-21,10,1,0
+POL-00041,61,Female,GA,Doctor,Married,450,Basic,846.6,2022-08-31,2,7,1
+POL-00042,74,Male,WA,Lawyer,Widowed,549,Standard,5420.44,2020-01-12,3,6,0
+POL-00043,29,Female,TX,Driver,Married,424,Comprehensive,1500.04,2022-08-09,10,7,1
+POL-00044,71,Female,IL,Construction Worker,Widowed,760,Premium,6138.33,2024-09-16,8,8,1
+POL-00045,58,Male,NC,Lawyer,Single,592,Standard,2537.86,2021-10-16,2,2,0
+POL-00046,32,Female,PA,Construction Worker,Married,365,Comprehensive,3557.0,2023-01-16,14,6,0
+POL-00047,31,Female,WA,Student,Single,689,Comprehensive,544.22,2021-12-21,9,6,1
+POL-00048,52,Male,TN,Mechanic,Divorced,746,Comprehensive,717.69,2021-11-19,12,2,1
+POL-00049,26,Male,WA,Chef,Single,385,Comprehensive,1517.75,2022-08-03,5,0,0
+POL-00050,42,Female,OH,Lawyer,Divorced,645,Comprehensive,2586.92,2024-08-30,13,4,0
+POL-00051,48,Male,MO,Software Engineer,Divorced,529,Basic,6359.25,2023-08-27,1,0,0
+POL-00052,30,Male,WI,Nurse,Married,429,Comprehensive,5520.94,2023-03-01,6,7,0
+POL-00053,67,Female,IL,Chef,Single,467,Premium,1310.74,2020-02-22,9,6,1
+POL-00054,63,Male,FL,Chef,Married,404,Premium,6877.2,2023-05-14,3,0,0
+POL-00055,52,Female,VA,Teacher,Divorced,312,Comprehensive,6667.48,2020-08-04,13,5,1
+POL-00056,63,Male,AZ,Nurse,Divorced,795,Comprehensive,3766.81,2024-02-06,8,5,0
+POL-00057,71,Male,NC,Student,Widowed,549,Comprehensive,4773.87,2023-09-30,12,5,0
+POL-00058,49,Female,IL,Lawyer,Married,663,Premium,3052.54,2024-12-07,8,8,0
+POL-00059,51,Male,FL,Mechanic,Widowed,800,Standard,5679.57,2023-08-15,15,7,0
+POL-00060,23,Female,GA,Electrician,Married,613,Premium,4049.45,2022-12-23,11,6,0
+POL-00061,40,Female,NC,Accountant,Divorced,536,Basic,5909.63,2021-10-08,3,8,0
+POL-00062,30,Male,TN,Accountant,Divorced,402,Standard,2721.85,2022-01-09,5,4,0
+POL-00063,63,Male,NC,Software Engineer,Single,599,Standard,5284.02,2024-03-21,15,1,0
+POL-00064,54,Female,TN,Lawyer,Widowed,648,Standard,7741.23,2021-06-01,15,1,0
+POL-00065,43,Female,FL,Chef,Single,455,Standard,6583.57,2021-09-14,2,3,0
+POL-00066,53,Female,WI,Chef,Married,835,Comprehensive,3878.86,2022-06-25,9,6,0
+POL-00067,54,Male,WI,Construction Worker,Single,512,Standard,2484.85,2020-06-15,5,3,0
+POL-00068,53,Male,IL,Software Engineer,Widowed,761,Comprehensive,2684.44,2021-04-19,9,4,1
+POL-00069,22,Male,NC,Doctor,Married,735,Basic,4584.22,2023-08-19,4,4,0
+POL-00070,22,Male,IL,Doctor,Divorced,595,Comprehensive,1432.65,2023-11-11,9,6,0
+POL-00071,50,Female,MA,Teacher,Single,742,Premium,5027.85,2020-02-22,2,3,0
+POL-00072,66,Female,MD,Software Engineer,Married,781,Comprehensive,7370.55,2021-01-06,13,7,0
+POL-00073,48,Female,AZ,Sales Manager,Divorced,407,Standard,2973.53,2023-11-21,15,4,1
+POL-00074,70,Male,MA,Teacher,Divorced,558,Premium,1369.41,2024-05-01,12,8,0
+POL-00075,60,Female,AZ,Software Engineer,Married,830,Premium,5169.75,2022-10-17,14,0,0
+POL-00076,35,Male,MI,Lawyer,Widowed,424,Basic,7798.6,2023-05-31,7,2,0
+POL-00077,53,Male,MO,Electrician,Single,530,Basic,3960.86,2020-08-28,4,7,0
+POL-00078,50,Female,AZ,Freelancer,Widowed,783,Standard,3925.9,2020-10-23,12,3,0
+POL-00079,73,Male,NC,Doctor,Widowed,648,Premium,6654.12,2021-08-02,9,7,0
+POL-00080,46,Female,VA,Sales Manager,Widowed,766,Premium,7022.01,2023-11-29,7,6,0
+POL-00081,72,Female,TX,Sales Manager,Widowed,690,Comprehensive,7913.11,2024-06-10,4,7,0
+POL-00082,26,Female,NY,Freelancer,Widowed,402,Comprehensive,615.11,2020-10-22,13,2,0
+POL-00083,48,Female,NJ,Chef,Widowed,382,Premium,6892.56,2024-10-25,12,5,1
+POL-00084,73,Male,WI,Teacher,Married,594,Standard,6100.75,2022-06-07,3,1,1
+POL-00085,28,Female,CA,Software Engineer,Divorced,357,Premium,3188.48,2022-06-01,4,3,1
+POL-00086,54,Male,IL,Nurse,Single,691,Standard,4232.5,2023-04-09,4,3,1
+POL-00087,58,Female,MA,Accountant,Single,776,Premium,5582.08,2020-11-19,2,7,0
+POL-00088,55,Female,AZ,Construction Worker,Divorced,767,Premium,1994.13,2022-02-26,15,1,0
+POL-00089,42,Female,MD,Accountant,Divorced,322,Comprehensive,2558.6,2023-03-05,1,7,0
+POL-00090,67,Male,WI,Doctor,Divorced,524,Standard,5156.68,2023-10-20,4,1,0
+POL-00091,37,Female,TX,Chef,Divorced,434,Basic,7322.21,2021-10-31,13,2,0
+POL-00092,26,Female,IN,Driver,Divorced,468,Premium,7355.37,2022-09-13,9,5,0
+POL-00093,47,Male,PA,Doctor,Married,706,Premium,1177.27,2022-03-19,0,4,0
+POL-00094,47,Female,NC,Chef,Widowed,680,Basic,5561.27,2022-08-23,0,8,0
+POL-00095,57,Male,FL,Retail Worker,Widowed,609,Comprehensive,1375.07,2020-04-02,1,4,1
+POL-00096,25,Male,GA,Student,Married,697,Comprehensive,3282.59,2024-03-01,13,2,1
+POL-00097,59,Male,TN,Chef,Widowed,586,Basic,5677.1,2021-03-20,14,7,0
+POL-00098,72,Female,NY,Retail Worker,Divorced,667,Basic,3486.05,2021-01-23,3,7,0
+POL-00099,60,Male,WI,Software Engineer,Single,641,Standard,7916.16,2024-05-30,6,1,0
+POL-00100,55,Male,GA,Sales Manager,Married,302,Premium,6938.05,2020-10-23,4,8,0
+POL-00101,69,Male,NY,Retail Worker,Single,434,Basic,3186.82,2024-06-02,7,5,0
+POL-00102,29,Female,TX,Nurse,Widowed,838,Basic,6092.49,2022-09-02,14,5,0
+POL-00103,46,Male,WI,Software Engineer,Divorced,769,Basic,956.19,2022-09-07,12,6,0
+POL-00104,49,Female,FL,Student,Single,629,Standard,992.62,2021-07-17,10,6,0
+POL-00105,47,Female,NY,Doctor,Single,520,Comprehensive,3886.66,2021-04-12,13,5,1
+POL-00106,43,Female,NY,Sales Manager,Widowed,620,Premium,3307.26,2020-11-08,15,1,0
+POL-00107,71,Male,FL,Electrician,Single,681,Standard,4672.78,2023-04-16,10,1,1
+POL-00108,40,Female,TX,Accountant,Divorced,660,Basic,4834.39,2021-03-11,4,7,0
+POL-00109,72,Male,VA,Freelancer,Divorced,417,Premium,4805.75,2024-07-11,13,8,0
+POL-00110,56,Female,CA,Nurse,Divorced,616,Premium,3132.68,2021-01-06,4,6,0
+POL-00111,27,Male,FL,Construction Worker,Married,685,Comprehensive,3902.34,2020-11-18,11,4,0
+POL-00112,67,Male,TX,Nurse,Married,350,Basic,2540.77,2023-09-17,13,7,1
+POL-00113,44,Female,OH,Doctor,Single,653,Comprehensive,1331.67,2023-10-20,15,8,0
+POL-00114,20,Male,WA,Chef,Single,307,Standard,2760.65,2021-03-08,4,4,0
+POL-00115,38,Male,CA,Lawyer,Widowed,479,Standard,3351.56,2023-12-12,7,8,0
+POL-00116,22,Female,TX,Electrician,Single,770,Basic,6965.83,2023-03-25,13,6,1
+POL-00117,36,Male,WA,Software Engineer,Divorced,475,Comprehensive,6740.19,2022-01-11,2,6,0
+POL-00118,33,Female,MD,Electrician,Single,705,Premium,6093.54,2021-03-29,10,2,0
+POL-00119,50,Male,IN,Driver,Married,657,Premium,5955.34,2024-08-04,4,3,0
+POL-00120,27,Female,OH,Nurse,Married,377,Standard,7634.69,2023-07-10,15,7,1
+POL-00121,61,Female,NJ,Nurse,Widowed,369,Comprehensive,3816.56,2021-09-12,8,0,0
+POL-00122,50,Male,MI,Lawyer,Widowed,338,Basic,3265.53,2021-08-10,2,1,1
+POL-00123,47,Male,MA,Student,Married,629,Comprehensive,4260.25,2020-05-06,14,1,0
+POL-00124,63,Male,IN,Retail Worker,Married,340,Standard,5807.16,2022-06-18,5,5,0
+POL-00125,36,Female,AZ,Doctor,Divorced,353,Premium,994.34,2020-07-12,12,4,0
+POL-00126,64,Male,NJ,Teacher,Married,658,Premium,7757.72,2023-12-01,12,2,0
+POL-00127,37,Female,NJ,Freelancer,Married,839,Basic,5345.19,2022-05-17,11,0,0
+POL-00128,37,Male,OH,Sales Manager,Widowed,496,Standard,7999.82,2020-11-13,2,4,0
+POL-00129,50,Male,NJ,Student,Married,685,Standard,1716.85,2024-08-29,5,7,0
+POL-00130,44,Female,GA,Lawyer,Divorced,759,Standard,4505.08,2021-09-25,15,3,0
+POL-00131,61,Female,MA,Doctor,Divorced,691,Comprehensive,7747.01,2024-07-30,6,2,0
+POL-00132,21,Female,VA,Driver,Single,828,Basic,2637.97,2024-04-11,5,4,1
+POL-00133,75,Male,AZ,Teacher,Married,761,Premium,7478.54,2022-04-29,1,6,0
+POL-00134,33,Female,FL,Sales Manager,Married,328,Premium,7481.19,2024-09-14,10,2,0
+POL-00135,20,Female,TN,Construction Worker,Married,780,Comprehensive,5115.11,2020-06-11,0,4,0
+POL-00136,71,Male,MO,Construction Worker,Widowed,413,Premium,2282.3,2020-09-06,1,3,1
+POL-00137,58,Female,FL,Teacher,Widowed,848,Basic,5239.66,2023-03-23,7,2,0
+POL-00138,45,Male,WI,Sales Manager,Married,726,Standard,5482.78,2020-06-24,11,1,0
+POL-00139,42,Female,TX,Retail Worker,Widowed,682,Premium,6104.87,2022-01-01,2,5,0
+POL-00140,64,Male,MD,Construction Worker,Divorced,436,Basic,3142.24,2021-11-24,5,7,1
+POL-00141,58,Male,PA,Teacher,Widowed,337,Premium,2011.93,2024-06-08,6,0,0
+POL-00142,37,Female,MO,Lawyer,Divorced,337,Standard,2645.83,2024-10-31,1,5,0
+POL-00143,25,Female,AZ,Student,Widowed,750,Comprehensive,3042.77,2021-01-17,15,7,0
+POL-00144,69,Female,FL,Construction Worker,Widowed,380,Comprehensive,5018.4,2024-08-11,5,8,0
+POL-00145,38,Male,FL,Sales Manager,Divorced,613,Comprehensive,5019.66,2022-05-22,5,7,0
+POL-00146,46,Male,VA,Chef,Widowed,581,Basic,1062.81,2023-07-29,12,5,0
+POL-00147,19,Male,WI,Retail Worker,Widowed,335,Standard,1004.25,2024-05-13,11,5,1
+POL-00148,54,Male,WI,Nurse,Widowed,679,Premium,3829.54,2020-06-06,4,8,0
+POL-00149,43,Female,NC,Mechanic,Single,326,Standard,4242.83,2022-03-03,3,4,0
+POL-00150,63,Female,OH,Chef,Divorced,802,Standard,1419.78,2024-10-12,2,7,0
+POL-00151,75,Female,FL,Doctor,Divorced,655,Basic,4624.98,2021-08-17,9,2,0
+POL-00152,68,Female,IN,Mechanic,Single,505,Standard,2275.52,2022-10-08,0,5,0
+POL-00153,47,Male,WI,Student,Single,367,Premium,3486.2,2024-01-08,15,8,1
+POL-00154,67,Female,MD,Teacher,Married,624,Basic,3874.81,2023-10-24,11,2,0
+POL-00155,67,Male,AZ,Driver,Single,427,Standard,2780.93,2020-11-27,10,3,0
+POL-00156,51,Female,FL,Accountant,Married,581,Standard,5187.67,2023-06-12,2,8,0
+POL-00157,55,Male,IL,Retail Worker,Divorced,342,Basic,1109.17,2023-08-06,8,3,1
+POL-00158,57,Male,TN,Student,Divorced,609,Comprehensive,2336.58,2024-07-11,12,4,1
+POL-00159,22,Male,IL,Lawyer,Widowed,795,Comprehensive,2030.17,2023-05-27,4,5,0
+POL-00160,64,Female,WA,Nurse,Divorced,827,Basic,2893.37,2022-08-13,3,4,1
+POL-00161,33,Male,NY,Software Engineer,Divorced,693,Comprehensive,2362.03,2024-11-07,5,5,0
+POL-00162,30,Male,TN,Driver,Widowed,810,Premium,4230.28,2020-07-03,12,8,1
+POL-00163,33,Male,MD,Sales Manager,Single,351,Premium,4211.71,2024-12-12,15,4,0
+POL-00164,72,Male,AZ,Nurse,Divorced,674,Comprehensive,3244.53,2022-03-31,1,8,0
+POL-00165,41,Female,FL,Electrician,Widowed,586,Basic,1464.98,2020-07-17,12,5,0
+POL-00166,53,Female,PA,Mechanic,Widowed,812,Basic,839.78,2020-10-07,10,7,1
+POL-00167,27,Male,NJ,Student,Divorced,466,Comprehensive,7929.62,2024-02-23,9,5,1
+POL-00168,63,Female,TN,Freelancer,Single,677,Premium,5553.55,2022-05-03,9,0,1
+POL-00169,34,Male,TX,Chef,Widowed,474,Comprehensive,1608.32,2023-10-26,7,0,0
+POL-00170,30,Male,MA,Sales Manager,Widowed,455,Comprehensive,5678.75,2022-04-20,15,0,0
+POL-00171,51,Male,MO,Sales Manager,Widowed,838,Comprehensive,2853.14,2020-12-20,14,8,0
+POL-00172,52,Female,NC,Chef,Widowed,496,Standard,2592.55,2021-09-03,7,4,0
+POL-00173,63,Male,TN,Sales Manager,Widowed,657,Premium,2658.42,2023-03-20,12,6,0
+POL-00174,67,Male,MI,Software Engineer,Divorced,380,Premium,7430.07,2023-09-05,8,7,0
+POL-00175,30,Female,MO,Construction Worker,Divorced,440,Basic,5117.58,2023-04-16,7,3,0
+POL-00176,60,Male,GA,Software Engineer,Single,723,Premium,5880.19,2020-07-24,4,0,0
+POL-00177,44,Female,TN,Retail Worker,Married,594,Premium,2640.62,2020-05-01,2,3,0
+POL-00178,29,Female,IL,Student,Single,706,Comprehensive,1897.34,2024-03-13,9,0,0
+POL-00179,37,Male,NJ,Accountant,Widowed,836,Comprehensive,7169.45,2020-10-01,14,4,0
+POL-00180,69,Male,NJ,Nurse,Widowed,563,Standard,605.63,2021-11-21,9,3,0
+POL-00181,57,Female,AZ,Driver,Divorced,388,Comprehensive,5519.42,2021-01-13,4,7,0
+POL-00182,33,Male,NC,Electrician,Married,757,Premium,7655.26,2021-09-10,0,4,0
+POL-00183,62,Male,TX,Retail Worker,Single,776,Premium,1697.88,2023-11-06,9,1,0
+POL-00184,41,Male,GA,Nurse,Widowed,456,Comprehensive,6108.01,2023-05-25,11,6,1
+POL-00185,66,Male,GA,Retail Worker,Single,838,Comprehensive,4461.3,2022-01-10,2,1,0
+POL-00186,71,Male,MD,Driver,Married,468,Premium,6908.65,2022-06-23,3,3,1
+POL-00187,23,Female,TX,Lawyer,Married,825,Comprehensive,3925.99,2020-04-28,14,4,0
+POL-00188,43,Female,CA,Construction Worker,Married,374,Basic,3677.73,2023-12-05,2,8,0
+POL-00189,75,Male,TN,Software Engineer,Divorced,718,Standard,6267.29,2024-04-17,13,5,1
+POL-00190,46,Female,WA,Teacher,Married,656,Basic,1838.55,2023-01-05,12,8,0
+POL-00191,64,Male,CA,Doctor,Single,605,Comprehensive,5551.25,2023-01-20,13,8,1
+POL-00192,70,Male,GA,Lawyer,Divorced,458,Premium,1913.6,2024-11-27,3,0,1
+POL-00193,57,Male,GA,Mechanic,Single,403,Basic,3848.31,2023-10-08,1,3,0
+POL-00194,43,Female,GA,Driver,Married,357,Standard,4279.22,2021-08-15,7,5,0
+POL-00195,33,Female,PA,Retail Worker,Married,723,Premium,2563.65,2023-02-14,5,6,1
+POL-00196,21,Female,WA,Doctor,Divorced,726,Comprehensive,1619.13,2022-02-09,5,8,1
+POL-00197,33,Male,MI,Freelancer,Married,774,Basic,4717.89,2022-05-03,4,6,0
+POL-00198,34,Male,NJ,Retail Worker,Single,760,Premium,1193.48,2024-01-23,6,0,0
+POL-00199,42,Male,FL,Mechanic,Married,790,Standard,7021.05,2021-11-12,9,0,0
+POL-00200,30,Male,TN,Student,Married,509,Comprehensive,7363.45,2023-02-04,10,4,1
+POL-00201,47,Female,MI,Accountant,Divorced,825,Comprehensive,3995.03,2024-07-02,15,5,0
+POL-00202,41,Female,AZ,Software Engineer,Married,449,Basic,2455.81,2023-04-11,13,4,0
+POL-00203,30,Female,GA,Electrician,Married,811,Premium,2429.95,2024-08-09,15,7,1
+POL-00204,28,Female,IL,Nurse,Widowed,488,Basic,4429.58,2024-09-14,2,0,0
+POL-00205,44,Male,GA,Teacher,Married,309,Standard,4293.0,2022-02-03,1,7,1
+POL-00206,19,Male,MO,Driver,Widowed,312,Basic,4470.63,2021-07-16,9,0,1
+POL-00207,69,Male,NY,Student,Single,836,Standard,2307.27,2023-06-23,8,5,0
+POL-00208,68,Female,FL,Sales Manager,Widowed,770,Standard,7926.75,2021-04-07,9,1,0
+POL-00209,23,Female,WA,Electrician,Widowed,357,Basic,5771.34,2020-06-18,15,6,0
+POL-00210,54,Male,IN,Student,Single,535,Standard,7259.55,2023-11-18,15,4,0
+POL-00211,22,Female,MO,Chef,Single,483,Premium,617.44,2021-02-28,4,6,0
+POL-00212,37,Male,MD,Mechanic,Widowed,639,Comprehensive,6167.07,2020-10-13,2,8,0
+POL-00213,21,Male,AZ,Mechanic,Single,648,Comprehensive,7766.9,2021-10-30,0,4,1
+POL-00214,49,Male,VA,Driver,Widowed,742,Standard,5597.71,2023-09-15,12,1,0
+POL-00215,69,Male,FL,Teacher,Divorced,457,Comprehensive,5837.58,2023-07-22,4,6,0
+POL-00216,41,Male,FL,Software Engineer,Divorced,755,Premium,6210.1,2020-07-28,4,1,0
+POL-00217,45,Female,MO,Driver,Widowed,405,Basic,1172.14,2023-02-09,2,5,1
+POL-00218,18,Female,AZ,Electrician,Single,548,Standard,5639.87,2020-12-13,4,4,0
+POL-00219,35,Female,PA,Teacher,Married,745,Premium,3658.27,2022-09-18,2,5,0
+POL-00220,33,Female,WI,Chef,Married,768,Basic,1516.17,2020-01-14,12,5,1
+POL-00221,69,Female,MA,Sales Manager,Widowed,439,Premium,2904.99,2023-11-24,6,7,0
+POL-00222,29,Female,NJ,Accountant,Widowed,548,Premium,3320.41,2024-07-30,12,5,0
+POL-00223,54,Male,MD,Driver,Married,327,Comprehensive,7572.31,2021-03-05,14,4,0
+POL-00224,70,Female,TN,Nurse,Divorced,547,Premium,5439.97,2024-01-04,13,6,0
+POL-00225,46,Female,MD,Electrician,Widowed,337,Premium,5762.26,2024-07-21,2,1,0
+POL-00226,60,Female,IL,Retail Worker,Single,709,Premium,7742.88,2022-05-31,3,0,0
+POL-00227,34,Male,IN,Construction Worker,Married,756,Premium,3433.51,2024-04-30,4,5,0
+POL-00228,48,Male,MI,Electrician,Single,418,Standard,3112.46,2021-12-03,14,3,1
+POL-00229,40,Female,NY,Lawyer,Widowed,626,Basic,2751.98,2024-07-17,3,0,0
+POL-00230,59,Male,IL,Student,Married,828,Standard,4639.33,2021-11-08,13,7,0
+POL-00231,69,Female,IL,Nurse,Widowed,705,Basic,6030.41,2024-12-13,6,7,1
+POL-00232,42,Male,OH,Mechanic,Divorced,364,Basic,6496.27,2023-01-04,5,5,0
+POL-00233,30,Female,NY,Accountant,Widowed,840,Premium,4977.28,2023-06-05,12,1,0
+POL-00234,40,Female,WI,Nurse,Divorced,386,Standard,2848.89,2021-05-03,9,1,0
+POL-00235,41,Male,IN,Electrician,Widowed,441,Comprehensive,3672.79,2022-09-23,5,8,0
+POL-00236,49,Female,PA,Nurse,Divorced,761,Basic,6991.42,2020-01-20,15,2,0
+POL-00237,70,Female,MO,Driver,Widowed,718,Comprehensive,3617.23,2024-09-16,14,7,0
+POL-00238,23,Male,GA,Accountant,Single,581,Standard,4532.06,2020-12-10,14,7,0
+POL-00239,54,Male,NC,Doctor,Divorced,342,Comprehensive,4597.65,2022-05-20,3,3,0
+POL-00240,73,Male,MA,Accountant,Divorced,389,Comprehensive,6989.68,2020-08-28,7,3,0
+POL-00241,73,Female,IL,Chef,Married,511,Standard,6540.8,2023-03-13,11,8,0
+POL-00242,56,Male,NJ,Construction Worker,Divorced,596,Premium,7642.98,2022-11-19,3,2,1
+POL-00243,21,Female,PA,Construction Worker,Married,555,Standard,5835.46,2024-08-23,7,6,1
+POL-00244,27,Female,AZ,Electrician,Widowed,377,Basic,3521.38,2024-03-15,8,5,1
+POL-00245,49,Female,MD,Software Engineer,Single,769,Premium,6875.8,2024-06-17,12,3,1
+POL-00246,70,Male,TN,Accountant,Divorced,590,Premium,4604.83,2020-09-24,15,5,0
+POL-00247,20,Male,MA,Software Engineer,Single,461,Comprehensive,3923.89,2022-05-26,6,2,0
+POL-00248,28,Female,FL,Retail Worker,Divorced,556,Basic,3288.83,2023-08-21,5,0,1
+POL-00249,58,Female,GA,Electrician,Single,397,Basic,2100.66,2020-06-08,4,3,1
+POL-00250,18,Male,NJ,Freelancer,Single,732,Standard,4082.75,2021-04-13,12,1,0
+POL-00251,24,Female,VA,Student,Divorced,440,Comprehensive,6300.95,2024-03-22,4,2,0
+POL-00252,51,Male,WI,Retail Worker,Married,750,Premium,5918.24,2023-07-10,4,6,1
+POL-00253,73,Male,FL,Student,Single,443,Basic,4921.8,2022-02-25,11,6,0
+POL-00254,68,Male,GA,Accountant,Single,554,Premium,6342.27,2023-11-15,0,4,0
+POL-00255,51,Male,WA,Accountant,Single,545,Comprehensive,3394.14,2021-05-08,15,1,0
+POL-00256,41,Female,PA,Electrician,Widowed,674,Standard,6220.44,2024-04-26,2,0,0
+POL-00257,18,Female,OH,Software Engineer,Single,707,Premium,5214.28,2022-10-23,13,6,1
+POL-00258,23,Male,NC,Teacher,Divorced,380,Standard,7807.35,2020-11-14,10,6,0
+POL-00259,37,Female,GA,Software Engineer,Married,388,Comprehensive,1369.9,2023-06-07,1,4,0
+POL-00260,25,Male,PA,Construction Worker,Single,467,Comprehensive,7647.62,2022-12-07,8,2,0
+POL-00261,26,Female,NY,Doctor,Single,643,Comprehensive,2539.85,2020-05-10,8,1,1
+POL-00262,47,Female,TX,Lawyer,Married,676,Standard,2413.37,2020-07-29,3,3,0
+POL-00263,20,Male,GA,Software Engineer,Widowed,672,Comprehensive,7401.7,2021-01-01,1,8,1
+POL-00264,32,Female,GA,Electrician,Divorced,577,Basic,4786.52,2020-09-01,1,2,0
+POL-00265,69,Male,WA,Teacher,Widowed,589,Premium,2954.76,2023-02-06,14,0,0
+POL-00266,30,Female,MD,Doctor,Divorced,548,Comprehensive,3262.05,2022-10-07,6,8,0
+POL-00267,27,Male,AZ,Software Engineer,Married,654,Basic,7632.43,2020-01-03,12,4,0
+POL-00268,31,Male,AZ,Lawyer,Single,445,Premium,1197.7,2021-04-19,13,5,1
+POL-00269,65,Male,MD,Teacher,Married,703,Basic,4939.22,2020-05-07,13,2,0
+POL-00270,36,Female,NJ,Student,Widowed,634,Premium,3895.68,2021-04-23,2,3,0
+POL-00271,67,Male,PA,Teacher,Married,760,Comprehensive,2855.25,2020-09-04,11,3,1
+POL-00272,37,Female,NC,Freelancer,Single,392,Standard,6556.98,2021-09-15,1,3,0
+POL-00273,27,Male,GA,Sales Manager,Widowed,825,Basic,5578.88,2021-06-16,5,0,1
+POL-00274,72,Female,MO,Construction Worker,Married,396,Comprehensive,1264.31,2024-06-13,4,1,0
+POL-00275,21,Male,PA,Mechanic,Widowed,681,Basic,4867.43,2021-06-14,2,0,0
+POL-00276,30,Female,PA,Teacher,Divorced,425,Basic,7567.1,2020-04-13,5,6,1
+POL-00277,49,Male,WA,Retail Worker,Widowed,476,Premium,2110.37,2021-01-18,8,4,1
+POL-00278,74,Male,TX,Chef,Married,602,Comprehensive,3589.94,2023-02-01,15,0,0
+POL-00279,35,Female,PA,Electrician,Married,838,Standard,5230.66,2024-06-30,0,6,0
+POL-00280,48,Female,VA,Student,Divorced,697,Premium,1848.62,2021-10-15,7,0,0
+POL-00281,21,Female,IN,Sales Manager,Married,463,Basic,2358.93,2021-05-08,8,8,0
+POL-00282,66,Male,MD,Freelancer,Widowed,663,Standard,1820.75,2023-04-28,10,5,0
+POL-00283,63,Female,MD,Chef,Married,492,Comprehensive,4565.93,2020-12-25,15,0,0
+POL-00284,21,Male,WI,Mechanic,Single,839,Comprehensive,505.13,2023-06-11,6,2,0
+POL-00285,63,Male,NJ,Software Engineer,Single,451,Standard,6307.75,2024-09-29,11,1,0
+POL-00286,63,Female,MD,Teacher,Divorced,609,Premium,1523.39,2020-11-18,13,7,0
+POL-00287,29,Female,GA,Retail Worker,Married,687,Premium,6004.96,2021-08-26,4,2,0
+POL-00288,62,Female,MD,Software Engineer,Married,625,Standard,5297.35,2020-08-01,15,2,0
+POL-00289,65,Male,GA,Sales Manager,Divorced,471,Basic,6662.46,2023-10-04,10,7,0
+POL-00290,34,Male,GA,Construction Worker,Single,658,Premium,6402.65,2024-01-15,0,0,1
+POL-00291,46,Female,IL,Student,Widowed,804,Comprehensive,3134.23,2022-02-07,3,7,0
+POL-00292,28,Female,FL,Doctor,Single,601,Basic,2890.38,2020-08-02,2,5,0
+POL-00293,74,Female,IL,Construction Worker,Single,395,Premium,4955.23,2023-06-10,15,0,1
+POL-00294,59,Male,WI,Student,Widowed,460,Basic,1259.43,2021-02-24,6,6,0
+POL-00295,60,Female,MI,Mechanic,Single,350,Comprehensive,4788.27,2024-09-16,15,2,0
+POL-00296,41,Male,AZ,Teacher,Divorced,791,Standard,1227.4,2021-02-27,5,4,0
+POL-00297,48,Male,MI,Doctor,Widowed,782,Comprehensive,7211.58,2021-06-26,2,8,1
+POL-00298,29,Female,WA,Sales Manager,Married,756,Basic,2474.72,2022-08-10,8,3,0
+POL-00299,54,Male,PA,Doctor,Single,387,Premium,6561.35,2022-04-27,7,8,0
+POL-00300,71,Female,IN,Electrician,Widowed,541,Comprehensive,2741.39,2022-03-19,1,8,0
+POL-00301,25,Female,IL,Nurse,Married,497,Standard,820.07,2020-06-09,13,3,0
+POL-00302,71,Female,NJ,Student,Single,389,Comprehensive,4672.73,2023-02-04,10,4,1
+POL-00303,73,Male,WI,Chef,Widowed,415,Comprehensive,1622.32,2023-03-06,3,1,0
+POL-00304,68,Female,MO,Student,Divorced,720,Premium,3372.83,2022-09-21,15,0,0
+POL-00305,35,Female,PA,Chef,Widowed,339,Comprehensive,7171.81,2021-11-09,7,0,1
+POL-00306,35,Female,CA,Sales Manager,Divorced,618,Premium,6821.35,2024-10-23,3,3,0
+POL-00307,37,Female,NJ,Accountant,Widowed,391,Standard,3812.87,2024-08-14,13,7,0
+POL-00308,70,Male,IN,Doctor,Married,367,Premium,5821.77,2022-04-06,4,8,0
+POL-00309,29,Male,OH,Freelancer,Single,555,Basic,3923.37,2022-01-08,6,4,0
+POL-00310,70,Female,IN,Electrician,Single,331,Standard,3293.5,2023-05-01,14,2,1
+POL-00311,55,Female,VA,Nurse,Divorced,392,Premium,705.88,2020-04-11,5,3,0
+POL-00312,59,Male,OH,Accountant,Widowed,825,Basic,6984.72,2024-04-20,0,7,0
+POL-00313,59,Male,WI,Doctor,Single,529,Premium,5062.58,2021-09-17,8,6,1
+POL-00314,72,Female,MA,Accountant,Married,777,Premium,5578.97,2024-08-15,12,1,0
+POL-00315,50,Female,MO,Retail Worker,Divorced,605,Basic,4113.04,2021-11-19,8,5,0
+POL-00316,34,Female,OH,Nurse,Married,358,Comprehensive,5453.98,2023-10-26,4,0,1
+POL-00317,36,Female,AZ,Electrician,Widowed,336,Standard,3073.75,2023-12-31,7,8,1
+POL-00318,60,Female,IN,Accountant,Married,485,Premium,1232.02,2020-09-19,8,8,0
+POL-00319,61,Female,FL,Mechanic,Divorced,528,Premium,3653.54,2024-12-21,10,5,0
+POL-00320,55,Female,MA,Freelancer,Single,781,Basic,6997.95,2023-04-10,2,7,0
+POL-00321,50,Male,WA,Driver,Divorced,723,Basic,7031.37,2020-11-04,4,3,0
+POL-00322,44,Female,PA,Sales Manager,Married,382,Comprehensive,2994.72,2020-12-28,10,0,0
+POL-00323,46,Female,OH,Doctor,Married,462,Comprehensive,6389.08,2024-05-15,2,2,1
+POL-00324,58,Female,WA,Electrician,Widowed,692,Basic,782.94,2021-02-12,11,0,0
+POL-00325,66,Male,CA,Retail Worker,Single,554,Standard,5701.44,2021-12-06,9,2,0
+POL-00326,42,Female,IL,Teacher,Single,605,Premium,3919.45,2022-12-01,10,6,0
+POL-00327,39,Female,VA,Doctor,Married,468,Comprehensive,643.44,2021-04-04,4,3,0
+POL-00328,55,Male,NY,Sales Manager,Single,684,Premium,6284.37,2023-06-30,1,0,0
+POL-00329,59,Male,TX,Construction Worker,Single,726,Comprehensive,3351.9,2023-01-25,8,7,0
+POL-00330,31,Male,MI,Electrician,Single,832,Premium,5170.98,2023-12-06,4,6,0
+POL-00331,50,Male,MI,Teacher,Single,809,Standard,5067.51,2024-05-12,8,8,0
+POL-00332,40,Female,MI,Nurse,Single,808,Standard,5661.53,2022-09-11,10,3,0
+POL-00333,18,Male,NY,Freelancer,Widowed,452,Basic,6346.45,2020-06-02,3,4,0
+POL-00334,47,Female,NC,Lawyer,Single,402,Standard,7056.05,2024-10-11,9,5,0
+POL-00335,45,Male,NY,Freelancer,Single,309,Standard,5475.16,2020-12-15,10,5,1
+POL-00336,57,Female,FL,Sales Manager,Divorced,487,Basic,3505.83,2022-07-23,8,6,1
+POL-00337,69,Female,IL,Teacher,Married,360,Standard,1277.85,2023-04-24,15,7,0
+POL-00338,57,Female,VA,Chef,Single,433,Comprehensive,7402.98,2020-08-19,13,7,0
+POL-00339,22,Female,NJ,Software Engineer,Married,646,Basic,3746.36,2024-01-28,7,7,0
+POL-00340,60,Female,PA,Freelancer,Single,311,Standard,4291.76,2022-08-19,15,2,0
+POL-00341,66,Female,NJ,Mechanic,Divorced,584,Basic,4301.97,2023-02-01,12,6,0
+POL-00342,23,Female,MA,Doctor,Widowed,390,Comprehensive,3853.01,2020-08-31,15,0,0
+POL-00343,43,Female,TX,Driver,Single,393,Premium,7175.83,2023-02-25,6,7,0
+POL-00344,41,Male,GA,Freelancer,Widowed,639,Comprehensive,5874.94,2022-01-14,14,1,0
+POL-00345,66,Male,CA,Sales Manager,Divorced,598,Premium,5765.72,2020-04-03,5,7,0
+POL-00346,70,Female,NY,Accountant,Married,492,Basic,7476.62,2022-03-15,6,7,0
+POL-00347,63,Female,NY,Doctor,Widowed,347,Basic,6291.09,2022-07-11,14,8,0
+POL-00348,49,Male,IN,Construction Worker,Single,743,Comprehensive,7432.78,2024-05-18,5,2,0
+POL-00349,24,Female,WI,Chef,Divorced,816,Comprehensive,3639.99,2023-06-01,7,4,1
+POL-00350,39,Female,MA,Doctor,Married,441,Comprehensive,5018.93,2024-12-20,9,8,0
+POL-00351,63,Male,OH,Mechanic,Divorced,653,Standard,7860.02,2023-08-24,5,8,0
+POL-00352,63,Male,VA,Driver,Widowed,727,Premium,7081.08,2022-05-15,0,8,0
+POL-00353,19,Female,PA,Software Engineer,Single,504,Premium,6126.39,2020-11-25,9,4,0
+POL-00354,71,Male,MI,Mechanic,Single,667,Comprehensive,1268.6,2024-11-12,7,8,1
+POL-00355,33,Female,TX,Student,Widowed,696,Comprehensive,7675.26,2023-11-04,10,8,0
+POL-00356,18,Female,OH,Chef,Widowed,530,Premium,6163.31,2023-01-24,6,3,0
+POL-00357,46,Male,FL,Nurse,Married,826,Basic,3328.99,2022-05-27,8,8,0
+POL-00358,26,Male,MD,Freelancer,Divorced,305,Premium,3997.49,2020-11-13,1,2,0
+POL-00359,56,Male,WI,Freelancer,Divorced,802,Premium,1046.61,2023-12-20,10,8,0
+POL-00360,29,Male,IN,Nurse,Widowed,849,Comprehensive,1189.59,2021-03-29,6,5,0
+POL-00361,41,Female,OH,Doctor,Widowed,309,Basic,5517.04,2022-07-01,7,3,0
+POL-00362,61,Female,WA,Student,Single,695,Premium,4551.78,2021-08-02,0,8,0
+POL-00363,50,Female,TN,Software Engineer,Divorced,497,Premium,4354.21,2020-07-15,5,8,0
+POL-00364,58,Male,OH,Retail Worker,Married,734,Basic,2041.85,2024-08-24,13,1,0
+POL-00365,19,Female,NJ,Software Engineer,Single,375,Basic,1834.94,2021-05-30,2,3,0
+POL-00366,44,Female,MA,Retail Worker,Widowed,743,Premium,626.68,2023-10-10,3,8,0
+POL-00367,59,Male,MD,Software Engineer,Single,666,Basic,2673.77,2023-11-05,9,1,0
+POL-00368,66,Female,WA,Electrician,Single,785,Standard,4501.01,2020-10-06,12,8,0
+POL-00369,58,Male,MI,Retail Worker,Divorced,311,Standard,1424.26,2020-01-11,12,8,0
+POL-00370,37,Male,VA,Mechanic,Widowed,824,Standard,1707.16,2021-03-28,8,3,0
+POL-00371,29,Male,MO,Lawyer,Single,597,Basic,2380.16,2021-02-08,15,5,0
+POL-00372,26,Male,NY,Accountant,Single,498,Premium,4143.96,2021-11-03,9,2,0
+POL-00373,69,Female,AZ,Nurse,Single,620,Standard,6392.45,2023-12-29,13,4,0
+POL-00374,26,Female,TN,Lawyer,Widowed,667,Premium,4152.29,2020-08-10,5,1,0
+POL-00375,72,Male,MO,Mechanic,Divorced,378,Basic,7190.79,2024-10-05,0,6,0
+POL-00376,20,Female,MO,Student,Widowed,452,Premium,3443.74,2024-12-30,9,2,1
+POL-00377,50,Male,WA,Sales Manager,Single,544,Standard,6179.05,2020-10-14,14,2,0
+POL-00378,54,Male,TN,Sales Manager,Single,524,Comprehensive,2238.12,2021-06-25,11,3,0
+POL-00379,60,Male,IN,Student,Divorced,697,Comprehensive,7384.26,2024-12-10,1,0,0
+POL-00380,24,Female,NC,Chef,Married,685,Comprehensive,3239.73,2023-08-31,2,8,0
+POL-00381,42,Male,IN,Electrician,Divorced,653,Comprehensive,6444.93,2024-12-21,0,8,0
+POL-00382,46,Male,GA,Teacher,Divorced,516,Standard,1901.79,2022-01-11,3,3,1
+POL-00383,69,Female,NY,Lawyer,Widowed,790,Standard,4930.93,2023-08-18,13,0,0
+POL-00384,20,Male,MD,Chef,Married,437,Basic,7180.98,2020-10-27,1,2,0
+POL-00385,29,Female,WI,Chef,Single,590,Basic,2124.45,2023-05-27,15,7,0
+POL-00386,32,Female,WI,Nurse,Married,823,Premium,1757.91,2023-11-05,10,7,0
+POL-00387,32,Female,WA,Nurse,Single,316,Standard,4420.34,2022-10-29,13,2,0
+POL-00388,29,Female,WI,Chef,Single,844,Basic,1198.92,2023-09-12,4,8,0
+POL-00389,75,Female,IN,Electrician,Divorced,344,Comprehensive,2221.15,2024-07-01,15,6,0
+POL-00390,55,Male,AZ,Nurse,Divorced,788,Standard,7325.64,2020-06-20,9,8,1
+POL-00391,34,Male,CA,Construction Worker,Single,835,Basic,4398.21,2022-02-07,6,5,1
+POL-00392,41,Male,PA,Electrician,Divorced,567,Comprehensive,4735.03,2023-06-07,8,6,0
+POL-00393,44,Female,IL,Sales Manager,Widowed,559,Premium,4832.38,2024-05-04,12,2,0
+POL-00394,65,Male,MA,Doctor,Married,402,Standard,4312.58,2024-05-28,10,8,0
+POL-00395,28,Female,CA,Doctor,Single,448,Comprehensive,7443.96,2022-06-10,2,1,0
+POL-00396,32,Female,FL,Chef,Single,693,Comprehensive,5104.74,2022-12-03,9,0,0
+POL-00397,58,Female,MA,Software Engineer,Married,830,Premium,1960.6,2024-05-24,7,2,0
+POL-00398,41,Male,CA,Nurse,Single,582,Comprehensive,3148.46,2022-03-20,12,3,0
+POL-00399,65,Male,FL,Driver,Divorced,656,Premium,7724.66,2021-07-20,7,3,1
+POL-00400,43,Male,NC,Nurse,Widowed,818,Basic,4689.73,2022-10-27,9,5,0
+POL-00401,69,Female,MO,Freelancer,Divorced,753,Comprehensive,4723.76,2024-04-25,7,5,1
+POL-00402,61,Female,MD,Freelancer,Single,793,Basic,2433.65,2022-02-22,7,3,0
+POL-00403,44,Female,IN,Driver,Single,569,Standard,2654.67,2022-03-28,10,1,0
+POL-00404,48,Female,VA,Mechanic,Divorced,487,Standard,4242.5,2021-02-12,7,3,0
+POL-00405,31,Male,OH,Freelancer,Married,664,Standard,6342.04,2020-09-02,2,7,0
+POL-00406,66,Male,TN,Sales Manager,Divorced,804,Premium,4181.04,2024-04-14,8,6,0
+POL-00407,66,Male,TX,Driver,Widowed,789,Basic,4268.56,2022-03-17,5,7,0
+POL-00408,62,Female,NJ,Construction Worker,Single,312,Standard,3345.71,2020-07-25,10,5,0
+POL-00409,29,Female,GA,Accountant,Widowed,651,Premium,1879.35,2022-05-18,6,6,0
+POL-00410,41,Female,NC,Lawyer,Married,434,Standard,6606.43,2024-01-16,8,3,1
+POL-00411,72,Female,OH,Nurse,Married,784,Basic,1824.55,2022-10-20,4,8,0
+POL-00412,68,Female,MI,Accountant,Single,707,Basic,5679.07,2020-05-02,6,4,1
+POL-00413,71,Male,MA,Construction Worker,Divorced,566,Premium,3202.3,2023-02-15,8,5,0
+POL-00414,44,Male,VA,Freelancer,Married,478,Premium,3163.32,2023-10-10,15,7,0
+POL-00415,42,Female,MA,Retail Worker,Married,471,Premium,3663.62,2023-06-08,12,1,0
+POL-00416,28,Female,GA,Sales Manager,Divorced,598,Premium,5040.39,2022-03-20,8,7,0
+POL-00417,65,Female,AZ,Nurse,Married,323,Standard,5958.29,2023-09-17,8,1,0
+POL-00418,28,Female,NY,Teacher,Single,784,Basic,697.74,2022-03-24,2,1,0
+POL-00419,57,Male,FL,Retail Worker,Widowed,616,Standard,2355.47,2021-08-04,14,2,0
+POL-00420,51,Male,CA,Software Engineer,Divorced,633,Comprehensive,4003.95,2024-11-18,8,8,1
+POL-00421,26,Male,MD,Chef,Widowed,745,Premium,7316.92,2022-09-13,7,1,1
+POL-00422,37,Female,AZ,Accountant,Married,610,Basic,500.69,2024-07-27,4,5,0
+POL-00423,48,Male,TN,Doctor,Widowed,606,Basic,6244.02,2024-06-22,9,3,0
+POL-00424,53,Female,OH,Electrician,Widowed,704,Standard,1724.52,2024-02-18,12,6,0
+POL-00425,34,Male,AZ,Retail Worker,Married,829,Premium,2635.08,2024-03-01,8,6,0
+POL-00426,72,Male,IL,Nurse,Divorced,413,Comprehensive,5132.97,2021-07-11,15,3,0
+POL-00427,19,Male,TX,Driver,Single,490,Basic,2615.86,2020-09-13,14,0,0
+POL-00428,23,Male,CA,Lawyer,Married,650,Comprehensive,2836.83,2024-06-25,15,5,1
+POL-00429,62,Male,NJ,Teacher,Married,357,Premium,6317.4,2020-05-26,15,2,0
+POL-00430,75,Female,WA,Freelancer,Single,424,Standard,3385.98,2022-06-26,7,0,0
+POL-00431,47,Male,IN,Retail Worker,Married,784,Comprehensive,5610.82,2021-10-01,10,2,0
+POL-00432,65,Male,NC,Lawyer,Divorced,503,Premium,7156.4,2024-11-03,6,1,0
+POL-00433,58,Female,NJ,Software Engineer,Married,582,Basic,3468.56,2021-05-12,0,0,1
+POL-00434,62,Male,VA,Doctor,Single,554,Standard,4249.39,2023-11-05,10,0,0
+POL-00435,40,Male,MO,Doctor,Single,428,Comprehensive,2245.06,2023-02-17,11,7,0
+POL-00436,19,Female,VA,Construction Worker,Married,556,Basic,4139.77,2022-06-15,9,8,1
+POL-00437,30,Male,MO,Sales Manager,Divorced,779,Premium,7007.46,2023-05-11,5,1,0
+POL-00438,46,Female,NC,Driver,Divorced,764,Basic,6319.38,2022-11-02,12,2,0
+POL-00439,57,Female,WI,Mechanic,Divorced,364,Comprehensive,1924.02,2023-10-31,15,8,0
+POL-00440,57,Female,NJ,Electrician,Divorced,413,Basic,4424.0,2020-05-16,1,2,0
+POL-00441,73,Male,OH,Teacher,Widowed,496,Basic,738.63,2023-08-07,12,7,0
+POL-00442,21,Female,GA,Chef,Single,313,Standard,5418.12,2024-12-27,2,7,0
+POL-00443,41,Female,VA,Doctor,Single,572,Basic,6007.25,2024-09-04,9,1,0
+POL-00444,51,Male,NY,Construction Worker,Married,844,Comprehensive,1920.95,2022-12-13,7,2,1
+POL-00445,65,Male,MD,Sales Manager,Widowed,737,Basic,1751.07,2021-01-04,12,8,0
+POL-00446,60,Male,MO,Chef,Widowed,660,Premium,4625.61,2021-10-26,11,6,1
+POL-00447,70,Female,WI,Mechanic,Married,684,Premium,3200.06,2022-07-15,14,6,0
+POL-00448,64,Male,MI,Chef,Single,830,Standard,7950.59,2021-09-10,0,4,0
+POL-00449,31,Female,CA,Doctor,Divorced,823,Standard,1207.15,2022-07-31,11,2,0
+POL-00450,34,Female,MD,Mechanic,Married,562,Premium,1189.29,2022-03-29,6,1,0
+POL-00451,68,Female,IL,Lawyer,Single,607,Basic,5980.92,2023-03-26,12,1,0
+POL-00452,67,Female,VA,Student,Widowed,726,Basic,7023.4,2021-04-09,0,6,0
+POL-00453,37,Male,NJ,Driver,Married,634,Standard,1648.98,2023-10-11,12,7,0
+POL-00454,32,Female,MI,Doctor,Widowed,451,Standard,3021.26,2022-09-01,1,8,1
+POL-00455,34,Male,WA,Driver,Widowed,433,Standard,4106.92,2021-02-09,15,6,0
+POL-00456,53,Male,GA,Teacher,Divorced,740,Premium,5635.53,2023-03-25,2,1,1
+POL-00457,45,Female,VA,Mechanic,Divorced,652,Basic,6272.61,2020-12-12,11,7,0
+POL-00458,46,Male,GA,Mechanic,Divorced,459,Basic,1342.79,2020-04-21,7,2,0
+POL-00459,18,Female,NY,Accountant,Widowed,782,Basic,2989.08,2024-02-24,6,3,0
+POL-00460,53,Female,WI,Construction Worker,Married,318,Comprehensive,4872.54,2023-09-20,1,4,0
+POL-00461,21,Female,OH,Doctor,Divorced,354,Comprehensive,5410.68,2020-01-18,2,6,0
+POL-00462,60,Female,NY,Software Engineer,Divorced,695,Standard,7848.45,2022-11-07,3,5,1
+POL-00463,73,Male,IL,Mechanic,Widowed,322,Basic,2355.44,2022-12-20,9,5,1
+POL-00464,43,Male,CA,Sales Manager,Divorced,663,Premium,2271.54,2022-10-23,8,0,0
+POL-00465,74,Female,CA,Driver,Divorced,530,Standard,3063.4,2022-03-15,4,1,1
+POL-00466,51,Male,AZ,Mechanic,Married,736,Premium,7323.02,2021-11-05,14,8,0
+POL-00467,31,Male,MD,Driver,Married,441,Premium,5663.99,2022-12-08,4,6,0
+POL-00468,59,Male,NJ,Teacher,Single,488,Premium,6796.42,2020-10-25,0,5,1
+POL-00469,44,Female,MA,Construction Worker,Divorced,455,Standard,1300.79,2021-01-13,0,4,0
+POL-00470,56,Male,GA,Retail Worker,Single,667,Basic,5661.06,2022-09-03,4,8,1
+POL-00471,63,Female,IL,Freelancer,Widowed,803,Comprehensive,1531.35,2021-01-30,7,0,1
+POL-00472,66,Male,NC,Electrician,Married,507,Standard,996.02,2022-06-18,15,5,1
+POL-00473,74,Male,AZ,Electrician,Single,689,Premium,3456.13,2024-02-29,1,8,0
+POL-00474,46,Female,TX,Student,Married,831,Comprehensive,7878.73,2020-03-21,12,8,0
+POL-00475,30,Female,MA,Electrician,Divorced,592,Comprehensive,1748.65,2021-08-25,1,8,0
+POL-00476,47,Female,FL,Construction Worker,Single,484,Standard,3448.0,2021-10-24,14,0,0
+POL-00477,47,Male,MA,Teacher,Divorced,631,Standard,5887.81,2020-09-10,2,1,1
+POL-00478,58,Female,FL,Driver,Widowed,823,Standard,3340.09,2022-02-18,1,2,0
+POL-00479,54,Male,IL,Freelancer,Married,483,Basic,3646.86,2021-09-25,14,4,0
+POL-00480,25,Male,OH,Software Engineer,Divorced,312,Comprehensive,4232.21,2022-10-18,0,7,0
+POL-00481,31,Female,MA,Electrician,Widowed,381,Basic,2335.35,2023-01-25,8,8,0
+POL-00482,21,Male,PA,Software Engineer,Divorced,337,Standard,6903.72,2023-09-28,9,5,0
+POL-00483,21,Male,AZ,Nurse,Married,591,Standard,7747.2,2024-03-14,11,0,0
+POL-00484,67,Female,NJ,Sales Manager,Widowed,369,Comprehensive,6824.82,2020-05-12,9,7,0
+POL-00485,25,Female,NJ,Driver,Widowed,837,Standard,5718.72,2023-06-07,1,1,0
+POL-00486,48,Female,AZ,Chef,Divorced,565,Premium,7453.29,2023-06-12,15,8,1
+POL-00487,49,Male,WI,Mechanic,Divorced,498,Basic,1386.55,2022-08-10,3,3,1
+POL-00488,44,Male,NJ,Sales Manager,Married,311,Standard,5675.13,2021-06-05,2,4,0
+POL-00489,50,Female,CA,Teacher,Divorced,649,Comprehensive,5932.97,2023-06-15,0,2,0
+POL-00490,39,Female,TN,Student,Widowed,336,Standard,4111.22,2023-07-08,14,8,0
+POL-00491,47,Female,TX,Freelancer,Divorced,623,Basic,2061.97,2023-11-04,10,5,0
+POL-00492,27,Female,CA,Sales Manager,Widowed,847,Standard,4782.36,2022-03-08,5,1,0
+POL-00493,63,Female,TX,Accountant,Widowed,388,Comprehensive,7077.87,2022-01-31,14,4,0
+POL-00494,51,Female,IL,Teacher,Divorced,338,Standard,7350.15,2022-06-27,0,7,0
+POL-00495,30,Female,TN,Construction Worker,Divorced,635,Standard,6271.11,2020-07-20,4,3,0
+POL-00496,47,Female,IN,Teacher,Single,618,Basic,5652.89,2023-05-02,2,5,1
+POL-00497,74,Male,NY,Driver,Divorced,323,Premium,5291.38,2021-03-05,10,3,0
+POL-00498,36,Female,MO,Sales Manager,Widowed,420,Premium,1619.91,2021-07-14,3,0,0
+POL-00499,31,Female,MO,Sales Manager,Divorced,444,Premium,4805.62,2020-12-16,2,4,0
+POL-00500,52,Female,TX,Nurse,Single,782,Basic,1294.45,2020-04-20,2,6,1
+POL-00501,29,Female,WI,Sales Manager,Divorced,640,Standard,5846.74,2023-10-05,2,7,0
+POL-00502,23,Female,NY,Lawyer,Divorced,776,Comprehensive,2237.71,2021-04-03,4,4,0
+POL-00503,43,Male,NJ,Doctor,Divorced,764,Comprehensive,726.98,2022-08-31,3,5,1
+POL-00504,47,Male,MI,Doctor,Divorced,430,Basic,3542.64,2024-01-02,3,5,0
+POL-00505,68,Female,MO,Lawyer,Widowed,723,Standard,5156.56,2023-01-27,5,7,1
+POL-00506,22,Female,OH,Freelancer,Widowed,745,Premium,4583.95,2021-04-28,5,1,1
+POL-00507,25,Female,NJ,Driver,Single,755,Standard,2810.27,2022-04-11,2,1,1
+POL-00508,38,Female,TX,Teacher,Married,442,Basic,6178.08,2023-09-15,4,7,0
+POL-00509,42,Female,OH,Mechanic,Divorced,606,Premium,7388.76,2022-06-09,11,1,0
+POL-00510,57,Female,PA,Freelancer,Divorced,363,Premium,7258.07,2020-04-18,0,8,0
+POL-00511,25,Female,CA,Mechanic,Widowed,703,Premium,5838.3,2022-04-11,12,6,0
+POL-00512,60,Male,TN,Nurse,Married,693,Premium,6799.72,2020-11-11,9,2,0
+POL-00513,18,Male,CA,Nurse,Widowed,747,Standard,1134.98,2023-08-08,13,7,1
+POL-00514,57,Male,MA,Driver,Widowed,760,Comprehensive,3164.8,2021-01-15,13,0,1
+POL-00515,72,Male,IN,Accountant,Widowed,675,Basic,7836.75,2023-03-09,15,5,0
+POL-00516,55,Female,FL,Nurse,Divorced,776,Basic,4425.18,2023-06-03,2,3,1
+POL-00517,58,Male,MO,Doctor,Divorced,354,Premium,4512.75,2020-01-23,15,7,1
+POL-00518,54,Female,AZ,Sales Manager,Divorced,596,Standard,764.95,2023-05-08,9,4,0
+POL-00519,58,Female,MD,Nurse,Single,598,Basic,2651.12,2020-06-17,4,8,0
+POL-00520,72,Female,NC,Nurse,Divorced,581,Premium,606.52,2020-08-16,5,2,1
+POL-00521,41,Male,NC,Doctor,Married,796,Standard,6495.29,2024-10-31,1,5,0
+POL-00522,27,Male,TN,Doctor,Widowed,692,Standard,5455.0,2024-01-26,5,3,0
+POL-00523,21,Female,NY,Software Engineer,Married,775,Comprehensive,4071.74,2022-09-02,7,6,1
+POL-00524,48,Female,PA,Driver,Widowed,312,Premium,7454.17,2022-07-08,12,5,0
+POL-00525,24,Female,AZ,Chef,Divorced,643,Premium,2503.16,2020-07-20,8,6,1
+POL-00526,67,Male,MD,Doctor,Married,832,Premium,5582.89,2021-01-03,10,8,0
+POL-00527,61,Male,FL,Software Engineer,Widowed,400,Basic,5641.25,2021-12-20,7,4,0
+POL-00528,30,Male,CA,Chef,Single,358,Standard,7628.67,2023-07-30,3,1,0
+POL-00529,72,Male,WA,Retail Worker,Married,413,Standard,2400.02,2022-08-14,2,7,0
+POL-00530,67,Female,NJ,Accountant,Married,375,Premium,6328.29,2022-02-22,12,5,0
+POL-00531,34,Female,IL,Lawyer,Single,803,Standard,5077.26,2020-12-31,15,1,0
+POL-00532,52,Female,OH,Chef,Single,752,Premium,1274.65,2020-05-29,2,4,1
+POL-00533,19,Female,PA,Retail Worker,Single,338,Comprehensive,2498.27,2023-12-04,10,6,0
+POL-00534,50,Female,TN,Electrician,Widowed,371,Standard,524.81,2023-11-12,15,1,0
+POL-00535,39,Female,WA,Software Engineer,Single,674,Premium,1103.43,2022-07-30,9,3,0
+POL-00536,53,Male,WA,Retail Worker,Married,606,Comprehensive,7223.46,2023-07-15,11,7,0
+POL-00537,74,Female,OH,Nurse,Single,497,Basic,5898.04,2023-04-29,7,7,1
+POL-00538,22,Female,TN,Driver,Widowed,316,Basic,3044.64,2021-11-22,1,6,0
+POL-00539,31,Female,MO,Nurse,Married,373,Basic,6015.95,2022-09-28,0,7,0
+POL-00540,33,Male,CA,Nurse,Single,614,Basic,3921.38,2020-12-15,2,1,0
+POL-00541,49,Male,FL,Doctor,Married,736,Premium,6586.41,2024-02-20,12,5,0
+POL-00542,61,Male,NJ,Freelancer,Married,346,Standard,3016.28,2020-09-04,8,2,1
+POL-00543,28,Female,MO,Nurse,Widowed,549,Basic,1500.28,2024-06-08,12,2,0
+POL-00544,74,Female,FL,Software Engineer,Single,483,Basic,5800.56,2023-04-30,9,6,1
+POL-00545,62,Male,OH,Nurse,Divorced,835,Comprehensive,3590.23,2020-12-23,1,2,1
+POL-00546,57,Male,MI,Sales Manager,Widowed,304,Standard,1939.27,2022-12-21,3,5,0
+POL-00547,47,Male,NC,Software Engineer,Married,415,Standard,5639.33,2022-08-29,15,2,0
+POL-00548,60,Male,TX,Retail Worker,Divorced,591,Standard,3760.04,2021-11-15,14,0,0
+POL-00549,65,Male,MO,Nurse,Married,329,Comprehensive,4361.78,2020-05-25,7,7,0
+POL-00550,44,Male,NJ,Mechanic,Single,633,Standard,1235.48,2024-02-19,13,3,1
+POL-00551,75,Male,FL,Lawyer,Widowed,355,Comprehensive,1587.06,2023-06-02,14,2,1
+POL-00552,41,Male,MA,Construction Worker,Married,667,Premium,2016.58,2020-09-17,1,0,0
+POL-00553,26,Male,MA,Lawyer,Widowed,475,Premium,2148.9,2021-08-27,5,2,0
+POL-00554,23,Female,IN,Lawyer,Married,784,Comprehensive,2593.78,2024-02-04,13,3,0
+POL-00555,38,Female,MD,Mechanic,Married,305,Comprehensive,7851.38,2020-03-23,15,8,0
+POL-00556,45,Female,TN,Doctor,Single,763,Comprehensive,2303.84,2023-02-17,0,6,0
+POL-00557,26,Female,MI,Mechanic,Single,316,Comprehensive,5517.77,2020-11-27,14,0,1
+POL-00558,47,Male,WA,Nurse,Divorced,775,Basic,6952.87,2020-05-24,12,5,0
+POL-00559,36,Female,NC,Construction Worker,Married,382,Premium,6018.21,2020-04-22,11,0,0
+POL-00560,42,Female,MA,Chef,Single,674,Premium,1814.51,2023-02-18,2,8,0
+POL-00561,26,Female,GA,Driver,Single,789,Standard,6148.8,2024-04-07,7,5,0
+POL-00562,75,Female,IN,Retail Worker,Widowed,583,Basic,975.27,2021-12-08,14,7,0
+POL-00563,48,Female,MA,Chef,Divorced,367,Standard,7189.27,2022-07-26,2,1,1
+POL-00564,75,Male,MI,Teacher,Single,468,Premium,1340.18,2020-10-30,15,2,0
+POL-00565,51,Male,MI,Electrician,Married,785,Premium,3650.97,2024-02-19,0,4,0
+POL-00566,22,Male,GA,Freelancer,Divorced,721,Premium,5418.2,2024-05-30,10,7,1
+POL-00567,47,Female,MD,Nurse,Divorced,475,Premium,2200.86,2022-01-31,9,0,0
+POL-00568,40,Female,MA,Nurse,Married,848,Premium,1867.1,2020-12-25,4,2,0
+POL-00569,25,Male,NJ,Chef,Married,751,Premium,3272.54,2021-02-24,1,5,0
+POL-00570,27,Female,MA,Driver,Married,846,Premium,1411.18,2020-02-21,12,7,0
+POL-00571,47,Female,PA,Software Engineer,Divorced,602,Comprehensive,7219.83,2024-03-24,4,7,0
+POL-00572,62,Male,TN,Student,Single,442,Basic,2810.62,2022-04-02,7,7,0
+POL-00573,23,Female,TX,Chef,Married,839,Standard,6359.63,2024-04-20,8,3,0
+POL-00574,23,Female,FL,Driver,Widowed,499,Comprehensive,2883.18,2023-05-24,1,5,1
+POL-00575,27,Female,VA,Electrician,Divorced,312,Premium,3086.9,2021-09-22,14,8,0
+POL-00576,31,Female,AZ,Doctor,Widowed,595,Standard,6542.55,2022-05-18,13,2,0
+POL-00577,27,Male,MI,Lawyer,Divorced,367,Comprehensive,1163.36,2022-04-18,8,6,0
+POL-00578,53,Female,MD,Doctor,Married,504,Standard,6742.13,2021-08-15,15,0,0
+POL-00579,71,Female,TN,Driver,Widowed,529,Basic,6434.15,2020-11-11,8,4,1
+POL-00580,25,Female,AZ,Nurse,Widowed,550,Basic,1395.16,2021-07-21,15,1,0
+POL-00581,55,Female,MD,Electrician,Divorced,787,Basic,3299.02,2024-02-10,0,4,0
+POL-00582,55,Male,PA,Sales Manager,Widowed,438,Premium,1724.82,2021-07-12,11,6,0
+POL-00583,21,Female,MI,Driver,Single,826,Standard,6248.32,2021-01-10,3,2,0
+POL-00584,73,Female,MI,Accountant,Divorced,398,Premium,6674.86,2020-01-27,4,8,0
+POL-00585,41,Female,AZ,Sales Manager,Married,404,Standard,1659.16,2021-03-28,6,8,0
+POL-00586,44,Female,FL,Teacher,Married,317,Comprehensive,3111.57,2023-11-16,11,2,1
+POL-00587,74,Female,IL,Construction Worker,Divorced,329,Basic,2167.68,2024-10-20,4,3,0
+POL-00588,26,Male,PA,Teacher,Widowed,414,Basic,641.05,2022-09-18,13,0,0
+POL-00589,24,Male,IN,Chef,Single,780,Basic,7313.97,2020-03-29,2,4,0
+POL-00590,66,Male,NY,Student,Married,504,Standard,5529.5,2020-02-29,2,2,0
+POL-00591,55,Female,VA,Nurse,Married,817,Basic,1243.29,2023-03-30,0,8,0
+POL-00592,63,Male,MI,Nurse,Single,401,Standard,7403.58,2024-10-09,15,5,0
+POL-00593,46,Male,IL,Freelancer,Divorced,688,Comprehensive,2107.06,2021-04-11,13,1,0
+POL-00594,25,Female,NY,Driver,Married,807,Premium,5785.48,2023-02-15,1,1,0
+POL-00595,49,Male,WA,Accountant,Widowed,619,Comprehensive,2194.05,2022-04-14,9,6,0
+POL-00596,72,Male,TN,Retail Worker,Divorced,483,Basic,7990.42,2022-10-03,3,6,1
+POL-00597,51,Male,NY,Nurse,Widowed,710,Basic,6060.74,2020-12-11,2,5,0
+POL-00598,39,Male,WI,Freelancer,Widowed,425,Standard,6785.82,2024-01-25,15,4,0
+POL-00599,66,Female,VA,Lawyer,Widowed,796,Premium,1605.31,2022-07-20,3,1,0
+POL-00600,49,Female,GA,Retail Worker,Married,330,Basic,6033.49,2024-08-27,2,7,0
+POL-00601,29,Female,WI,Retail Worker,Divorced,456,Premium,5164.75,2020-07-16,2,8,1
+POL-00602,68,Female,OH,Accountant,Widowed,802,Premium,4568.29,2024-07-15,0,0,1
+POL-00603,74,Male,WA,Lawyer,Divorced,685,Comprehensive,3947.42,2020-03-08,5,8,0
+POL-00604,74,Male,TN,Electrician,Married,619,Comprehensive,4155.91,2020-08-12,15,8,1
+POL-00605,48,Male,IN,Software Engineer,Widowed,569,Comprehensive,4932.84,2022-02-12,11,4,0
+POL-00606,21,Male,MD,Software Engineer,Married,675,Premium,6571.65,2023-04-10,0,5,1
+POL-00607,24,Female,VA,Sales Manager,Widowed,659,Basic,5459.3,2021-05-22,7,4,0
+POL-00608,62,Male,MI,Teacher,Divorced,473,Basic,4538.13,2020-03-17,14,6,1
+POL-00609,35,Male,TN,Chef,Single,624,Comprehensive,4777.65,2021-10-22,3,7,0
+POL-00610,62,Male,NJ,Lawyer,Divorced,470,Premium,3225.01,2022-06-11,6,7,0
+POL-00611,71,Male,MI,Accountant,Single,604,Comprehensive,6534.52,2023-07-03,2,1,0
+POL-00612,35,Male,MD,Doctor,Widowed,737,Standard,3104.87,2020-06-06,9,8,0
+POL-00613,45,Female,OH,Electrician,Widowed,557,Comprehensive,5536.7,2023-01-26,5,0,0
+POL-00614,54,Female,OH,Retail Worker,Widowed,574,Comprehensive,7509.77,2024-01-28,1,8,0
+POL-00615,41,Female,PA,Mechanic,Married,607,Comprehensive,3576.95,2024-10-27,2,3,1
+POL-00616,35,Female,IL,Accountant,Married,715,Standard,1351.69,2021-01-28,0,3,0
+POL-00617,47,Female,MO,Electrician,Widowed,337,Standard,1695.19,2020-10-06,0,4,0
+POL-00618,60,Male,TX,Construction Worker,Widowed,320,Basic,6946.88,2020-06-20,10,4,0
+POL-00619,75,Female,VA,Retail Worker,Single,706,Standard,2270.31,2023-03-15,3,8,0
+POL-00620,49,Male,GA,Chef,Single,620,Premium,6742.51,2024-02-18,12,3,1
+POL-00621,31,Male,NY,Nurse,Married,581,Comprehensive,3562.82,2024-11-02,1,7,0
+POL-00622,62,Male,NJ,Driver,Widowed,786,Standard,7724.87,2024-12-06,4,5,1
+POL-00623,63,Female,MI,Software Engineer,Single,355,Standard,2397.37,2022-02-26,9,5,0
+POL-00624,52,Male,MA,Electrician,Single,702,Premium,2756.66,2024-08-11,7,4,0
+POL-00625,73,Male,MA,Retail Worker,Divorced,716,Basic,2555.27,2020-06-13,15,7,1
+POL-00626,71,Female,AZ,Student,Single,464,Premium,4297.51,2021-12-21,13,8,0
+POL-00627,47,Male,TX,Retail Worker,Married,754,Standard,523.07,2021-02-13,9,5,0
+POL-00628,25,Male,GA,Driver,Married,720,Premium,3886.17,2024-11-23,4,4,0
+POL-00629,61,Female,MI,Mechanic,Single,724,Premium,1864.17,2024-11-29,12,3,0
+POL-00630,19,Male,FL,Lawyer,Married,568,Standard,873.37,2023-06-19,13,4,0
+POL-00631,23,Female,IL,Chef,Single,314,Comprehensive,6300.19,2022-07-18,15,1,0
+POL-00632,63,Male,OH,Freelancer,Divorced,594,Comprehensive,3365.55,2022-06-02,6,3,0
+POL-00633,64,Male,AZ,Nurse,Widowed,449,Basic,2676.45,2021-06-20,7,7,0
+POL-00634,41,Female,FL,Software Engineer,Widowed,436,Premium,7807.99,2022-03-25,6,6,1
+POL-00635,65,Female,FL,Teacher,Single,353,Premium,7482.98,2022-08-22,11,0,0
+POL-00636,34,Female,MI,Electrician,Divorced,435,Basic,4853.65,2021-06-17,5,8,1
+POL-00637,39,Female,PA,Teacher,Divorced,843,Comprehensive,1563.47,2020-08-27,10,0,0
+POL-00638,49,Female,VA,Student,Widowed,589,Premium,5096.99,2024-04-08,8,8,0
+POL-00639,45,Male,NJ,Construction Worker,Widowed,454,Comprehensive,899.17,2020-10-31,1,3,0
+POL-00640,20,Female,NC,Nurse,Widowed,746,Basic,7964.01,2022-10-10,1,7,0
+POL-00641,63,Female,MA,Lawyer,Single,451,Basic,3122.03,2021-02-21,9,2,0
+POL-00642,65,Female,MD,Student,Married,304,Standard,3623.14,2020-06-06,7,7,0
+POL-00643,74,Female,CA,Accountant,Single,703,Premium,4927.54,2020-08-05,10,2,0
+POL-00644,23,Female,TN,Lawyer,Divorced,305,Premium,7773.28,2023-09-05,14,5,0
+POL-00645,31,Male,MI,Sales Manager,Single,372,Comprehensive,1194.13,2021-06-06,5,3,1
+POL-00646,23,Male,OH,Nurse,Widowed,712,Premium,5353.76,2023-09-01,4,1,0
+POL-00647,49,Female,MI,Student,Married,667,Basic,6740.4,2022-11-15,6,7,1
+POL-00648,74,Female,TN,Accountant,Widowed,392,Comprehensive,6582.46,2023-06-11,5,6,1
+POL-00649,23,Male,IN,Sales Manager,Widowed,529,Standard,7480.01,2022-12-15,2,4,1
+POL-00650,45,Male,TN,Accountant,Married,430,Premium,6811.53,2022-12-07,13,4,0
+POL-00651,53,Male,TX,Driver,Single,822,Comprehensive,3597.65,2022-08-09,8,5,0
+POL-00652,55,Male,IN,Software Engineer,Single,773,Standard,6396.33,2024-09-22,12,0,0
+POL-00653,44,Female,NJ,Chef,Widowed,760,Premium,3060.01,2024-11-19,5,3,0
+POL-00654,23,Female,NY,Electrician,Single,305,Comprehensive,1375.09,2020-12-17,15,7,1
+POL-00655,73,Female,MI,Chef,Divorced,704,Premium,1157.26,2020-10-03,0,3,0
+POL-00656,70,Male,OH,Freelancer,Single,514,Comprehensive,5364.67,2023-08-23,7,6,0
+POL-00657,23,Female,MA,Nurse,Widowed,732,Basic,1373.44,2020-11-08,14,7,1
+POL-00658,19,Female,MD,Mechanic,Married,601,Comprehensive,881.92,2020-01-17,3,6,1
+POL-00659,72,Female,MD,Chef,Divorced,337,Comprehensive,3497.6,2022-11-17,15,3,0
+POL-00660,51,Male,AZ,Chef,Divorced,365,Premium,7196.58,2022-05-04,15,1,1
+POL-00661,57,Female,MA,Construction Worker,Widowed,321,Standard,2660.08,2021-01-28,15,5,1
+POL-00662,32,Male,MD,Student,Divorced,779,Standard,7123.8,2024-01-20,12,6,0
+POL-00663,68,Female,IL,Chef,Married,589,Basic,5502.92,2020-09-21,5,3,0
+POL-00664,56,Female,NY,Doctor,Widowed,805,Premium,2260.39,2023-02-14,1,0,0
+POL-00665,74,Female,VA,Retail Worker,Married,478,Basic,6551.12,2021-11-22,13,1,0
+POL-00666,25,Male,TN,Accountant,Divorced,663,Basic,6275.71,2023-02-14,8,2,0
+POL-00667,63,Male,MA,Doctor,Widowed,413,Basic,6362.39,2023-06-02,3,8,0
+POL-00668,50,Male,IL,Retail Worker,Single,510,Premium,1677.74,2021-08-21,14,8,1
+POL-00669,64,Male,PA,Retail Worker,Divorced,642,Standard,1422.38,2021-02-17,14,6,0
+POL-00670,33,Female,NJ,Accountant,Married,387,Premium,3293.27,2024-03-25,13,5,0
+POL-00671,27,Female,GA,Nurse,Widowed,723,Comprehensive,7235.49,2024-10-11,11,0,1
+POL-00672,27,Male,IN,Teacher,Single,646,Premium,3512.38,2024-04-30,5,6,0
+POL-00673,43,Male,PA,Student,Single,832,Premium,3644.79,2024-12-19,9,5,0
+POL-00674,18,Female,IN,Chef,Married,713,Comprehensive,5329.1,2024-12-22,14,5,1
+POL-00675,67,Male,MI,Teacher,Single,850,Premium,3424.95,2024-01-12,4,8,0
+POL-00676,31,Male,IN,Driver,Divorced,833,Premium,6177.85,2020-11-23,0,0,0
+POL-00677,33,Female,AZ,Driver,Single,361,Premium,2448.17,2022-11-05,11,1,0
+POL-00678,66,Male,MA,Accountant,Single,764,Premium,7872.13,2024-07-07,7,5,0
+POL-00679,36,Male,WA,Driver,Married,407,Premium,4373.39,2021-01-29,11,7,0
+POL-00680,27,Female,AZ,Teacher,Single,363,Comprehensive,7163.82,2022-09-02,6,7,0
+POL-00681,41,Female,MD,Driver,Widowed,570,Comprehensive,5273.46,2022-06-20,15,6,0
+POL-00682,27,Male,TN,Construction Worker,Widowed,432,Basic,5708.53,2022-07-21,15,0,0
+POL-00683,53,Female,NY,Chef,Widowed,412,Basic,3271.89,2021-08-16,1,8,0
+POL-00684,25,Female,MI,Sales Manager,Divorced,601,Comprehensive,709.83,2020-10-19,4,6,0
+POL-00685,75,Female,MI,Mechanic,Married,800,Basic,1417.46,2021-12-15,2,0,1
+POL-00686,48,Female,MD,Lawyer,Divorced,686,Comprehensive,6758.45,2024-09-03,4,2,1
+POL-00687,66,Female,MA,Nurse,Divorced,391,Comprehensive,3404.26,2022-03-20,10,8,0
+POL-00688,60,Female,NC,Retail Worker,Single,469,Basic,4789.96,2024-06-18,9,8,0
+POL-00689,59,Male,OH,Chef,Single,834,Standard,6129.19,2022-10-26,0,1,0
+POL-00690,19,Female,OH,Mechanic,Widowed,386,Premium,3513.48,2020-04-02,15,0,0
+POL-00691,45,Male,AZ,Software Engineer,Divorced,691,Premium,1182.69,2020-07-22,5,4,0
+POL-00692,29,Female,FL,Nurse,Divorced,717,Standard,941.85,2021-10-28,5,0,0
+POL-00693,37,Female,NY,Sales Manager,Married,722,Premium,2434.51,2024-08-22,3,0,0
+POL-00694,33,Male,TN,Driver,Widowed,417,Premium,954.74,2022-08-09,13,1,1
+POL-00695,19,Female,GA,Student,Single,575,Basic,2347.37,2023-02-10,4,4,1
+POL-00696,46,Male,IN,Mechanic,Married,682,Standard,6365.18,2023-01-05,13,8,1
+POL-00697,20,Male,MA,Freelancer,Divorced,471,Basic,951.31,2022-09-14,8,4,1
+POL-00698,40,Male,MD,Freelancer,Divorced,346,Standard,6043.87,2023-02-27,2,4,0
+POL-00699,43,Male,PA,Construction Worker,Divorced,742,Standard,5078.34,2024-06-30,10,5,0
+POL-00700,66,Female,NC,Mechanic,Divorced,649,Standard,3948.5,2023-05-12,10,0,0
+POL-00701,59,Male,WI,Lawyer,Single,309,Standard,3598.72,2023-11-27,15,6,0
+POL-00702,68,Male,MO,Software Engineer,Widowed,426,Premium,7790.29,2022-02-09,11,6,0
+POL-00703,71,Male,NY,Lawyer,Divorced,497,Comprehensive,570.22,2024-03-01,0,4,0
+POL-00704,30,Male,WI,Retail Worker,Divorced,526,Standard,7850.89,2022-01-13,1,4,1
+POL-00705,75,Male,CA,Mechanic,Widowed,413,Premium,4768.27,2022-10-08,5,8,0
+POL-00706,60,Male,FL,Chef,Married,366,Standard,2447.18,2023-03-13,7,8,0
+POL-00707,30,Male,MO,Chef,Divorced,764,Basic,7534.18,2023-08-05,1,5,1
+POL-00708,72,Female,NC,Teacher,Widowed,807,Premium,4379.43,2020-03-30,7,0,0
+POL-00709,44,Female,NJ,Software Engineer,Widowed,499,Premium,1113.57,2023-03-17,0,3,1
+POL-00710,22,Male,OH,Nurse,Divorced,618,Basic,5194.96,2020-07-17,0,7,1
+POL-00711,69,Male,MD,Doctor,Divorced,556,Standard,1308.8,2021-05-03,10,0,0
+POL-00712,51,Male,FL,Doctor,Widowed,397,Comprehensive,4842.01,2020-06-24,1,0,1
+POL-00713,38,Male,PA,Software Engineer,Widowed,356,Premium,5080.54,2022-06-03,2,1,0
+POL-00714,53,Male,MI,Freelancer,Widowed,711,Basic,5129.76,2022-04-21,7,0,1
+POL-00715,42,Female,AZ,Student,Single,647,Basic,3905.58,2021-11-03,6,1,0
+POL-00716,18,Male,MD,Doctor,Married,429,Premium,3165.43,2022-09-12,14,2,0
+POL-00717,26,Male,TX,Nurse,Divorced,746,Premium,2833.91,2024-12-17,4,2,1
+POL-00718,37,Female,MI,Sales Manager,Single,830,Standard,929.88,2022-11-04,1,6,0
+POL-00719,30,Male,OH,Doctor,Single,649,Standard,5508.95,2023-11-23,14,5,0
+POL-00720,57,Female,AZ,Sales Manager,Married,407,Comprehensive,7070.79,2020-03-27,15,3,0
+POL-00721,58,Male,GA,Lawyer,Married,544,Comprehensive,6009.4,2024-07-26,10,6,0
+POL-00722,43,Male,CA,Sales Manager,Single,375,Premium,725.13,2020-08-23,4,4,1
+POL-00723,30,Female,TX,Software Engineer,Married,502,Premium,1806.1,2024-12-18,8,2,0
+POL-00724,72,Male,IL,Mechanic,Single,480,Premium,7329.87,2020-02-12,4,6,0
+POL-00725,39,Male,MI,Lawyer,Married,678,Premium,5456.82,2022-12-15,13,1,0
+POL-00726,27,Male,OH,Mechanic,Widowed,683,Premium,4996.62,2023-07-26,7,0,0
+POL-00727,72,Female,PA,Sales Manager,Married,354,Premium,7046.39,2024-10-09,15,3,0
+POL-00728,68,Female,WI,Teacher,Married,820,Comprehensive,6134.81,2023-08-14,11,7,1
+POL-00729,29,Female,VA,Driver,Widowed,806,Comprehensive,2512.52,2022-04-01,1,3,0
+POL-00730,75,Male,MA,Freelancer,Married,705,Standard,2794.99,2024-12-25,12,2,0
+POL-00731,34,Male,PA,Doctor,Single,602,Comprehensive,4391.16,2021-04-16,1,7,0
+POL-00732,45,Female,MA,Electrician,Widowed,676,Comprehensive,2877.65,2022-02-22,0,2,1
+POL-00733,32,Female,FL,Sales Manager,Single,601,Basic,6394.05,2021-04-11,3,1,0
+POL-00734,41,Male,MO,Mechanic,Divorced,501,Premium,2375.18,2024-03-06,8,3,0
+POL-00735,72,Female,CA,Doctor,Divorced,588,Premium,6373.46,2022-04-07,12,0,1
+POL-00736,59,Male,WA,Mechanic,Married,514,Comprehensive,2252.92,2023-04-17,14,7,0
+POL-00737,68,Male,NJ,Freelancer,Married,739,Comprehensive,2071.89,2022-07-10,0,5,0
+POL-00738,54,Male,MI,Construction Worker,Single,811,Premium,3048.67,2022-05-08,13,6,0
+POL-00739,38,Male,MD,Doctor,Single,442,Standard,7829.33,2021-11-07,12,6,0
+POL-00740,43,Male,MO,Electrician,Married,786,Basic,2966.31,2022-07-13,9,1,0
+POL-00741,24,Male,TX,Freelancer,Widowed,327,Standard,1992.49,2022-03-01,9,3,0
+POL-00742,36,Male,MA,Software Engineer,Divorced,830,Basic,1788.69,2024-10-26,13,6,0
+POL-00743,25,Male,MO,Electrician,Widowed,370,Comprehensive,7663.23,2024-11-07,6,2,0
+POL-00744,37,Female,TN,Nurse,Divorced,507,Comprehensive,2565.81,2020-01-16,4,7,0
+POL-00745,70,Female,WI,Doctor,Married,838,Premium,7327.27,2024-12-05,15,7,1
+POL-00746,54,Male,FL,Accountant,Widowed,655,Premium,3433.18,2024-08-13,5,6,0
+POL-00747,29,Female,MA,Electrician,Married,397,Comprehensive,5739.84,2020-03-30,7,2,0
+POL-00748,74,Female,FL,Construction Worker,Married,805,Comprehensive,7942.92,2023-02-06,3,5,0
+POL-00749,66,Male,IN,Doctor,Divorced,719,Comprehensive,1736.29,2021-02-28,1,7,0
+POL-00750,22,Female,WA,Sales Manager,Widowed,499,Comprehensive,783.31,2021-05-28,3,2,0
+POL-00751,60,Female,TN,Lawyer,Single,384,Standard,5851.86,2022-06-15,4,7,0
+POL-00752,71,Male,IL,Freelancer,Single,402,Standard,2706.08,2022-12-30,12,2,0
+POL-00753,60,Male,NC,Nurse,Widowed,666,Standard,2125.04,2020-03-11,6,7,0
+POL-00754,71,Male,WA,Construction Worker,Divorced,754,Basic,4986.54,2020-04-09,12,3,0
+POL-00755,41,Male,OH,Teacher,Single,731,Basic,7919.68,2021-11-21,6,1,0
+POL-00756,74,Male,IL,Construction Worker,Married,345,Comprehensive,4343.75,2024-07-28,10,5,0
+POL-00757,57,Male,MO,Electrician,Widowed,423,Standard,2103.35,2021-12-31,10,2,0
+POL-00758,43,Female,CA,Electrician,Married,769,Standard,995.12,2024-07-27,8,5,0
+POL-00759,22,Male,AZ,Accountant,Widowed,404,Standard,2389.55,2020-07-13,10,6,0
+POL-00760,39,Male,NJ,Freelancer,Widowed,369,Premium,632.37,2023-04-13,14,6,0
+POL-00761,50,Male,GA,Software Engineer,Single,616,Standard,6034.35,2024-03-30,7,1,0
+POL-00762,26,Female,TN,Accountant,Married,455,Comprehensive,2032.89,2020-03-18,7,7,0
+POL-00763,26,Female,NJ,Retail Worker,Single,833,Comprehensive,5360.35,2021-08-13,0,3,0
+POL-00764,39,Male,OH,Driver,Single,554,Standard,5060.47,2022-02-20,10,2,1
+POL-00765,58,Male,FL,Freelancer,Widowed,371,Standard,890.8,2020-10-16,6,2,0
+POL-00766,29,Male,GA,Driver,Single,736,Comprehensive,2835.97,2024-01-17,6,3,1
+POL-00767,29,Male,MI,Accountant,Widowed,506,Premium,6968.19,2022-09-12,2,5,1
+POL-00768,42,Male,TN,Lawyer,Widowed,817,Comprehensive,6202.43,2024-08-05,15,0,1
+POL-00769,45,Male,MI,Chef,Married,479,Premium,3353.38,2021-09-18,14,4,1
+POL-00770,53,Female,FL,Sales Manager,Married,780,Standard,1660.43,2021-01-23,0,0,0
+POL-00771,49,Female,AZ,Electrician,Divorced,693,Comprehensive,2808.58,2023-04-19,2,6,0
+POL-00772,25,Female,MD,Nurse,Married,746,Premium,6284.53,2024-03-19,11,8,1
+POL-00773,58,Female,TX,Retail Worker,Widowed,734,Standard,2317.65,2020-03-11,11,0,0
+POL-00774,34,Female,PA,Accountant,Married,465,Basic,1375.48,2020-07-08,12,6,0
+POL-00775,51,Male,AZ,Nurse,Widowed,558,Premium,4254.85,2022-12-27,12,4,1
+POL-00776,66,Male,NY,Retail Worker,Divorced,446,Premium,6115.48,2024-03-12,12,4,0
+POL-00777,28,Female,CA,Teacher,Single,727,Comprehensive,5408.91,2024-02-10,13,2,0
+POL-00778,41,Male,PA,Mechanic,Widowed,486,Basic,3879.96,2024-07-25,6,2,0
+POL-00779,21,Male,OH,Accountant,Widowed,751,Basic,7012.71,2020-12-06,2,4,0
+POL-00780,42,Male,NC,Teacher,Divorced,330,Standard,4084.23,2023-10-09,3,0,0
+POL-00781,35,Male,MD,Doctor,Single,399,Standard,4417.51,2020-01-15,12,8,0
+POL-00782,49,Female,NJ,Chef,Widowed,644,Premium,5613.95,2021-12-03,10,3,0
+POL-00783,60,Female,WA,Chef,Single,664,Premium,6547.03,2020-01-07,14,6,0
+POL-00784,19,Male,IN,Accountant,Married,677,Comprehensive,5137.64,2023-09-11,15,8,1
+POL-00785,60,Male,CA,Retail Worker,Divorced,317,Premium,7050.76,2024-07-11,10,7,0
+POL-00786,56,Female,WA,Construction Worker,Single,656,Comprehensive,7543.14,2022-09-02,3,6,0
+POL-00787,56,Male,PA,Freelancer,Single,430,Comprehensive,6476.16,2021-09-09,14,2,1
+POL-00788,25,Female,MO,Mechanic,Married,516,Standard,6149.39,2023-09-13,2,1,1
+POL-00789,63,Male,IL,Student,Divorced,692,Premium,2152.82,2021-06-11,15,1,0
+POL-00790,52,Female,FL,Doctor,Divorced,529,Basic,5329.9,2022-02-11,12,8,1
+POL-00791,69,Male,GA,Accountant,Single,597,Basic,1335.37,2021-11-27,6,1,0
+POL-00792,26,Female,WA,Chef,Single,618,Basic,4925.45,2021-01-23,12,6,0
+POL-00793,67,Female,PA,Driver,Married,409,Comprehensive,568.91,2024-10-11,14,5,0
+POL-00794,70,Female,GA,Lawyer,Widowed,450,Premium,1594.03,2023-09-24,1,5,0
+POL-00795,50,Male,NC,Freelancer,Widowed,520,Comprehensive,2686.21,2022-02-10,1,5,0
+POL-00796,70,Male,GA,Construction Worker,Single,483,Comprehensive,5955.47,2021-09-04,5,0,1
+POL-00797,39,Female,TN,Sales Manager,Widowed,700,Basic,4458.83,2021-08-02,9,3,1
+POL-00798,24,Male,NJ,Doctor,Single,611,Comprehensive,5409.75,2023-03-28,4,7,1
+POL-00799,36,Male,OH,Mechanic,Married,309,Premium,5944.68,2023-03-24,3,2,1
+POL-00800,45,Male,TX,Teacher,Divorced,785,Standard,7587.97,2020-08-28,10,6,0
+POL-00801,58,Female,GA,Software Engineer,Single,546,Comprehensive,4164.69,2023-11-09,5,6,0
+POL-00802,67,Female,WA,Accountant,Widowed,676,Basic,1400.0,2020-06-18,3,7,0
+POL-00803,19,Female,NC,Construction Worker,Single,485,Comprehensive,4131.44,2023-08-13,13,4,0
+POL-00804,24,Female,FL,Construction Worker,Married,715,Basic,3453.47,2024-08-01,15,1,0
+POL-00805,66,Male,NY,Nurse,Married,305,Comprehensive,6503.85,2020-09-08,1,2,0
+POL-00806,59,Male,FL,Driver,Divorced,335,Basic,7849.46,2022-11-02,9,5,0
+POL-00807,45,Male,GA,Accountant,Single,831,Premium,5443.68,2022-06-30,4,7,0
+POL-00808,51,Female,WI,Driver,Married,401,Basic,2278.25,2021-01-20,4,4,0
+POL-00809,26,Male,MD,Sales Manager,Divorced,431,Comprehensive,1057.7,2021-06-06,8,6,0
+POL-00810,43,Female,FL,Accountant,Widowed,446,Standard,1029.19,2024-02-09,8,3,0
+POL-00811,54,Male,AZ,Freelancer,Married,623,Comprehensive,3342.06,2023-05-21,7,1,0
+POL-00812,25,Male,MO,Electrician,Single,637,Basic,3221.15,2021-11-14,8,2,0
+POL-00813,35,Male,NY,Electrician,Married,687,Basic,6370.5,2020-09-09,5,8,0
+POL-00814,55,Female,NY,Driver,Divorced,588,Premium,5056.0,2020-04-08,5,5,1
+POL-00815,29,Female,MO,Driver,Widowed,788,Standard,2442.96,2023-11-07,4,2,0
+POL-00816,42,Female,TX,Student,Divorced,555,Comprehensive,5800.9,2021-01-09,14,5,1
+POL-00817,50,Female,NC,Electrician,Married,612,Basic,7605.91,2022-04-12,10,1,0
+POL-00818,22,Male,FL,Nurse,Single,386,Premium,4656.2,2022-10-06,0,6,0
+POL-00819,48,Female,IN,Retail Worker,Single,715,Basic,5122.15,2024-08-29,0,6,0
+POL-00820,33,Male,WI,Lawyer,Married,836,Standard,1811.11,2022-01-21,4,8,0
+POL-00821,21,Female,TN,Electrician,Married,682,Basic,3034.69,2023-10-22,7,8,0
+POL-00822,36,Female,TN,Accountant,Divorced,518,Basic,6035.19,2023-03-10,12,3,0
+POL-00823,59,Male,MA,Student,Widowed,358,Premium,544.18,2022-07-31,10,4,0
+POL-00824,24,Male,VA,Student,Married,711,Premium,566.48,2022-06-01,15,3,0
+POL-00825,51,Male,AZ,Teacher,Widowed,307,Standard,6270.86,2021-05-27,7,7,1
+POL-00826,41,Female,VA,Electrician,Married,849,Premium,1315.21,2022-06-17,14,2,0
+POL-00827,40,Female,CA,Sales Manager,Married,413,Standard,2636.75,2020-09-30,12,6,0
+POL-00828,75,Male,IL,Retail Worker,Married,790,Premium,1390.94,2022-09-28,15,2,0
+POL-00829,66,Female,IN,Construction Worker,Widowed,434,Basic,7682.59,2024-06-11,0,2,0
+POL-00830,40,Male,GA,Software Engineer,Divorced,739,Basic,3757.46,2021-08-15,9,7,0
+POL-00831,66,Female,GA,Chef,Married,823,Standard,2371.0,2024-04-19,3,4,0
+POL-00832,60,Female,OH,Lawyer,Single,814,Standard,1915.02,2024-10-16,4,3,0
+POL-00833,26,Female,TX,Accountant,Married,449,Comprehensive,632.46,2021-02-12,2,0,1
+POL-00834,44,Female,GA,Mechanic,Divorced,736,Comprehensive,960.12,2022-05-24,1,4,0
+POL-00835,35,Female,NC,Sales Manager,Widowed,552,Premium,7213.3,2021-01-07,1,0,0
+POL-00836,60,Female,OH,Accountant,Widowed,586,Basic,3731.81,2021-05-31,15,5,0
+POL-00837,37,Male,NY,Retail Worker,Single,433,Premium,3204.27,2024-07-16,11,8,0
+POL-00838,33,Female,OH,Chef,Widowed,389,Basic,1478.64,2024-02-29,3,0,0
+POL-00839,30,Female,NY,Teacher,Divorced,608,Comprehensive,7922.33,2021-02-17,4,0,0
+POL-00840,30,Female,MO,Construction Worker,Divorced,655,Premium,3863.62,2024-01-09,3,6,0
+POL-00841,48,Female,IN,Student,Single,470,Premium,5725.3,2020-09-21,9,0,0
+POL-00842,68,Male,WA,Lawyer,Single,469,Comprehensive,6130.46,2022-02-25,12,6,0
+POL-00843,31,Male,CA,Nurse,Married,309,Comprehensive,4278.63,2024-01-15,8,4,0
+POL-00844,36,Female,MO,Teacher,Married,529,Basic,4501.74,2021-08-20,1,2,0
+POL-00845,26,Female,TX,Retail Worker,Married,515,Basic,510.5,2021-12-12,11,5,0
+POL-00846,63,Female,PA,Electrician,Divorced,632,Basic,5194.66,2020-01-22,11,3,0
+POL-00847,29,Female,CA,Driver,Single,691,Premium,7025.19,2023-07-23,6,7,0
+POL-00848,38,Female,OH,Chef,Widowed,459,Comprehensive,2237.92,2024-01-27,13,5,0
+POL-00849,75,Female,FL,Lawyer,Married,770,Standard,6616.98,2020-12-26,6,7,0
+POL-00850,59,Female,CA,Accountant,Married,481,Comprehensive,5655.25,2021-01-19,2,2,0
+POL-00851,45,Male,MA,Student,Widowed,402,Standard,5950.73,2024-07-12,0,1,1
+POL-00852,42,Male,NY,Freelancer,Single,344,Standard,2362.57,2020-06-20,8,2,0
+POL-00853,68,Male,NY,Driver,Divorced,387,Standard,1544.23,2024-04-04,14,2,0
+POL-00854,39,Female,PA,Mechanic,Single,573,Basic,659.06,2020-04-01,3,8,0
+POL-00855,24,Female,PA,Software Engineer,Married,324,Standard,3703.52,2020-10-28,11,4,0
+POL-00856,74,Female,NY,Lawyer,Married,412,Standard,1263.02,2021-07-31,11,1,0
+POL-00857,25,Female,FL,Student,Single,454,Standard,3714.71,2021-11-16,5,6,0
+POL-00858,75,Female,WI,Freelancer,Divorced,656,Basic,2533.2,2022-10-19,11,4,0
+POL-00859,68,Male,PA,Doctor,Married,627,Standard,3429.5,2024-01-17,15,1,0
+POL-00860,54,Female,NC,Nurse,Single,630,Standard,1864.04,2022-02-27,11,5,1
+POL-00861,45,Female,AZ,Chef,Divorced,441,Standard,3373.89,2023-01-30,15,8,1
+POL-00862,52,Male,WA,Teacher,Widowed,839,Standard,5773.2,2021-04-26,11,0,0
+POL-00863,72,Male,VA,Driver,Widowed,436,Basic,946.83,2021-12-16,11,2,0
+POL-00864,47,Male,MO,Student,Widowed,548,Standard,6708.66,2020-04-24,4,1,0
+POL-00865,42,Male,AZ,Sales Manager,Single,408,Basic,4076.2,2023-05-01,5,0,0
+POL-00866,41,Male,FL,Mechanic,Single,312,Comprehensive,1622.88,2021-01-08,15,2,0
+POL-00867,48,Female,NJ,Lawyer,Single,593,Basic,1669.16,2024-12-09,1,2,0
+POL-00868,18,Female,AZ,Retail Worker,Widowed,564,Premium,5820.15,2022-05-17,5,4,0
+POL-00869,51,Female,PA,Construction Worker,Married,710,Basic,2141.8,2021-01-11,2,7,1
+POL-00870,38,Female,WA,Nurse,Single,680,Comprehensive,1960.48,2020-08-10,3,1,0
+POL-00871,56,Female,CA,Mechanic,Divorced,466,Basic,989.89,2023-05-07,0,4,0
+POL-00872,53,Male,TX,Mechanic,Divorced,387,Basic,4728.04,2024-06-06,15,0,0
+POL-00873,38,Male,MI,Software Engineer,Divorced,589,Comprehensive,4251.62,2021-10-06,12,5,0
+POL-00874,62,Male,NJ,Electrician,Single,814,Standard,677.64,2024-06-18,12,7,0
+POL-00875,36,Male,PA,Retail Worker,Widowed,380,Basic,7646.14,2021-04-19,6,2,0
+POL-00876,50,Female,MA,Doctor,Married,647,Premium,3202.37,2024-10-18,13,0,1
+POL-00877,33,Male,WI,Chef,Single,456,Comprehensive,1230.55,2020-01-31,4,4,0
+POL-00878,49,Male,MA,Sales Manager,Married,602,Standard,1011.21,2023-03-26,11,5,0
+POL-00879,22,Male,MA,Accountant,Widowed,562,Comprehensive,5377.19,2020-10-14,3,7,0
+POL-00880,41,Female,WA,Electrician,Married,751,Premium,4343.59,2023-07-03,10,5,0
+POL-00881,61,Female,IN,Lawyer,Divorced,343,Basic,6057.82,2021-05-16,0,2,0
+POL-00882,36,Female,IL,Chef,Widowed,374,Standard,3411.67,2022-08-04,2,5,1
+POL-00883,47,Female,NY,Teacher,Married,410,Comprehensive,6261.62,2021-02-12,12,5,0
+POL-00884,38,Female,WI,Lawyer,Married,787,Basic,2587.81,2020-03-19,4,7,0
+POL-00885,58,Male,NJ,Chef,Single,689,Basic,7523.45,2022-01-10,13,7,0
+POL-00886,21,Male,CA,Doctor,Widowed,576,Premium,5267.65,2020-06-20,4,1,0
+POL-00887,43,Male,MI,Freelancer,Widowed,729,Standard,5522.33,2021-06-15,5,0,0
+POL-00888,75,Female,NJ,Doctor,Divorced,468,Standard,3119.57,2022-05-08,15,7,0
+POL-00889,62,Female,VA,Student,Widowed,310,Standard,1083.57,2023-09-29,4,5,0
+POL-00890,18,Male,MA,Student,Married,811,Premium,1352.05,2023-10-12,13,4,0
+POL-00891,46,Male,MA,Retail Worker,Single,337,Standard,6092.81,2021-01-19,13,8,0
+POL-00892,56,Female,OH,Sales Manager,Married,495,Basic,3276.92,2022-01-15,0,4,0
+POL-00893,50,Male,TN,Retail Worker,Widowed,723,Comprehensive,3137.97,2024-08-23,13,8,0
+POL-00894,25,Male,MA,Electrician,Divorced,481,Standard,4570.72,2022-02-20,9,6,0
+POL-00895,62,Male,FL,Doctor,Single,391,Basic,5121.95,2022-04-22,3,7,0
+POL-00896,58,Female,IN,Chef,Single,596,Comprehensive,2089.03,2024-05-10,14,8,1
+POL-00897,25,Male,TN,Teacher,Divorced,775,Comprehensive,7309.95,2023-08-13,12,0,0
+POL-00898,68,Male,IN,Accountant,Divorced,570,Premium,6788.63,2024-06-16,13,3,0
+POL-00899,75,Female,TX,Software Engineer,Single,457,Premium,6805.77,2022-11-28,10,5,0
+POL-00900,54,Female,GA,Driver,Widowed,497,Comprehensive,6714.12,2024-06-29,13,2,1
+POL-00901,64,Male,WA,Student,Divorced,829,Standard,3780.51,2020-07-22,4,8,0
+POL-00902,58,Female,NC,Freelancer,Married,630,Standard,1199.41,2020-02-22,13,0,0
+POL-00903,19,Male,MD,Electrician,Single,433,Comprehensive,5258.47,2024-05-11,11,2,0
+POL-00904,59,Male,MI,Mechanic,Married,687,Premium,5444.43,2021-07-17,2,2,0
+POL-00905,58,Male,NY,Lawyer,Single,409,Standard,2618.47,2021-01-04,2,1,1
+POL-00906,72,Female,OH,Electrician,Single,802,Basic,3603.09,2022-09-23,2,3,1
+POL-00907,42,Female,MA,Doctor,Married,484,Premium,576.05,2020-12-31,1,1,0
+POL-00908,40,Female,WI,Chef,Single,462,Premium,7449.37,2021-01-29,0,8,0
+POL-00909,51,Male,OH,Freelancer,Divorced,417,Standard,721.23,2020-10-10,7,1,0
+POL-00910,35,Female,TN,Mechanic,Single,656,Premium,4002.83,2024-07-14,15,6,1
+POL-00911,30,Female,IL,Mechanic,Divorced,702,Basic,4877.36,2024-04-18,9,2,0
+POL-00912,64,Female,AZ,Student,Widowed,733,Premium,6619.19,2023-06-29,3,6,1
+POL-00913,30,Female,VA,Student,Single,760,Standard,7170.87,2022-11-13,8,6,0
+POL-00914,56,Female,WA,Software Engineer,Single,484,Premium,3720.4,2021-01-15,11,3,0
+POL-00915,31,Female,VA,Nurse,Divorced,425,Basic,2889.42,2020-01-23,10,3,1
+POL-00916,54,Female,GA,Driver,Single,694,Premium,5013.51,2022-12-15,6,1,0
+POL-00917,63,Male,MD,Student,Widowed,745,Premium,6600.46,2021-02-09,6,0,1
+POL-00918,49,Male,NC,Electrician,Single,427,Comprehensive,1783.55,2021-10-31,12,3,0
+POL-00919,36,Male,MD,Software Engineer,Widowed,591,Standard,6812.32,2022-04-04,1,8,0
+POL-00920,39,Male,FL,Lawyer,Single,725,Premium,2560.05,2024-03-23,11,6,0
+POL-00921,53,Female,TN,Chef,Single,702,Premium,5723.43,2022-07-19,15,1,0
+POL-00922,57,Male,CA,Mechanic,Single,310,Standard,1288.52,2021-10-23,13,3,0
+POL-00923,23,Male,VA,Freelancer,Single,353,Premium,7124.9,2020-03-29,3,0,0
+POL-00924,22,Female,NJ,Construction Worker,Widowed,576,Standard,7436.44,2023-04-09,14,1,0
+POL-00925,38,Male,MD,Student,Widowed,757,Basic,4413.23,2021-05-07,15,7,0
+POL-00926,38,Female,GA,Teacher,Divorced,603,Basic,3147.57,2024-09-07,7,3,0
+POL-00927,22,Female,TX,Mechanic,Single,521,Comprehensive,6638.84,2021-01-19,15,1,0
+POL-00928,31,Female,MI,Construction Worker,Widowed,457,Basic,7355.94,2021-03-24,11,6,1
+POL-00929,73,Male,WA,Mechanic,Single,584,Comprehensive,1731.47,2021-09-21,3,2,1
+POL-00930,74,Male,NY,Mechanic,Single,771,Standard,2500.68,2022-09-02,14,5,0
+POL-00931,25,Male,VA,Electrician,Married,454,Comprehensive,4266.43,2022-11-06,10,0,1
+POL-00932,35,Female,NY,Software Engineer,Widowed,732,Standard,2705.04,2022-04-04,5,4,1
+POL-00933,51,Female,NY,Retail Worker,Single,554,Basic,2146.85,2020-04-18,1,4,0
+POL-00934,22,Male,NC,Mechanic,Widowed,701,Comprehensive,1259.78,2024-02-12,8,7,0
+POL-00935,28,Male,VA,Retail Worker,Divorced,594,Basic,1206.82,2022-10-27,15,4,0
+POL-00936,28,Female,FL,Nurse,Married,640,Comprehensive,1563.75,2020-01-27,15,6,0
+POL-00937,19,Male,NC,Student,Single,474,Basic,4955.04,2022-08-28,0,7,0
+POL-00938,48,Male,TX,Freelancer,Single,597,Standard,4439.52,2020-12-08,4,1,0
+POL-00939,37,Female,MA,Lawyer,Divorced,563,Comprehensive,2401.53,2022-07-28,0,5,0
+POL-00940,63,Female,IN,Doctor,Widowed,415,Premium,5643.38,2024-01-31,0,2,1
+POL-00941,72,Male,PA,Sales Manager,Widowed,331,Standard,4831.88,2023-11-26,13,5,0
+POL-00942,65,Male,OH,Student,Widowed,410,Premium,7078.58,2023-10-22,14,8,0
+POL-00943,34,Female,NJ,Electrician,Widowed,582,Premium,1929.29,2023-04-01,10,1,1
+POL-00944,68,Female,MD,Doctor,Divorced,595,Basic,7771.02,2022-10-18,4,7,0
+POL-00945,51,Female,WI,Driver,Married,610,Comprehensive,2661.95,2024-06-25,9,0,1
+POL-00946,20,Male,MI,Freelancer,Single,354,Comprehensive,2793.66,2022-05-31,11,0,0
+POL-00947,34,Male,VA,Student,Divorced,814,Standard,7652.64,2023-12-31,8,2,0
+POL-00948,45,Male,MI,Mechanic,Single,784,Premium,2365.46,2023-10-21,12,6,1
+POL-00949,75,Male,NC,Student,Divorced,618,Standard,4729.31,2023-10-22,10,2,0
+POL-00950,34,Male,AZ,Driver,Married,608,Premium,1141.98,2023-03-06,14,8,0
+POL-00951,42,Female,NY,Nurse,Widowed,620,Premium,4012.84,2022-05-25,14,6,1
+POL-00952,47,Male,MO,Software Engineer,Widowed,390,Standard,5114.06,2021-09-11,7,8,0
+POL-00953,26,Female,TX,Doctor,Widowed,428,Comprehensive,5525.59,2022-08-05,14,0,0
+POL-00954,21,Female,NY,Sales Manager,Single,597,Comprehensive,5679.45,2024-11-05,1,1,0
+POL-00955,62,Male,IN,Nurse,Widowed,439,Standard,7212.89,2023-08-03,4,4,0
+POL-00956,64,Male,TN,Chef,Married,417,Basic,500.27,2023-05-21,3,8,0
+POL-00957,33,Male,NY,Lawyer,Single,817,Comprehensive,3430.35,2020-09-06,9,6,1
+POL-00958,29,Male,MO,Accountant,Widowed,426,Comprehensive,1596.85,2020-02-14,5,2,0
+POL-00959,28,Male,TN,Lawyer,Divorced,596,Basic,7693.19,2022-10-06,11,4,1
+POL-00960,42,Male,MA,Electrician,Widowed,451,Basic,2625.67,2020-09-03,12,0,0
+POL-00961,20,Female,TX,Student,Divorced,442,Comprehensive,7118.18,2022-07-27,8,0,0
+POL-00962,40,Male,VA,Student,Widowed,825,Basic,1808.73,2020-11-06,11,5,1
+POL-00963,63,Male,NC,Doctor,Divorced,703,Basic,7371.2,2023-08-14,15,6,1
+POL-00964,56,Male,MD,Construction Worker,Divorced,432,Premium,4916.39,2023-04-04,11,6,0
+POL-00965,20,Male,IL,Mechanic,Single,408,Comprehensive,7506.75,2022-09-02,10,3,0
+POL-00966,24,Male,WA,Doctor,Widowed,365,Basic,5089.28,2020-08-22,1,1,1
+POL-00967,66,Female,WI,Retail Worker,Single,478,Premium,1307.46,2022-07-09,12,2,0
+POL-00968,30,Female,TN,Lawyer,Divorced,530,Standard,6066.15,2022-06-07,6,1,0
+POL-00969,58,Male,OH,Software Engineer,Married,305,Premium,6307.89,2023-03-09,2,5,0
+POL-00970,61,Female,OH,Freelancer,Married,785,Premium,3173.64,2023-02-18,4,1,1
+POL-00971,45,Female,FL,Chef,Single,430,Premium,1256.85,2022-10-18,7,0,0
+POL-00972,19,Male,MI,Student,Divorced,699,Premium,1009.65,2024-11-19,5,4,0
+POL-00973,52,Male,IN,Student,Divorced,708,Basic,4594.56,2024-12-31,3,7,0
+POL-00974,59,Male,TX,Sales Manager,Widowed,567,Standard,3009.06,2024-04-15,1,2,0
+POL-00975,53,Female,TX,Mechanic,Widowed,374,Basic,3093.84,2020-05-24,13,1,1
+POL-00976,26,Female,TX,Teacher,Single,808,Standard,5377.53,2022-06-02,15,4,0
+POL-00977,19,Male,CA,Doctor,Married,847,Comprehensive,5614.56,2024-02-20,0,8,1
+POL-00978,21,Female,WA,Construction Worker,Married,740,Comprehensive,4621.59,2020-08-24,14,1,0
+POL-00979,40,Male,NJ,Electrician,Single,543,Standard,1189.93,2020-01-21,7,6,0
+POL-00980,69,Male,GA,Freelancer,Single,378,Basic,1450.37,2021-01-04,9,0,0
+POL-00981,40,Male,MI,Nurse,Widowed,790,Basic,5424.43,2020-06-05,8,8,0
+POL-00982,49,Female,GA,Lawyer,Divorced,675,Premium,7017.28,2021-05-15,8,5,0
+POL-00983,21,Female,AZ,Construction Worker,Widowed,586,Basic,2026.66,2020-10-07,7,4,0
+POL-00984,25,Female,PA,Software Engineer,Married,750,Comprehensive,7647.84,2020-02-13,15,0,0
+POL-00985,35,Female,MI,Freelancer,Single,361,Premium,6909.31,2022-02-25,15,0,1
+POL-00986,42,Female,TX,Mechanic,Married,688,Standard,5449.44,2022-12-26,1,4,0
+POL-00987,52,Female,CA,Student,Divorced,568,Standard,6179.39,2021-11-29,13,6,0
+POL-00988,69,Male,MO,Electrician,Divorced,847,Comprehensive,3678.76,2024-01-12,8,2,1
+POL-00989,47,Male,PA,Student,Single,587,Premium,1141.53,2021-05-26,9,5,1
+POL-00990,20,Female,VA,Accountant,Divorced,312,Basic,2801.71,2023-09-15,10,4,0
+POL-00991,46,Female,CA,Lawyer,Single,777,Basic,7744.14,2022-09-10,6,6,0
+POL-00992,55,Male,NC,Student,Divorced,365,Comprehensive,1848.53,2024-04-17,8,4,1
+POL-00993,26,Male,IL,Nurse,Single,538,Basic,5409.51,2021-01-12,14,5,0
+POL-00994,53,Male,TX,Construction Worker,Divorced,563,Basic,5587.91,2024-10-22,11,8,0
+POL-00995,56,Male,VA,Teacher,Single,819,Comprehensive,1348.87,2020-06-07,7,3,0
+POL-00996,54,Female,AZ,Teacher,Widowed,589,Standard,685.21,2023-05-28,11,5,1
+POL-00997,75,Female,TN,Accountant,Single,464,Premium,834.58,2020-11-03,0,1,0
+POL-00998,69,Female,IN,Construction Worker,Divorced,520,Comprehensive,6730.45,2020-03-07,4,6,0
+POL-00999,22,Male,MD,Driver,Widowed,424,Basic,5053.27,2023-09-12,14,5,0
+POL-01000,30,Female,GA,Sales Manager,Married,670,Standard,3918.66,2024-03-12,3,3,1
+POL-01001,64,Female,VA,Teacher,Divorced,817,Basic,7359.77,2023-08-31,15,3,1
+POL-01002,68,Female,GA,Chef,Married,850,Standard,6323.36,2022-04-14,4,4,0
+POL-01003,39,Female,NY,Teacher,Widowed,731,Standard,4820.09,2023-07-19,6,2,1
+POL-01004,18,Male,NY,Electrician,Divorced,781,Basic,1447.98,2020-03-10,13,0,0
+POL-01005,22,Male,IN,Freelancer,Widowed,732,Premium,1455.9,2023-11-28,7,4,0
+POL-01006,39,Female,MD,Chef,Single,346,Basic,6040.61,2021-12-27,14,6,1
+POL-01007,65,Female,MI,Doctor,Widowed,437,Standard,5927.81,2023-04-22,2,2,0
+POL-01008,55,Female,MA,Electrician,Divorced,749,Standard,4315.0,2023-04-19,8,1,0
+POL-01009,37,Female,NJ,Software Engineer,Widowed,592,Premium,3380.51,2024-03-30,5,2,0
+POL-01010,70,Male,AZ,Driver,Divorced,621,Basic,3105.09,2020-12-05,3,4,0
+POL-01011,49,Female,GA,Student,Married,595,Premium,7916.04,2024-03-23,3,3,0
+POL-01012,27,Male,OH,Driver,Married,328,Basic,7698.93,2023-01-10,6,0,1
+POL-01013,71,Male,VA,Mechanic,Divorced,736,Comprehensive,4406.7,2024-08-28,14,4,0
+POL-01014,63,Male,MA,Student,Widowed,805,Premium,1151.48,2020-10-07,8,1,0
+POL-01015,69,Male,GA,Construction Worker,Single,634,Standard,4302.95,2021-07-19,14,8,0
+POL-01016,63,Female,TX,Electrician,Single,833,Premium,1927.99,2023-02-17,1,0,0
+POL-01017,26,Female,GA,Retail Worker,Married,571,Comprehensive,1635.75,2024-07-24,5,7,0
+POL-01018,26,Male,FL,Driver,Married,303,Comprehensive,1004.46,2023-02-16,6,2,0
+POL-01019,44,Female,WI,Electrician,Married,657,Comprehensive,4478.46,2021-01-03,9,3,0
+POL-01020,60,Female,TN,Doctor,Widowed,665,Comprehensive,2715.63,2021-03-24,3,4,1
+POL-01021,46,Female,GA,Retail Worker,Widowed,418,Standard,3985.52,2021-10-15,3,5,1
+POL-01022,63,Male,TN,Freelancer,Widowed,721,Standard,717.22,2021-07-02,6,6,0
+POL-01023,53,Female,NC,Retail Worker,Divorced,721,Comprehensive,6567.73,2022-05-20,12,4,0
+POL-01024,35,Female,GA,Sales Manager,Single,615,Comprehensive,3573.59,2023-03-18,5,8,0
+POL-01025,67,Male,WI,Chef,Divorced,432,Basic,7627.09,2020-02-13,12,1,0
+POL-01026,40,Male,TX,Driver,Married,670,Standard,7889.13,2024-09-12,12,3,0
+POL-01027,69,Male,VA,Sales Manager,Widowed,520,Standard,7550.1,2020-03-14,0,8,0
+POL-01028,50,Female,TN,Software Engineer,Married,589,Premium,681.83,2023-07-17,7,0,0
+POL-01029,65,Male,WA,Retail Worker,Widowed,434,Premium,6964.88,2020-06-05,2,8,1
+POL-01030,19,Male,MO,Chef,Married,397,Comprehensive,1957.13,2023-05-25,9,5,1
+POL-01031,50,Male,MI,Accountant,Widowed,507,Basic,2482.02,2023-09-05,15,6,0
+POL-01032,45,Male,GA,Electrician,Divorced,794,Premium,7307.49,2022-12-28,7,6,0
+POL-01033,49,Female,VA,Doctor,Single,763,Standard,4834.1,2020-02-20,12,3,1
+POL-01034,41,Female,MD,Teacher,Divorced,640,Standard,6572.61,2020-06-20,3,8,0
+POL-01035,31,Female,MD,Mechanic,Single,444,Comprehensive,5123.66,2022-08-27,7,0,1
+POL-01036,34,Female,MI,Construction Worker,Divorced,454,Basic,2910.82,2023-03-03,13,0,0
+POL-01037,62,Male,MO,Doctor,Widowed,811,Premium,7696.06,2021-04-27,10,7,1
+POL-01038,50,Male,NY,Electrician,Single,684,Standard,6176.65,2020-11-27,3,2,0
+POL-01039,46,Male,TX,Student,Widowed,807,Standard,5196.24,2022-12-10,15,2,1
+POL-01040,43,Male,MI,Teacher,Widowed,601,Premium,4418.6,2023-06-13,11,2,0
+POL-01041,36,Male,WI,Construction Worker,Divorced,831,Premium,4040.83,2021-03-07,10,2,0
+POL-01042,51,Female,CA,Sales Manager,Widowed,483,Standard,4028.7,2020-01-12,9,3,0
+POL-01043,62,Male,MO,Lawyer,Divorced,396,Basic,5187.3,2023-05-02,5,1,0
+POL-01044,58,Male,VA,Retail Worker,Single,497,Premium,2631.41,2024-11-12,13,4,0
+POL-01045,57,Female,NC,Driver,Married,379,Standard,1272.32,2021-03-19,8,2,0
+POL-01046,54,Male,PA,Doctor,Widowed,638,Premium,7749.94,2024-02-18,15,3,0
+POL-01047,18,Male,OH,Teacher,Married,446,Standard,4065.98,2020-01-01,10,1,0
+POL-01048,26,Female,AZ,Retail Worker,Widowed,634,Premium,4252.81,2020-08-28,7,8,1
+POL-01049,42,Female,TN,Sales Manager,Divorced,834,Premium,4480.14,2024-12-13,6,2,0
+POL-01050,63,Male,AZ,Driver,Widowed,801,Premium,5640.26,2023-02-16,13,5,0
+POL-01051,19,Female,MA,Doctor,Divorced,734,Standard,5127.31,2024-11-29,6,6,0
+POL-01052,29,Male,OH,Lawyer,Divorced,838,Standard,542.11,2021-09-27,10,1,0
+POL-01053,34,Male,WI,Accountant,Single,581,Comprehensive,3487.21,2023-11-25,8,4,0
+POL-01054,54,Male,TN,Chef,Widowed,802,Standard,4050.86,2024-11-26,3,0,0
+POL-01055,19,Male,IL,Freelancer,Married,384,Comprehensive,6755.48,2020-09-01,1,7,0
+POL-01056,38,Male,MO,Accountant,Married,317,Premium,6779.55,2024-10-03,10,2,0
+POL-01057,51,Male,WA,Electrician,Single,366,Standard,6687.86,2022-10-24,4,4,0
+POL-01058,29,Female,TX,Accountant,Married,817,Comprehensive,1797.26,2024-03-09,0,4,0
+POL-01059,53,Female,NY,Sales Manager,Widowed,388,Comprehensive,1161.21,2020-07-04,5,1,0
+POL-01060,38,Male,IL,Doctor,Single,522,Premium,3952.62,2024-12-01,7,4,0
+POL-01061,65,Male,MI,Software Engineer,Widowed,593,Standard,2592.23,2023-03-03,10,6,0
+POL-01062,71,Male,NC,Student,Married,481,Premium,2445.16,2022-06-19,8,1,1
+POL-01063,40,Female,VA,Doctor,Widowed,474,Basic,7622.49,2023-04-13,12,2,0
+POL-01064,62,Female,VA,Retail Worker,Divorced,512,Premium,5747.4,2022-10-28,8,1,0
+POL-01065,34,Male,MA,Accountant,Single,418,Standard,4064.07,2022-08-14,10,5,1
+POL-01066,60,Male,NJ,Construction Worker,Single,667,Basic,1690.63,2022-08-31,10,5,0
+POL-01067,29,Female,MI,Nurse,Widowed,490,Basic,3792.57,2023-06-16,14,6,1
+POL-01068,48,Male,NC,Construction Worker,Divorced,645,Comprehensive,5589.17,2021-09-06,1,3,0
+POL-01069,44,Female,NC,Chef,Widowed,329,Standard,4341.53,2021-09-07,6,2,0
+POL-01070,60,Female,TX,Teacher,Divorced,444,Premium,3940.35,2020-12-04,14,0,0
+POL-01071,30,Male,MI,Accountant,Single,489,Standard,6933.22,2022-06-13,2,3,0
+POL-01072,61,Female,CA,Lawyer,Married,652,Basic,4031.01,2023-11-07,12,3,1
+POL-01073,60,Female,MA,Construction Worker,Married,398,Comprehensive,1463.77,2024-04-11,4,6,0
+POL-01074,75,Female,AZ,Chef,Widowed,846,Basic,3101.5,2023-10-03,0,3,0
+POL-01075,67,Male,VA,Sales Manager,Divorced,813,Basic,5079.25,2024-03-19,12,1,0
+POL-01076,26,Female,OH,Software Engineer,Married,609,Comprehensive,1196.38,2022-02-25,5,6,0
+POL-01077,36,Female,WA,Retail Worker,Widowed,335,Premium,7688.85,2022-05-13,5,2,1
+POL-01078,61,Male,MA,Doctor,Single,654,Basic,5419.01,2022-04-08,0,2,0
+POL-01079,26,Female,MA,Software Engineer,Widowed,711,Comprehensive,6285.2,2021-09-12,13,4,0
+POL-01080,56,Female,IN,Sales Manager,Widowed,643,Premium,1337.54,2021-01-01,13,8,1
+POL-01081,73,Male,PA,Software Engineer,Divorced,564,Standard,4361.72,2023-06-12,14,6,0
+POL-01082,47,Female,TX,Teacher,Widowed,771,Premium,875.55,2023-05-12,11,4,1
+POL-01083,39,Female,CA,Driver,Divorced,483,Premium,3176.64,2020-02-05,14,5,0
+POL-01084,58,Male,WI,Teacher,Divorced,337,Comprehensive,2364.7,2020-06-21,3,2,0
+POL-01085,58,Female,AZ,Student,Divorced,653,Comprehensive,5667.44,2021-05-14,14,0,0
+POL-01086,38,Female,TX,Nurse,Single,691,Basic,3033.3,2023-07-28,9,6,1
+POL-01087,19,Male,NC,Construction Worker,Single,743,Basic,6452.34,2023-03-15,8,4,0
+POL-01088,62,Male,VA,Chef,Widowed,520,Comprehensive,2560.9,2023-11-11,5,4,0
+POL-01089,56,Female,IL,Retail Worker,Divorced,579,Basic,3553.87,2020-02-08,13,2,0
+POL-01090,35,Female,WI,Doctor,Divorced,399,Standard,2186.19,2023-12-23,10,3,0
+POL-01091,57,Female,WI,Freelancer,Widowed,730,Premium,4560.93,2022-09-01,0,5,0
+POL-01092,38,Female,MA,Nurse,Widowed,810,Standard,4491.8,2020-12-14,12,4,1
+POL-01093,20,Male,TN,Driver,Divorced,385,Standard,6110.08,2022-12-20,11,4,0
+POL-01094,66,Female,MA,Retail Worker,Widowed,330,Standard,5186.47,2020-12-07,11,6,1
+POL-01095,66,Male,MI,Driver,Widowed,540,Comprehensive,7408.82,2020-09-26,12,1,0
+POL-01096,43,Male,OH,Teacher,Divorced,482,Standard,6251.56,2024-02-13,12,8,1
+POL-01097,40,Male,AZ,Student,Divorced,627,Premium,5227.07,2023-09-22,10,8,1
+POL-01098,32,Female,TN,Doctor,Widowed,593,Comprehensive,1677.26,2024-11-23,5,6,0
+POL-01099,18,Female,MA,Retail Worker,Married,400,Comprehensive,4851.18,2022-05-06,13,6,0
+POL-01100,58,Male,WI,Mechanic,Married,815,Basic,4996.76,2024-02-08,13,0,0
+POL-01101,57,Male,IL,Chef,Widowed,393,Premium,670.4,2023-05-16,12,8,0
+POL-01102,72,Male,MA,Sales Manager,Married,479,Comprehensive,7528.56,2021-02-13,10,2,0
+POL-01103,22,Male,OH,Chef,Widowed,770,Standard,5627.53,2022-06-27,7,2,1
+POL-01104,50,Male,WI,Freelancer,Divorced,463,Standard,3966.59,2020-05-23,0,0,1
+POL-01105,73,Female,WA,Teacher,Widowed,566,Basic,5868.46,2023-05-28,0,7,1
+POL-01106,70,Male,MI,Doctor,Widowed,340,Premium,3495.72,2022-11-13,14,6,0
+POL-01107,24,Male,NC,Doctor,Single,473,Premium,3596.7,2021-11-26,4,3,1
+POL-01108,31,Female,NY,Sales Manager,Single,769,Comprehensive,6143.77,2024-03-30,8,5,0
+POL-01109,62,Female,NJ,Doctor,Widowed,564,Premium,4958.21,2024-04-08,4,2,0
+POL-01110,19,Male,VA,Chef,Divorced,598,Premium,7585.94,2020-11-20,9,7,1
+POL-01111,61,Female,PA,Construction Worker,Married,450,Premium,6943.61,2021-06-10,7,0,0
+POL-01112,55,Female,PA,Chef,Single,565,Premium,5908.55,2024-03-06,12,7,0
+POL-01113,40,Male,MD,Freelancer,Divorced,835,Premium,3334.84,2022-09-20,5,8,1
+POL-01114,29,Female,WA,Software Engineer,Single,650,Standard,2819.81,2021-04-04,4,4,0
+POL-01115,59,Male,VA,Lawyer,Widowed,312,Standard,6060.33,2022-01-14,1,6,0
+POL-01116,39,Male,NC,Driver,Single,357,Comprehensive,4750.27,2021-05-22,7,4,0
+POL-01117,62,Male,GA,Construction Worker,Widowed,481,Basic,7845.33,2021-06-28,8,1,0
+POL-01118,64,Male,PA,Driver,Divorced,362,Standard,2206.9,2023-04-14,15,7,0
+POL-01119,52,Male,NJ,Doctor,Single,501,Comprehensive,1373.05,2020-06-19,15,3,0
+POL-01120,52,Male,WI,Lawyer,Divorced,309,Comprehensive,6958.54,2020-08-16,14,3,1
+POL-01121,18,Female,AZ,Chef,Divorced,804,Standard,2964.8,2022-09-16,9,4,0
+POL-01122,73,Male,NJ,Accountant,Divorced,750,Basic,7829.22,2021-01-08,15,0,0
+POL-01123,75,Female,TN,Nurse,Married,367,Comprehensive,5547.32,2020-07-12,14,5,0
+POL-01124,30,Male,GA,Mechanic,Divorced,813,Premium,2900.12,2022-12-22,15,1,0
+POL-01125,57,Male,MD,Retail Worker,Married,631,Standard,1939.28,2022-03-22,5,2,0
+POL-01126,38,Female,WI,Doctor,Widowed,575,Standard,7496.33,2022-08-24,9,5,0
+POL-01127,37,Female,VA,Freelancer,Divorced,760,Premium,3689.73,2022-03-16,13,0,1
+POL-01128,21,Female,VA,Retail Worker,Married,767,Premium,646.1,2023-12-13,6,3,0
+POL-01129,36,Female,CA,Sales Manager,Widowed,691,Premium,4685.51,2024-02-22,6,3,1
+POL-01130,72,Female,NY,Teacher,Married,464,Premium,5921.37,2024-01-17,15,0,1
+POL-01131,62,Female,GA,Accountant,Widowed,360,Basic,920.86,2021-12-02,8,8,0
+POL-01132,46,Female,NY,Lawyer,Married,375,Premium,7828.84,2024-02-09,13,2,0
+POL-01133,55,Female,MD,Mechanic,Single,748,Standard,2958.82,2023-01-24,8,8,0
+POL-01134,62,Male,PA,Doctor,Single,621,Premium,7288.28,2022-07-02,6,2,0
+POL-01135,47,Male,MA,Sales Manager,Divorced,503,Premium,2415.18,2024-03-11,0,2,0
+POL-01136,59,Female,AZ,Electrician,Widowed,349,Basic,7347.37,2022-11-15,11,0,1
+POL-01137,20,Female,MO,Lawyer,Divorced,641,Basic,6008.25,2023-03-03,2,8,0
+POL-01138,52,Male,IN,Freelancer,Single,779,Standard,6139.31,2024-04-20,13,4,1
+POL-01139,46,Male,NJ,Teacher,Married,647,Comprehensive,4457.85,2023-11-19,13,0,1
+POL-01140,54,Female,CA,Chef,Widowed,319,Basic,2189.22,2022-05-24,4,4,0
+POL-01141,55,Female,MO,Lawyer,Married,663,Standard,1916.36,2020-10-30,6,4,0
+POL-01142,24,Male,MO,Chef,Single,430,Premium,7659.95,2021-11-01,10,3,0
+POL-01143,30,Female,IL,Electrician,Divorced,538,Standard,6292.59,2020-02-25,4,7,0
+POL-01144,71,Female,CA,Lawyer,Married,689,Basic,3851.09,2022-03-28,6,3,1
+POL-01145,55,Male,FL,Nurse,Single,466,Standard,1402.69,2022-09-28,11,5,1
+POL-01146,30,Male,FL,Doctor,Divorced,789,Premium,4315.51,2022-07-24,0,0,1
+POL-01147,69,Female,WA,Freelancer,Single,663,Premium,7592.99,2024-09-09,2,6,0
+POL-01148,32,Male,WA,Student,Widowed,316,Premium,5972.22,2021-10-24,1,2,0
+POL-01149,29,Male,PA,Driver,Married,443,Comprehensive,6217.16,2020-05-05,6,4,0
+POL-01150,57,Female,IL,Electrician,Married,478,Standard,6064.75,2024-07-17,5,5,0
+POL-01151,68,Male,CA,Lawyer,Married,613,Comprehensive,5189.84,2024-09-19,8,5,0
+POL-01152,68,Male,NJ,Software Engineer,Widowed,335,Standard,7351.83,2020-04-05,12,8,0
+POL-01153,28,Male,CA,Sales Manager,Married,394,Comprehensive,7911.44,2020-08-18,15,7,1
+POL-01154,72,Female,PA,Freelancer,Single,618,Comprehensive,4021.15,2021-06-10,4,5,0
+POL-01155,57,Male,TN,Lawyer,Married,428,Standard,4360.51,2024-07-07,4,3,0
+POL-01156,65,Male,WA,Accountant,Single,555,Standard,2380.03,2024-02-04,9,5,1
+POL-01157,60,Female,PA,Sales Manager,Widowed,683,Standard,4845.26,2024-10-08,1,6,0
+POL-01158,68,Male,IL,Software Engineer,Married,334,Standard,1714.14,2021-10-22,0,7,1
+POL-01159,72,Female,OH,Retail Worker,Widowed,762,Standard,3898.95,2021-06-22,14,1,0
+POL-01160,59,Female,NJ,Student,Married,561,Premium,6552.41,2022-09-25,14,1,0
+POL-01161,66,Female,FL,Doctor,Divorced,736,Basic,7735.65,2020-09-15,3,3,1
+POL-01162,71,Male,NY,Driver,Divorced,429,Premium,2802.73,2022-06-12,2,8,0
+POL-01163,43,Male,PA,Freelancer,Married,317,Standard,6000.59,2021-12-25,4,8,0
+POL-01164,69,Female,MO,Mechanic,Married,683,Standard,1251.04,2020-12-05,7,2,1
+POL-01165,72,Male,NC,Software Engineer,Widowed,603,Comprehensive,7257.17,2022-05-12,15,7,0
+POL-01166,26,Female,CA,Teacher,Divorced,619,Standard,7422.89,2023-06-09,2,0,1
+POL-01167,26,Male,TN,Freelancer,Married,548,Comprehensive,6397.35,2023-08-16,13,6,0
+POL-01168,33,Female,FL,Mechanic,Divorced,443,Comprehensive,1426.04,2024-02-23,4,3,1
+POL-01169,27,Female,NJ,Software Engineer,Single,833,Premium,4431.81,2024-04-29,15,3,1
+POL-01170,37,Male,MO,Construction Worker,Widowed,457,Basic,7101.7,2024-03-24,10,4,0
+POL-01171,42,Female,NY,Retail Worker,Widowed,736,Standard,7071.82,2023-11-17,15,4,0
+POL-01172,51,Male,FL,Construction Worker,Divorced,547,Comprehensive,6775.32,2022-06-04,13,0,0
+POL-01173,73,Female,NC,Student,Divorced,820,Premium,3647.34,2024-09-08,8,5,0
+POL-01174,18,Male,TN,Mechanic,Widowed,526,Comprehensive,5492.21,2020-07-31,15,8,1
+POL-01175,56,Female,TX,Chef,Single,400,Basic,1381.05,2024-04-13,7,5,1
+POL-01176,70,Female,TX,Sales Manager,Widowed,771,Basic,7551.48,2024-07-23,13,0,0
+POL-01177,54,Male,CA,Retail Worker,Divorced,401,Premium,7405.02,2024-06-30,0,7,0
+POL-01178,40,Female,VA,Mechanic,Divorced,756,Basic,2933.84,2023-12-02,8,2,0
+POL-01179,53,Female,WA,Doctor,Divorced,476,Comprehensive,6924.85,2021-11-14,11,8,0
+POL-01180,38,Female,NY,Student,Single,715,Premium,5163.5,2023-08-02,5,6,0
+POL-01181,34,Female,VA,Sales Manager,Widowed,670,Standard,7694.81,2021-10-23,0,1,0
+POL-01182,55,Female,IN,Construction Worker,Divorced,482,Comprehensive,5138.53,2020-06-04,6,1,0
+POL-01183,63,Female,NC,Nurse,Divorced,845,Premium,3475.68,2022-02-27,3,4,0
+POL-01184,38,Male,MA,Freelancer,Single,551,Standard,5506.41,2021-07-14,0,7,0
+POL-01185,71,Male,GA,Student,Married,750,Standard,1590.33,2021-08-30,7,0,1
+POL-01186,71,Female,AZ,Driver,Married,722,Standard,6859.29,2023-04-04,12,6,0
+POL-01187,63,Female,NC,Electrician,Divorced,673,Standard,2901.16,2022-01-01,2,2,0
+POL-01188,73,Male,MO,Chef,Married,398,Comprehensive,4515.2,2020-08-02,7,5,0
+POL-01189,47,Female,MD,Freelancer,Single,771,Comprehensive,4228.5,2022-06-12,2,2,0
+POL-01190,53,Female,MO,Retail Worker,Single,655,Comprehensive,7006.83,2020-10-29,2,5,0
+POL-01191,64,Female,MD,Accountant,Single,802,Comprehensive,5781.63,2020-09-30,12,3,1
+POL-01192,37,Female,NJ,Mechanic,Widowed,447,Premium,6970.51,2023-06-02,1,5,0
+POL-01193,67,Male,WI,Teacher,Widowed,465,Standard,2366.0,2023-05-16,5,2,0
+POL-01194,59,Female,NY,Sales Manager,Single,396,Comprehensive,4805.02,2023-11-04,12,6,1
+POL-01195,62,Female,PA,Freelancer,Divorced,487,Basic,2833.97,2020-12-29,13,4,1
+POL-01196,23,Male,NC,Electrician,Married,532,Premium,7892.27,2023-07-20,2,5,1
+POL-01197,66,Male,IN,Accountant,Single,362,Basic,5620.33,2020-07-14,5,0,0
+POL-01198,18,Female,WA,Accountant,Single,683,Basic,7667.84,2021-01-21,15,2,0
+POL-01199,40,Male,PA,Chef,Divorced,481,Comprehensive,5797.76,2024-12-06,5,8,0
+POL-01200,70,Female,CA,Chef,Single,850,Basic,6554.04,2021-09-30,9,1,0
+POL-01201,61,Male,MD,Driver,Married,402,Comprehensive,1948.7,2020-11-13,10,7,1
+POL-01202,68,Female,NY,Retail Worker,Single,646,Standard,3242.7,2021-05-05,15,3,1
+POL-01203,20,Female,TX,Student,Widowed,401,Basic,5476.34,2021-10-18,12,8,0
+POL-01204,36,Female,PA,Lawyer,Married,599,Comprehensive,3531.79,2022-02-11,2,7,0
+POL-01205,49,Male,NJ,Driver,Widowed,698,Premium,4232.11,2024-05-29,9,0,0
+POL-01206,30,Male,MI,Student,Married,621,Basic,4507.19,2020-04-06,9,6,0
+POL-01207,40,Male,AZ,Construction Worker,Married,820,Premium,5608.5,2020-04-01,6,1,1
+POL-01208,29,Male,NJ,Teacher,Married,807,Standard,4783.59,2023-06-09,0,0,1
+POL-01209,31,Male,MI,Software Engineer,Married,638,Standard,7903.14,2024-08-19,7,5,1
+POL-01210,20,Male,PA,Chef,Married,564,Comprehensive,5602.97,2023-12-25,9,3,0
+POL-01211,44,Male,AZ,Freelancer,Widowed,686,Premium,6819.76,2021-01-23,15,4,0
+POL-01212,58,Female,TX,Construction Worker,Widowed,431,Standard,1028.93,2020-08-22,3,2,1
+POL-01213,22,Male,MO,Sales Manager,Married,562,Comprehensive,2636.05,2021-08-09,9,4,0
+POL-01214,66,Male,WA,Freelancer,Married,388,Comprehensive,2005.91,2022-11-27,1,7,1
+POL-01215,24,Male,GA,Software Engineer,Widowed,488,Basic,6219.06,2024-07-09,2,3,1
+POL-01216,57,Female,MA,Construction Worker,Married,752,Basic,5471.58,2022-10-28,6,3,0
+POL-01217,20,Male,PA,Sales Manager,Divorced,479,Premium,3965.27,2023-08-12,1,6,1
+POL-01218,27,Female,IN,Teacher,Married,488,Standard,3019.16,2024-01-16,14,0,1
+POL-01219,22,Male,WI,Driver,Divorced,464,Standard,4603.43,2021-10-12,1,1,0
+POL-01220,44,Male,WI,Construction Worker,Married,629,Premium,788.23,2020-07-31,7,0,1
+POL-01221,18,Male,WA,Doctor,Single,529,Basic,4727.29,2020-05-31,0,7,1
+POL-01222,36,Female,MA,Student,Married,802,Premium,3088.6,2023-07-27,14,7,0
+POL-01223,47,Female,GA,Nurse,Divorced,478,Comprehensive,7993.55,2024-12-11,5,5,0
+POL-01224,45,Female,PA,Software Engineer,Widowed,720,Standard,7906.17,2020-09-13,11,3,1
+POL-01225,44,Female,MA,Construction Worker,Widowed,754,Comprehensive,3976.38,2021-11-22,10,6,0
+POL-01226,64,Male,GA,Mechanic,Married,499,Premium,7252.66,2023-01-27,13,5,0
+POL-01227,31,Female,PA,Lawyer,Single,763,Premium,7285.07,2024-05-05,13,0,0
+POL-01228,31,Female,MO,Student,Married,693,Comprehensive,1852.36,2022-06-26,0,3,1
+POL-01229,54,Male,NC,Construction Worker,Married,711,Standard,1630.12,2021-10-10,14,3,0
+POL-01230,66,Female,NJ,Chef,Single,399,Basic,1143.13,2020-01-18,1,5,0
+POL-01231,38,Female,OH,Construction Worker,Married,518,Premium,6805.09,2022-01-13,10,7,1
+POL-01232,39,Male,MI,Accountant,Single,463,Standard,1724.43,2020-08-30,13,2,1
+POL-01233,62,Female,GA,Teacher,Married,755,Basic,6167.55,2020-10-04,12,7,1
+POL-01234,48,Male,CA,Chef,Divorced,751,Standard,3855.0,2020-02-10,15,5,0
+POL-01235,23,Female,FL,Nurse,Married,607,Comprehensive,7375.73,2020-08-15,6,5,0
+POL-01236,63,Male,VA,Chef,Widowed,316,Comprehensive,7937.76,2022-01-17,8,3,0
+POL-01237,51,Male,TN,Sales Manager,Married,353,Standard,5753.86,2021-06-22,14,6,0
+POL-01238,20,Female,MA,Retail Worker,Single,640,Basic,1479.87,2023-07-02,0,0,0
+POL-01239,42,Male,TN,Electrician,Widowed,336,Premium,5726.42,2021-11-18,11,8,1
+POL-01240,44,Female,PA,Sales Manager,Divorced,497,Comprehensive,2612.31,2020-06-19,14,1,0
+POL-01241,73,Male,CA,Doctor,Married,409,Standard,1058.11,2022-02-03,2,2,0
+POL-01242,67,Male,FL,Software Engineer,Single,649,Basic,1671.83,2023-07-06,14,5,0
+POL-01243,57,Male,TX,Construction Worker,Married,504,Basic,1891.81,2024-01-10,2,0,1
+POL-01244,68,Male,OH,Software Engineer,Single,696,Premium,5190.89,2021-01-29,15,3,1
+POL-01245,56,Male,TN,Accountant,Single,753,Standard,4306.88,2020-06-11,5,3,0
+POL-01246,27,Male,NY,Construction Worker,Single,492,Standard,6864.62,2024-03-28,7,2,1
+POL-01247,58,Female,WI,Electrician,Divorced,523,Comprehensive,2382.12,2021-12-07,7,8,0
+POL-01248,59,Female,MI,Doctor,Married,366,Basic,970.87,2021-12-05,1,6,0
+POL-01249,61,Female,CA,Construction Worker,Single,626,Premium,5735.57,2023-05-25,2,4,0
+POL-01250,46,Female,TN,Sales Manager,Widowed,607,Comprehensive,2851.06,2024-03-05,6,3,0
+POL-01251,20,Female,AZ,Lawyer,Widowed,632,Comprehensive,3977.18,2022-08-09,14,2,0
+POL-01252,65,Female,AZ,Software Engineer,Married,624,Comprehensive,7923.22,2023-07-18,4,6,0
+POL-01253,18,Female,IL,Nurse,Married,522,Basic,622.92,2022-08-25,4,4,0
+POL-01254,30,Male,TN,Electrician,Married,610,Premium,2208.04,2022-09-23,15,6,1
+POL-01255,72,Male,TN,Retail Worker,Single,661,Basic,1001.8,2021-10-24,15,4,0
+POL-01256,33,Female,OH,Electrician,Widowed,313,Premium,5236.31,2021-11-24,9,6,0
+POL-01257,56,Male,IN,Accountant,Divorced,682,Standard,3271.76,2022-08-27,2,0,1
+POL-01258,41,Female,GA,Mechanic,Divorced,539,Premium,5254.04,2022-09-02,8,8,0
+POL-01259,54,Female,OH,Student,Married,629,Standard,5810.79,2023-06-02,7,3,1
+POL-01260,54,Female,CA,Sales Manager,Single,693,Standard,5177.05,2020-06-15,15,7,0
+POL-01261,22,Female,WA,Doctor,Married,582,Standard,3228.37,2024-05-11,1,7,0
+POL-01262,32,Male,NJ,Sales Manager,Widowed,449,Premium,7675.01,2022-09-19,10,8,0
+POL-01263,70,Male,WI,Chef,Single,602,Basic,6016.21,2021-02-03,9,3,1
+POL-01264,45,Male,MI,Accountant,Married,447,Premium,689.63,2023-08-27,13,1,0
+POL-01265,47,Male,MA,Retail Worker,Widowed,460,Comprehensive,6188.46,2020-08-08,8,7,0
+POL-01266,30,Female,MI,Nurse,Married,630,Basic,1429.36,2024-11-12,10,8,1
+POL-01267,41,Male,NJ,Freelancer,Widowed,326,Comprehensive,5347.46,2022-03-21,5,5,0
+POL-01268,59,Female,NJ,Chef,Single,823,Basic,5920.83,2024-01-01,4,7,0
+POL-01269,22,Male,PA,Teacher,Married,540,Basic,6159.95,2022-01-01,10,1,1
+POL-01270,39,Male,TN,Electrician,Single,837,Comprehensive,5313.64,2022-03-21,4,8,0
+POL-01271,70,Male,MA,Nurse,Single,567,Standard,2294.49,2023-08-13,0,0,0
+POL-01272,48,Male,TX,Mechanic,Married,456,Standard,4254.38,2021-10-23,12,6,0
+POL-01273,50,Female,TN,Software Engineer,Widowed,369,Basic,2000.93,2020-03-14,6,3,1
+POL-01274,18,Female,FL,Chef,Divorced,821,Standard,3478.86,2020-11-07,0,4,0
+POL-01275,53,Female,IN,Electrician,Married,506,Premium,3008.64,2021-10-31,8,6,0
+POL-01276,59,Female,MA,Software Engineer,Widowed,824,Comprehensive,2034.43,2020-08-18,1,6,0
+POL-01277,65,Male,OH,Doctor,Divorced,519,Premium,3207.04,2020-04-21,7,4,0
+POL-01278,50,Male,MI,Software Engineer,Married,485,Premium,2047.65,2024-01-14,12,5,1
+POL-01279,43,Male,TN,Lawyer,Divorced,554,Basic,5122.78,2024-12-16,0,0,0
+POL-01280,72,Male,NC,Student,Single,610,Comprehensive,3360.66,2023-03-09,5,1,0
+POL-01281,41,Male,OH,Electrician,Divorced,377,Premium,3631.15,2020-02-15,9,0,0
+POL-01282,37,Male,NC,Lawyer,Married,423,Basic,7102.18,2022-09-02,5,0,0
+POL-01283,23,Male,MA,Freelancer,Divorced,576,Basic,5771.58,2022-09-09,2,2,0
+POL-01284,22,Female,WA,Software Engineer,Single,809,Comprehensive,6728.38,2022-04-24,5,0,0
+POL-01285,60,Male,NC,Construction Worker,Divorced,790,Standard,6514.56,2020-02-19,8,3,0
+POL-01286,62,Female,CA,Retail Worker,Single,745,Comprehensive,6439.73,2024-01-05,1,4,0
+POL-01287,23,Female,MA,Freelancer,Widowed,467,Premium,5439.51,2022-01-30,4,5,0
+POL-01288,44,Male,MD,Electrician,Divorced,778,Premium,6254.85,2020-10-29,15,8,1
+POL-01289,41,Female,FL,Chef,Divorced,440,Premium,7435.39,2023-08-14,14,7,0
+POL-01290,74,Male,NJ,Driver,Married,649,Standard,6883.23,2023-03-20,4,3,1
+POL-01291,23,Female,NY,Driver,Single,832,Basic,4815.98,2021-06-05,5,3,0
+POL-01292,49,Male,NJ,Construction Worker,Divorced,704,Comprehensive,2143.04,2021-12-20,13,1,0
+POL-01293,58,Female,PA,Freelancer,Married,300,Basic,4214.02,2020-05-27,9,3,1
+POL-01294,37,Male,MO,Retail Worker,Single,495,Basic,621.65,2021-08-28,3,3,0
+POL-01295,70,Male,FL,Accountant,Widowed,421,Comprehensive,7586.56,2023-09-16,12,0,0
+POL-01296,39,Female,VA,Mechanic,Divorced,738,Comprehensive,5264.15,2023-04-30,1,7,0
+POL-01297,49,Female,VA,Software Engineer,Divorced,784,Comprehensive,6146.88,2024-04-25,3,6,0
+POL-01298,61,Female,CA,Electrician,Single,799,Basic,4061.54,2023-01-18,2,1,0
+POL-01299,64,Male,MA,Electrician,Divorced,547,Comprehensive,757.57,2021-09-26,14,3,1
+POL-01300,24,Male,PA,Chef,Single,818,Comprehensive,1018.25,2021-01-06,14,4,1
+POL-01301,69,Male,NC,Chef,Single,829,Comprehensive,1804.39,2022-07-14,9,2,0
+POL-01302,36,Female,AZ,Teacher,Married,378,Standard,4116.1,2021-05-25,0,6,0
+POL-01303,67,Female,TX,Accountant,Married,528,Premium,6991.74,2023-04-10,15,3,1
+POL-01304,69,Male,NY,Nurse,Married,435,Basic,3785.73,2022-01-20,13,0,0
+POL-01305,58,Male,AZ,Lawyer,Single,585,Comprehensive,4679.61,2022-05-14,2,1,0
+POL-01306,34,Female,TN,Electrician,Married,440,Basic,680.82,2020-06-25,5,3,1
+POL-01307,60,Female,MO,Accountant,Widowed,368,Standard,4865.9,2020-08-25,1,3,0
+POL-01308,27,Female,PA,Construction Worker,Widowed,311,Premium,949.95,2024-06-02,0,1,0
+POL-01309,55,Male,MI,Student,Married,627,Standard,6954.39,2024-06-28,6,3,1
+POL-01310,48,Female,OH,Teacher,Married,697,Basic,1595.84,2020-09-17,4,1,1
+POL-01311,50,Male,MD,Nurse,Married,723,Premium,7532.06,2024-08-22,8,6,0
+POL-01312,66,Female,TX,Freelancer,Divorced,704,Basic,1944.54,2024-01-27,11,6,1
+POL-01313,56,Male,PA,Lawyer,Widowed,461,Standard,4992.34,2021-08-12,15,1,1
+POL-01314,56,Male,AZ,Teacher,Single,449,Basic,3271.41,2022-03-16,8,7,0
+POL-01315,37,Female,MI,Freelancer,Widowed,823,Comprehensive,3395.7,2024-11-19,4,7,0
+POL-01316,23,Female,NJ,Driver,Single,557,Premium,7506.21,2024-11-26,9,8,0
+POL-01317,38,Female,GA,Chef,Married,656,Premium,1938.85,2021-11-17,13,4,0
+POL-01318,56,Female,OH,Doctor,Married,602,Standard,5653.28,2022-01-10,10,3,1
+POL-01319,55,Male,NY,Construction Worker,Divorced,552,Standard,4985.98,2023-07-21,10,2,1
+POL-01320,41,Male,WA,Lawyer,Divorced,770,Premium,1597.55,2023-05-26,2,4,0
+POL-01321,42,Female,CA,Teacher,Married,560,Comprehensive,3910.7,2023-02-01,8,8,1
+POL-01322,30,Female,TX,Electrician,Widowed,410,Comprehensive,3778.79,2021-10-03,3,2,0
+POL-01323,25,Female,TX,Software Engineer,Single,584,Basic,4613.68,2021-07-03,4,1,1
+POL-01324,31,Male,MD,Software Engineer,Single,414,Premium,7826.27,2024-01-13,8,4,1
+POL-01325,33,Male,GA,Chef,Divorced,662,Standard,1637.77,2023-02-07,10,3,0
+POL-01326,69,Female,OH,Driver,Single,464,Basic,4784.3,2023-06-11,8,7,0
+POL-01327,24,Male,AZ,Mechanic,Married,770,Standard,7189.14,2021-03-27,8,1,0
+POL-01328,33,Female,AZ,Chef,Widowed,756,Standard,2241.36,2024-10-01,2,6,1
+POL-01329,46,Male,WA,Freelancer,Widowed,323,Premium,2038.47,2023-10-10,15,6,0
+POL-01330,38,Male,TN,Driver,Widowed,752,Standard,3297.21,2023-12-11,2,6,0
+POL-01331,68,Female,OH,Mechanic,Divorced,661,Comprehensive,2556.06,2024-01-04,9,3,1
+POL-01332,56,Female,CA,Retail Worker,Married,366,Comprehensive,5848.02,2020-02-14,12,5,0
+POL-01333,42,Male,TN,Electrician,Widowed,734,Basic,3780.22,2021-12-14,7,4,0
+POL-01334,34,Female,IL,Nurse,Married,829,Standard,6844.27,2022-02-20,11,0,0
+POL-01335,23,Male,FL,Chef,Single,556,Basic,4439.4,2021-06-06,14,2,0
+POL-01336,27,Female,NC,Freelancer,Married,534,Comprehensive,2836.99,2022-12-02,2,3,0
+POL-01337,57,Male,MD,Retail Worker,Married,595,Comprehensive,7565.12,2020-12-09,7,0,0
+POL-01338,56,Male,FL,Doctor,Single,575,Standard,4504.65,2024-05-14,14,8,0
+POL-01339,64,Male,PA,Driver,Married,551,Basic,2941.08,2020-12-17,8,8,0
+POL-01340,50,Male,WA,Nurse,Married,349,Comprehensive,1669.32,2020-09-27,7,5,0
+POL-01341,47,Male,MA,Nurse,Single,554,Standard,5301.02,2024-03-25,1,1,1
+POL-01342,26,Male,MI,Lawyer,Widowed,704,Comprehensive,7165.95,2022-08-13,11,6,0
+POL-01343,51,Female,IL,Driver,Widowed,429,Basic,2051.7,2023-05-13,11,4,0
+POL-01344,56,Female,WA,Electrician,Divorced,682,Basic,2859.09,2021-02-10,0,3,1
+POL-01345,67,Male,MA,Freelancer,Married,609,Comprehensive,2333.69,2020-02-03,7,7,0
+POL-01346,49,Female,MA,Construction Worker,Widowed,680,Standard,3974.74,2022-05-01,1,3,0
+POL-01347,75,Male,MI,Sales Manager,Single,658,Comprehensive,7320.44,2024-12-21,13,1,0
+POL-01348,40,Female,TX,Student,Widowed,369,Premium,2985.89,2021-09-27,5,0,0
+POL-01349,27,Female,TX,Software Engineer,Married,833,Premium,681.05,2022-04-06,10,7,0
+POL-01350,57,Female,MI,Sales Manager,Single,829,Basic,7126.5,2024-04-02,15,6,0
+POL-01351,60,Male,PA,Student,Widowed,638,Comprehensive,5985.87,2023-07-24,8,2,0
+POL-01352,66,Male,FL,Chef,Widowed,582,Comprehensive,2151.78,2020-03-31,9,0,0
+POL-01353,30,Female,MD,Mechanic,Widowed,455,Comprehensive,4602.92,2021-06-06,6,0,0
+POL-01354,28,Male,NC,Construction Worker,Widowed,367,Standard,4012.3,2020-12-05,15,1,0
+POL-01355,60,Female,NJ,Chef,Divorced,780,Premium,4827.83,2023-01-27,10,5,0
+POL-01356,60,Female,WI,Doctor,Married,531,Basic,3754.05,2021-07-11,10,8,0
+POL-01357,49,Female,TX,Chef,Divorced,563,Basic,6680.52,2023-02-10,7,3,0
+POL-01358,47,Male,NY,Construction Worker,Divorced,722,Comprehensive,3644.69,2021-11-09,9,1,0
+POL-01359,28,Female,FL,Doctor,Divorced,358,Comprehensive,3544.44,2022-06-04,4,6,1
+POL-01360,19,Female,VA,Teacher,Divorced,541,Comprehensive,7093.29,2022-10-04,12,3,1
+POL-01361,45,Male,MI,Mechanic,Married,644,Standard,4984.87,2023-04-30,12,1,0
+POL-01362,23,Male,CA,Nurse,Widowed,804,Basic,7507.81,2024-06-13,4,0,0
+POL-01363,48,Male,TX,Nurse,Divorced,675,Premium,5495.44,2020-06-28,1,2,0
+POL-01364,39,Male,TX,Chef,Single,340,Basic,6660.72,2021-01-28,5,6,1
+POL-01365,24,Female,MD,Accountant,Single,591,Standard,987.07,2023-05-26,8,2,0
+POL-01366,49,Male,MI,Software Engineer,Widowed,646,Standard,5711.82,2024-07-17,14,5,0
+POL-01367,36,Female,AZ,Doctor,Married,616,Premium,2079.1,2022-08-02,4,2,0
+POL-01368,23,Male,MD,Student,Single,451,Basic,7986.69,2020-09-15,4,1,0
+POL-01369,67,Female,NJ,Chef,Married,793,Comprehensive,3574.1,2023-08-12,9,3,1
+POL-01370,59,Male,VA,Nurse,Widowed,496,Premium,995.42,2020-03-05,8,6,0
+POL-01371,70,Female,MA,Retail Worker,Widowed,631,Comprehensive,1496.77,2021-10-31,13,5,0
+POL-01372,18,Male,NC,Electrician,Single,798,Premium,1611.26,2024-12-15,4,3,1
+POL-01373,35,Male,IL,Electrician,Single,309,Premium,5835.24,2024-06-26,11,5,0
+POL-01374,24,Female,IN,Mechanic,Married,451,Premium,5602.67,2024-10-22,8,8,1
+POL-01375,74,Male,AZ,Doctor,Single,765,Premium,4540.94,2024-03-27,14,0,0
+POL-01376,39,Male,AZ,Chef,Single,785,Comprehensive,7467.86,2024-12-16,7,5,0
+POL-01377,46,Female,MI,Student,Single,534,Premium,3461.09,2020-01-09,7,0,0
+POL-01378,70,Female,GA,Electrician,Single,740,Basic,7689.78,2024-07-01,8,8,1
+POL-01379,19,Female,WI,Retail Worker,Single,808,Standard,4505.68,2023-02-05,9,1,0
+POL-01380,42,Female,IL,Driver,Married,314,Comprehensive,1097.58,2023-08-17,7,7,0
+POL-01381,24,Male,NC,Nurse,Divorced,563,Comprehensive,1713.96,2022-05-23,6,2,0
+POL-01382,24,Female,MI,Driver,Single,378,Standard,7049.16,2024-10-13,0,3,0
+POL-01383,67,Female,IL,Teacher,Widowed,645,Basic,4253.47,2024-09-06,14,8,0
+POL-01384,48,Female,FL,Sales Manager,Single,661,Standard,3409.11,2021-01-22,8,0,0
+POL-01385,22,Male,PA,Sales Manager,Married,834,Standard,4090.18,2024-03-30,11,0,0
+POL-01386,72,Female,AZ,Teacher,Widowed,517,Standard,1926.08,2023-07-29,15,1,0
+POL-01387,71,Female,MO,Doctor,Widowed,696,Premium,5318.96,2021-02-11,1,0,1
+POL-01388,30,Male,MD,Sales Manager,Single,681,Premium,3616.5,2024-09-11,0,5,1
+POL-01389,23,Male,NY,Chef,Single,439,Comprehensive,4207.59,2023-02-03,10,1,0
+POL-01390,68,Female,GA,Accountant,Widowed,600,Basic,6939.93,2020-04-22,9,2,0
+POL-01391,70,Female,PA,Accountant,Divorced,721,Basic,7813.47,2022-01-15,2,7,0
+POL-01392,65,Female,AZ,Software Engineer,Single,591,Premium,1885.82,2020-07-09,4,8,0
+POL-01393,41,Male,NY,Accountant,Divorced,625,Basic,1869.64,2021-03-10,2,3,0
+POL-01394,35,Female,MO,Doctor,Single,604,Premium,1253.27,2022-04-06,1,4,1
+POL-01395,23,Female,NC,Construction Worker,Single,440,Basic,1207.36,2023-04-19,0,1,1
+POL-01396,20,Female,VA,Electrician,Single,570,Standard,4931.4,2023-02-23,7,1,0
+POL-01397,28,Male,MD,Construction Worker,Single,317,Comprehensive,2138.13,2023-12-21,4,2,0
+POL-01398,44,Male,IN,Student,Divorced,492,Comprehensive,4606.73,2020-05-01,13,3,1
+POL-01399,30,Female,VA,Nurse,Widowed,721,Premium,2520.2,2023-06-16,3,6,0
+POL-01400,59,Female,CA,Teacher,Widowed,495,Premium,5684.75,2023-03-26,5,1,0
+POL-01401,26,Male,GA,Mechanic,Single,373,Comprehensive,1497.22,2021-03-22,8,1,0
+POL-01402,59,Male,NY,Freelancer,Single,723,Basic,3060.18,2022-07-04,4,2,0
+POL-01403,73,Female,NJ,Electrician,Widowed,831,Premium,3825.59,2021-02-16,4,3,1
+POL-01404,40,Male,GA,Lawyer,Widowed,580,Comprehensive,867.0,2020-01-07,13,7,0
+POL-01405,21,Male,MA,Driver,Divorced,508,Comprehensive,1328.12,2021-08-11,4,4,0
+POL-01406,29,Female,CA,Lawyer,Single,765,Premium,2773.97,2021-04-04,14,3,0
+POL-01407,71,Female,WA,Accountant,Married,791,Standard,3785.97,2020-09-30,0,3,1
+POL-01408,42,Male,MO,Driver,Married,412,Premium,5909.32,2022-12-05,8,1,0
+POL-01409,73,Female,WA,Software Engineer,Single,409,Standard,7240.82,2021-05-31,7,8,0
+POL-01410,58,Female,IN,Software Engineer,Married,320,Premium,6263.7,2024-04-25,13,5,0
+POL-01411,48,Male,IL,Teacher,Divorced,735,Premium,5720.2,2021-07-10,6,6,0
+POL-01412,24,Female,TN,Chef,Married,550,Premium,843.53,2021-11-19,11,7,0
+POL-01413,52,Female,TN,Mechanic,Widowed,316,Basic,1273.94,2020-10-07,7,6,0
+POL-01414,31,Female,AZ,Driver,Single,405,Comprehensive,5888.23,2021-03-28,6,3,0
+POL-01415,24,Male,NC,Software Engineer,Widowed,423,Premium,5322.64,2024-12-27,14,3,0
+POL-01416,39,Male,WI,Teacher,Single,556,Standard,831.28,2023-11-12,8,8,0
+POL-01417,60,Male,TN,Freelancer,Married,721,Premium,1250.7,2022-10-28,7,4,0
+POL-01418,45,Female,VA,Doctor,Widowed,468,Basic,6041.76,2023-07-08,0,4,0
+POL-01419,29,Male,GA,Construction Worker,Single,483,Standard,6704.58,2021-02-08,4,4,1
+POL-01420,21,Female,GA,Chef,Married,332,Basic,5943.08,2024-01-22,6,5,0
+POL-01421,71,Female,PA,Construction Worker,Single,462,Comprehensive,3335.65,2020-12-16,11,0,0
+POL-01422,61,Female,NY,Teacher,Married,516,Basic,1653.05,2020-08-10,13,3,0
+POL-01423,35,Female,MA,Nurse,Married,759,Comprehensive,1791.01,2024-09-09,14,4,0
+POL-01424,34,Male,CA,Mechanic,Widowed,602,Comprehensive,6294.19,2022-08-10,2,1,0
+POL-01425,75,Male,GA,Construction Worker,Single,790,Comprehensive,7320.0,2023-04-04,4,0,0
+POL-01426,52,Male,PA,Mechanic,Single,820,Basic,2311.21,2023-02-05,2,5,0
+POL-01427,34,Female,NJ,Driver,Married,482,Basic,3707.91,2024-10-07,6,2,0
+POL-01428,62,Male,IN,Nurse,Widowed,373,Comprehensive,5906.9,2023-01-24,2,5,1
+POL-01429,28,Female,NJ,Software Engineer,Single,311,Basic,6314.78,2023-11-15,0,0,0
+POL-01430,38,Male,MD,Teacher,Single,494,Comprehensive,7648.16,2020-07-20,14,8,0
+POL-01431,21,Male,PA,Sales Manager,Divorced,688,Basic,6460.17,2022-10-29,9,4,0
+POL-01432,28,Male,MO,Freelancer,Married,788,Premium,4183.54,2024-04-21,2,2,0
+POL-01433,70,Female,IN,Chef,Single,621,Comprehensive,4016.56,2022-11-04,13,7,0
+POL-01434,20,Male,CA,Retail Worker,Divorced,551,Comprehensive,3090.14,2021-11-30,2,5,0
+POL-01435,51,Male,WA,Electrician,Single,541,Comprehensive,1619.55,2021-07-05,7,5,0
+POL-01436,60,Male,VA,Accountant,Married,684,Basic,4644.07,2020-03-21,15,0,1
+POL-01437,31,Male,AZ,Chef,Widowed,663,Basic,6292.75,2024-05-13,5,2,0
+POL-01438,21,Female,TX,Student,Single,701,Premium,6761.74,2020-09-11,0,4,0
+POL-01439,72,Male,MO,Lawyer,Widowed,554,Standard,3335.66,2024-04-13,6,8,0
+POL-01440,43,Female,GA,Nurse,Single,444,Comprehensive,5143.06,2021-08-27,5,8,0
+POL-01441,44,Female,IL,Software Engineer,Married,729,Standard,3261.92,2024-01-25,13,3,0
+POL-01442,37,Female,FL,Lawyer,Single,699,Premium,7590.9,2023-07-17,12,2,0
+POL-01443,66,Female,MI,Freelancer,Single,491,Comprehensive,6414.94,2024-01-16,11,5,0
+POL-01444,36,Male,CA,Retail Worker,Single,781,Comprehensive,2807.97,2024-06-10,8,4,0
+POL-01445,67,Male,NY,Sales Manager,Married,812,Standard,6728.12,2021-07-18,10,2,1
+POL-01446,57,Male,NJ,Software Engineer,Divorced,358,Premium,2291.13,2021-03-18,6,5,0
+POL-01447,71,Female,MD,Sales Manager,Single,704,Standard,6550.29,2024-07-08,3,1,0
+POL-01448,63,Female,IN,Lawyer,Single,349,Standard,2308.22,2020-07-06,6,7,0
+POL-01449,26,Female,NJ,Mechanic,Single,716,Basic,5925.21,2020-06-20,15,5,1
+POL-01450,24,Female,IN,Freelancer,Widowed,837,Basic,580.04,2021-01-13,6,0,0
+POL-01451,55,Male,NJ,Doctor,Widowed,414,Standard,6781.98,2022-12-08,0,3,1
+POL-01452,39,Female,TN,Accountant,Divorced,422,Comprehensive,7375.04,2024-12-11,6,6,0
+POL-01453,57,Female,PA,Student,Single,378,Premium,5027.69,2024-07-13,3,8,0
+POL-01454,24,Female,GA,Mechanic,Widowed,842,Comprehensive,3072.13,2020-02-24,4,6,0
+POL-01455,28,Male,OH,Chef,Married,375,Standard,3884.69,2021-11-17,10,6,0
+POL-01456,23,Female,TX,Construction Worker,Divorced,433,Comprehensive,7555.01,2020-03-28,11,0,0
+POL-01457,33,Female,WA,Electrician,Widowed,347,Basic,1373.84,2020-09-20,13,0,0
+POL-01458,30,Male,IN,Student,Married,669,Comprehensive,3483.73,2023-05-29,2,0,1
+POL-01459,27,Female,FL,Sales Manager,Married,402,Standard,6256.96,2021-06-04,10,5,0
+POL-01460,70,Female,IN,Driver,Married,746,Basic,4140.4,2024-10-01,15,6,0
+POL-01461,57,Male,IN,Freelancer,Divorced,597,Basic,1368.71,2021-09-14,0,8,1
+POL-01462,67,Male,NJ,Accountant,Married,788,Standard,3555.93,2021-03-10,7,5,0
+POL-01463,21,Male,VA,Lawyer,Single,348,Premium,7948.93,2023-04-04,2,4,0
+POL-01464,54,Male,CA,Construction Worker,Widowed,561,Standard,3521.41,2023-05-09,13,6,0
+POL-01465,71,Female,FL,Student,Divorced,448,Premium,4844.6,2023-07-28,7,2,0
+POL-01466,54,Male,MI,Software Engineer,Divorced,499,Standard,7179.05,2020-08-09,5,3,0
+POL-01467,67,Male,AZ,Electrician,Single,717,Basic,7925.17,2022-08-26,4,6,0
+POL-01468,47,Female,CA,Retail Worker,Widowed,478,Standard,2821.26,2024-01-23,7,8,0
+POL-01469,38,Female,GA,Student,Married,317,Premium,6710.1,2021-12-06,13,1,0
+POL-01470,75,Female,NJ,Software Engineer,Married,715,Premium,4583.75,2020-10-27,13,4,0
+POL-01471,68,Female,MD,Electrician,Divorced,716,Basic,7425.96,2021-03-19,0,8,1
+POL-01472,69,Female,NY,Retail Worker,Married,494,Premium,4786.3,2024-03-16,3,4,0
+POL-01473,67,Female,WA,Driver,Married,546,Premium,6873.23,2021-07-10,1,0,0
+POL-01474,48,Male,CA,Software Engineer,Widowed,700,Comprehensive,969.54,2020-04-22,3,6,0
+POL-01475,22,Male,OH,Freelancer,Divorced,326,Basic,7590.08,2022-02-07,1,4,0
+POL-01476,36,Male,NJ,Software Engineer,Widowed,717,Standard,6971.74,2022-12-04,6,7,1
+POL-01477,58,Male,TX,Construction Worker,Divorced,525,Premium,2525.91,2022-10-11,14,7,0
+POL-01478,43,Male,TX,Construction Worker,Widowed,443,Comprehensive,6222.25,2022-04-23,4,2,0
+POL-01479,19,Male,TN,Construction Worker,Widowed,693,Basic,7864.87,2023-03-03,2,4,0
+POL-01480,43,Female,FL,Mechanic,Married,507,Comprehensive,2240.85,2020-09-28,10,5,0
+POL-01481,30,Female,WA,Teacher,Widowed,381,Comprehensive,579.81,2024-10-05,5,1,0
+POL-01482,56,Male,CA,Electrician,Single,524,Comprehensive,2284.8,2022-11-17,10,2,1
+POL-01483,49,Female,WA,Teacher,Married,523,Comprehensive,1057.52,2023-09-29,9,4,0
+POL-01484,55,Male,IL,Freelancer,Divorced,348,Standard,6980.92,2021-08-25,1,1,1
+POL-01485,35,Female,TX,Mechanic,Widowed,509,Premium,6740.0,2022-03-26,15,8,0
+POL-01486,27,Female,TN,Retail Worker,Married,491,Basic,605.1,2020-11-26,2,7,0
+POL-01487,24,Male,NC,Driver,Widowed,475,Premium,6009.11,2022-10-03,14,3,1
+POL-01488,73,Male,MO,Mechanic,Single,827,Standard,4576.34,2021-10-14,13,0,0
+POL-01489,32,Female,CA,Lawyer,Widowed,712,Basic,3901.8,2023-12-04,1,6,1
+POL-01490,33,Female,IN,Doctor,Married,315,Premium,6234.02,2022-02-09,4,1,0
+POL-01491,29,Male,VA,Sales Manager,Married,388,Comprehensive,5590.6,2023-09-12,11,0,0
+POL-01492,52,Female,NY,Retail Worker,Divorced,714,Standard,5993.67,2022-12-06,5,1,0
+POL-01493,38,Female,MA,Doctor,Single,847,Premium,2264.14,2023-06-30,9,8,0
+POL-01494,28,Male,TX,Freelancer,Divorced,334,Standard,5467.35,2023-01-15,13,4,0
+POL-01495,59,Male,MI,Student,Divorced,824,Basic,5354.53,2021-08-03,11,7,1
+POL-01496,69,Male,MA,Teacher,Divorced,483,Standard,7213.97,2022-04-02,14,6,1
+POL-01497,30,Male,CA,Student,Widowed,581,Comprehensive,6351.86,2023-06-11,2,7,1
+POL-01498,57,Female,WA,Driver,Married,746,Comprehensive,5889.05,2020-11-11,4,5,0
+POL-01499,49,Male,MO,Sales Manager,Single,708,Standard,5617.54,2024-06-10,7,5,0
+POL-01500,62,Female,CA,Retail Worker,Divorced,699,Comprehensive,5957.66,2021-11-10,14,0,0

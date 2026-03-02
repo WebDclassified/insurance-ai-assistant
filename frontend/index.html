@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance AI Assistant</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- Chart.js via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="app-header">
+    <div>
+        <h1>Insurance AI Assistant</h1>
+        <div class="subtitle">Fraud Detection &bull; Claims Processing &bull; Data Quality &bull; Analytics</div>
+    </div>
+    <div style="font-size:0.82rem;opacity:0.8;">v1.0.0</div>
+</header>
+
+<div class="app-container">
+
+    <!-- ========== SIDEBAR ========== -->
+    <nav class="sidebar">
+        <div class="nav-item active" data-page="dashboard">
+            <span class="icon">&#128200;</span> Dashboard
+        </div>
+        <div class="nav-item" data-page="fraud">
+            <span class="icon">&#128269;</span> Fraud Detection
+        </div>
+        <div class="nav-item" data-page="claims">
+            <span class="icon">&#128196;</span> Claims Processing
+        </div>
+        <div class="nav-item" data-page="quality">
+            <span class="icon">&#9989;</span> Data Quality
+        </div>
+        <div class="nav-item" data-page="analytics">
+            <span class="icon">&#128202;</span> Analytics
+        </div>
+    </nav>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="main-content">
+
+        <!-- ===== DASHBOARD PAGE ===== -->
+        <div id="page-dashboard" class="page active">
+            <h2 style="margin-bottom:20px;">Dashboard Overview</h2>
+            <div id="dashboard-stats" class="stats-grid">
+                <div class="loading-overlay"><span class="spinner"></span> Loading metrics...</div>
+            </div>
+            <div class="charts-grid">
+                <div class="card">
+                    <div class="card-title">Claims by Type</div>
+                    <canvas id="chart-claims-type"></canvas>
+                </div>
+                <div class="card">
+                    <div class="card-title">Claim Amounts: Fraud vs Legitimate</div>
+                    <canvas id="chart-amount-dist"></canvas>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Model Performance Metrics</div>
+                <div id="model-metrics-container">
+                    <div class="loading-overlay"><span class="spinner"></span> Loading model metrics...</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== FRAUD DETECTION PAGE ===== -->
+        <div id="page-fraud" class="page">
+            <h2 style="margin-bottom:20px;">Fraud Detection Engine</h2>
+            <div class="card">
+                <div class="card-title">Score a Claim for Fraud Risk</div>
+                <div class="form-grid" id="fraud-form">
+                    <div class="form-group">
+                        <label>Age</label>
+                        <input type="number" id="f-age" value="35" min="18" max="100">
+                    </div>
+                    <div class="form-group">
+                        <label>Credit Score</label>
+                        <input type="number" id="f-credit" value="650" min="300" max="850">
+                    </div>
+                    <div class="form-group">
+                        <label>Annual Premium ($)</label>
+                        <input type="number" id="f-premium" value="2000" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Years as Customer</label>
+                        <input type="number" id="f-years" value="3" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Prior Claims</label>
+                        <input type="number" id="f-prior" value="1" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Has Violations</label>
+                        <select id="f-violations"><option value="0">No</option><option value="1">Yes</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label>Claim Amount ($)</label>
+                        <input type="number" id="f-amount" value="5000" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Witnesses</label>
+                        <input type="number" id="f-witnesses" value="1" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Police Report</label>
+                        <select id="f-police"><option value="1">Yes</option><option value="0">No</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label>Report Delay (days)</label>
+                        <input type="number" id="f-delay" value="2" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Claim Type</label>
+                        <select id="f-type">
+                            <option>Auto</option><option>Property</option>
+                            <option>Health</option><option>Life</option><option>Liability</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Severity</label>
+                        <select id="f-severity">
+                            <option>Low</option><option selected>Medium</option><option>High</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Policy Type</label>
+                        <select id="f-policy-type">
+                            <option>Basic</option><option selected>Standard</option>
+                            <option>Premium</option><option>Comprehensive</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <select id="f-gender">
+                            <option>Male</option><option>Female</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="btn btn-primary" id="btn-score-fraud">
+                    &#128269; Analyze Fraud Risk
+                </button>
+            </div>
+            <div id="fraud-result" style="display:none;">
+                <div class="card">
+                    <div class="card-title">Fraud Risk Assessment</div>
+                    <div id="fraud-result-content"></div>
+                </div>
+            </div>
+            <!-- Feature Importances -->
+            <div class="card">
+                <div class="card-title">Feature Importances (Model Explainability)</div>
+                <canvas id="chart-feature-imp" style="max-height:350px;"></canvas>
+            </div>
+        </div>
+
+        <!-- ===== CLAIMS PROCESSING PAGE ===== -->
+        <div id="page-claims" class="page">
+            <h2 style="margin-bottom:20px;">Claims Processing Intelligence</h2>
+            <div class="card">
+                <div class="card-title">Process a Claim</div>
+                <div class="form-grid">
+                    <div class="form-group" style="grid-column: 1 / -1;">
+                        <label>Claim Description</label>
+                        <textarea id="c-description" placeholder="Enter claim description text...">Rear-ended at traffic light on Highway 101. Minor bumper damage. Police report filed #482910.</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Claim Amount ($)</label>
+                        <input type="number" id="c-amount" value="5000" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label>Fraud Probability (0-1)</label>
+                        <input type="number" id="c-fraud-prob" value="0.1" min="0" max="1" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label>Police Report</label>
+                        <select id="c-police"><option value="true">Yes</option><option value="false">No</option></select>
+                    </div>
+                </div>
+                <button class="btn btn-primary" id="btn-process-claim">
+                    &#128196; Process Claim
+                </button>
+            </div>
+            <div id="claims-result" style="display:none;">
+                <div class="card">
+                    <div class="card-title">Processing Results</div>
+                    <div id="claims-result-content"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== DATA QUALITY PAGE ===== -->
+        <div id="page-quality" class="page">
+            <h2 style="margin-bottom:20px;">Data Quality & Standardization</h2>
+            <div style="display:flex;gap:12px;margin-bottom:20px;">
+                <button class="btn btn-primary" id="btn-quality-report">&#9989; Generate Quality Report</button>
+                <button class="btn btn-success" id="btn-clean-data">&#128295; Clean & Standardize Data</button>
+            </div>
+            <div id="quality-result" style="display:none;">
+                <div class="card" id="quality-summary-card">
+                    <div class="card-title">Data Health Summary</div>
+                    <div id="quality-summary-content"></div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Issues Found</div>
+                    <div id="quality-issues-content"></div>
+                </div>
+            </div>
+            <div id="clean-result" style="display:none;">
+                <div class="card">
+                    <div class="card-title">Cleaning Results</div>
+                    <div id="clean-result-content"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== ANALYTICS PAGE ===== -->
+        <div id="page-analytics" class="page">
+            <h2 style="margin-bottom:20px;">Predictive Analytics Dashboard</h2>
+            <div class="charts-grid">
+                <div class="card">
+                    <div class="card-title">Monthly Claims Trend</div>
+                    <canvas id="chart-monthly-trend"></canvas>
+                </div>
+                <div class="card">
+                    <div class="card-title">Fraud Rate by Claim Type</div>
+                    <canvas id="chart-fraud-by-type"></canvas>
+                </div>
+                <div class="card">
+                    <div class="card-title">Claims by Severity</div>
+                    <canvas id="chart-severity-dist"></canvas>
+                </div>
+                <div class="card">
+                    <div class="card-title">Policyholder Age Distribution</div>
+                    <canvas id="chart-age-dist"></canvas>
+                </div>
+                <div class="card">
+                    <div class="card-title">Credit Score Distribution</div>
+                    <canvas id="chart-credit-dist"></canvas>
+                </div>
+                <div class="card">
+                    <div class="card-title">Top States by Policy Count</div>
+                    <canvas id="chart-state-dist"></canvas>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+<!-- ========== SCRIPTS ========== -->
+<script src="/js/app.js"></script>
+</body>
+</html>

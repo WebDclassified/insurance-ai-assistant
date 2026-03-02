@@ -1,0 +1,64 @@
+{
+  "metrics": {
+    "accuracy": 0.9817,
+    "precision": 1.0,
+    "recall": 0.8814,
+    "f1_score": 0.9369,
+    "roc_auc": 0.994
+  },
+  "confusion_matrix": [
+    [
+      324,
+      0
+    ],
+    [
+      7,
+      52
+    ]
+  ],
+  "feature_importances": {
+    "age": 0.0299,
+    "credit_score": 0.0335,
+    "annual_premium": 0.0442,
+    "years_as_customer": 0.0203,
+    "num_prior_claims": 0.0195,
+    "has_violations": 0.0039,
+    "claim_amount": 0.1532,
+    "num_witnesses": 0.1823,
+    "police_report_filed": 0.0088,
+    "report_delay_days": 0.4316,
+    "claim_type_enc": 0.0134,
+    "severity_enc": 0.0401,
+    "policy_type_enc": 0.0141,
+    "gender_enc": 0.0053
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9788519637462235,
+      "recall": 1.0,
+      "f1-score": 0.9893129770992366,
+      "support": 324.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 0.8813559322033898,
+      "f1-score": 0.9369369369369369,
+      "support": 59.0
+    },
+    "accuracy": 0.9817232375979112,
+    "macro avg": {
+      "precision": 0.9894259818731117,
+      "recall": 0.9406779661016949,
+      "f1-score": 0.9631249570180868,
+      "support": 383.0
+    },
+    "weighted avg": {
+      "precision": 0.9821097552317922,
+      "recall": 0.9817232375979112,
+      "f1-score": 0.9812446053771068,
+      "support": 383.0
+    }
+  },
+  "training_samples": 1146,
+  "test_samples": 383
+}

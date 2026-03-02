@@ -1,0 +1,354 @@
+/* =============================================
+   Insurance AI Assistant - Stylesheet
+   ============================================= */
+
+/* --- CSS Variables --- */
+:root {
+    --primary: #1a3c6e;
+    --primary-light: #2a5ea8;
+    --primary-lighter: #e8f0fe;
+    --accent: #f59e0b;
+    --success: #10b981;
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --info: #3b82f6;
+    --bg: #f0f2f5;
+    --card-bg: #ffffff;
+    --text: #1f2937;
+    --text-light: #6b7280;
+    --border: #e5e7eb;
+    --radius: 10px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+    --shadow-lg: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+/* --- Reset / Base --- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* --- Layout --- */
+.app-header {
+    background: linear-gradient(135deg, var(--primary), var(--primary-light));
+    color: white;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--shadow-lg);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.app-header h1 { font-size: 1.4rem; font-weight: 700; }
+.app-header .subtitle { font-size: 0.85rem; opacity: 0.85; }
+
+.app-container {
+    display: flex;
+    min-height: calc(100vh - 60px);
+}
+
+/* --- Sidebar nav --- */
+.sidebar {
+    width: 220px;
+    background: var(--card-bg);
+    border-right: 1px solid var(--border);
+    padding: 20px 0;
+    flex-shrink: 0;
+}
+.sidebar .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 24px;
+    color: var(--text-light);
+    cursor: pointer;
+    font-size: 0.92rem;
+    transition: all 0.15s;
+    border-left: 3px solid transparent;
+}
+.sidebar .nav-item:hover {
+    background: var(--primary-lighter);
+    color: var(--primary);
+}
+.sidebar .nav-item.active {
+    background: var(--primary-lighter);
+    color: var(--primary);
+    border-left-color: var(--primary);
+    font-weight: 600;
+}
+.sidebar .nav-item .icon { font-size: 1.1rem; width: 20px; text-align: center; }
+
+/* --- Main content --- */
+.main-content {
+    flex: 1;
+    padding: 24px 32px;
+    max-width: 1200px;
+    overflow-y: auto;
+}
+
+/* --- Page visibility --- */
+.page { display: none; }
+.page.active { display: block; }
+
+/* --- Cards --- */
+.card {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 24px;
+    margin-bottom: 20px;
+}
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary-lighter);
+}
+
+/* --- Stat cards row --- */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.stat-card {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    padding: 20px;
+    text-align: center;
+}
+.stat-card .stat-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+.stat-card .stat-label {
+    font-size: 0.82rem;
+    color: var(--text-light);
+    margin-top: 4px;
+}
+.stat-card.danger .stat-value { color: var(--danger); }
+.stat-card.success .stat-value { color: var(--success); }
+.stat-card.warning .stat-value { color: var(--warning); }
+.stat-card.info .stat-value { color: var(--info); }
+
+/* --- Charts grid --- */
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+/* --- Forms --- */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px;
+    margin-bottom: 20px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.form-group label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.92rem;
+    outline: none;
+    transition: border-color 0.15s;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 3px rgba(42, 94, 168, 0.1);
+}
+.form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* --- Buttons --- */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.92rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.btn-primary {
+    background: var(--primary);
+    color: white;
+}
+.btn-primary:hover { background: var(--primary-light); }
+.btn-success {
+    background: var(--success);
+    color: white;
+}
+.btn-success:hover { opacity: 0.9; }
+.btn-danger {
+    background: var(--danger);
+    color: white;
+}
+.btn-danger:hover { opacity: 0.9; }
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* --- Result panels --- */
+.result-panel {
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-top: 16px;
+}
+
+/* --- Risk badge --- */
+.risk-badge {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.risk-badge.high { background: #fef2f2; color: var(--danger); border: 1px solid #fecaca; }
+.risk-badge.medium { background: #fffbeb; color: #b45309; border: 1px solid #fed7aa; }
+.risk-badge.low { background: #f0fdf4; color: var(--success); border: 1px solid #bbf7d0; }
+
+/* --- Health score bar --- */
+.health-bar {
+    height: 24px;
+    background: var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 12px 0;
+}
+.health-bar-fill {
+    height: 100%;
+    border-radius: 12px;
+    transition: width 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* --- Issues list --- */
+.issue-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+}
+.issue-item:last-child { border-bottom: none; }
+.issue-badge {
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.issue-badge.critical { background: #fef2f2; color: var(--danger); }
+.issue-badge.warning { background: #fffbeb; color: #b45309; }
+.issue-badge.info { background: var(--primary-lighter); color: var(--primary); }
+.issue-badge.ok { background: #f0fdf4; color: var(--success); }
+
+/* --- Explanation cards --- */
+.explanation-card {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+}
+.explanation-card .feat-name {
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 0.9rem;
+}
+.explanation-card .feat-detail {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-top: 2px;
+}
+
+/* --- Tables --- */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+}
+.data-table th, .data-table td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+.data-table th {
+    background: var(--primary-lighter);
+    font-weight: 600;
+    color: var(--primary);
+}
+.data-table tr:hover { background: #f9fafb; }
+
+/* --- Loading spinner --- */
+.spinner {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.loading-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+    color: var(--text-light);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .sidebar { display: none; }
+    .main-content { padding: 16px; }
+    .charts-grid { grid-template-columns: 1fr; }
+    .form-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
