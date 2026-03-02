@@ -351,4 +351,107 @@ body {
     .charts-grid { grid-template-columns: 1fr; }
     .form-grid { grid-template-columns: 1fr; }
     .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .glossary-grid { grid-template-columns: 1fr; }
+    .whatif-grid { grid-template-columns: 1fr; }
+    .profile-compare { grid-template-columns: 1fr; }
 }
+
+/* --- Domain Knowledge Page --- */
+.domain-section {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--text);
+}
+.domain-section ul { list-style-type: disc; }
+
+.glossary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 14px;
+}
+.glossary-item {
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 14px 18px;
+    border-left: 3px solid var(--primary);
+}
+.glossary-item strong {
+    color: var(--primary);
+    font-size: 0.95rem;
+    display: block;
+    margin-bottom: 4px;
+}
+.glossary-item p {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    line-height: 1.5;
+}
+
+/* --- What-If Scenario Cards --- */
+.whatif-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 12px;
+}
+.whatif-card {
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 14px;
+    border-left: 4px solid var(--border);
+    transition: transform 0.15s;
+}
+.whatif-card:hover { transform: translateY(-2px); }
+.whatif-card.increase { border-left-color: var(--danger); }
+.whatif-card.decrease { border-left-color: var(--success); }
+.whatif-card.no_change { border-left-color: var(--border); }
+.whatif-card .scenario-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+.whatif-card .scenario-delta {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.whatif-card .scenario-delta.positive { color: var(--danger); }
+.whatif-card .scenario-delta.negative { color: var(--success); }
+.whatif-card .scenario-delta.neutral { color: var(--text-light); }
+.whatif-card .scenario-detail {
+    font-size: 0.82rem;
+    color: var(--text-light);
+    margin-top: 2px;
+}
+
+/* --- Risk Profile Comparison --- */
+.profile-compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.profile-panel {
+    border-radius: var(--radius);
+    padding: 20px;
+}
+.profile-panel.fraud {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+}
+.profile-panel.legit {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+}
+.profile-panel h4 {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+.profile-panel .profile-stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    font-size: 0.9rem;
+}
+.profile-panel .profile-stat:last-child { border-bottom: none; }
+.profile-panel .profile-stat .label { color: var(--text-light); }
+.profile-panel .profile-stat .value { font-weight: 600; }

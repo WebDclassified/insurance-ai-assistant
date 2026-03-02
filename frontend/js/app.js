@@ -265,6 +265,144 @@ async function loadFeatureImportances() {
 }
 
 // -------------------------------------------------------------------
+// WHAT-IF SCENARIO ANALYSIS
+// -------------------------------------------------------------------
+$('btn-what-if').addEventListener('click', async () => {
+    const btn = $('btn-what-if');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span> Running scenarios...';
+
+    // Build payload from the current fraud form values
+    const payload = {
+        age: +$('f-age').value,
+        credit_score: +$('f-credit').value,
+        annual_premium: +$('f-premium').value,
+        years_as_customer: +$('f-years').value,
+        num_prior_claims: +$('f-prior').value,
+        has_violations: +$('f-violations').value,
+        claim_amount: +$('f-amount').value,
+        num_witnesses: +$('f-witnesses').value,
+        police_report_filed: +$('f-police').value,
+        report_delay_days: +$('f-delay').value,
+        claim_type: $('f-type').value,
+        severity: $('f-severity').value,
+        policy_type: $('f-policy-type').value,
+        gender: $('f-gender').value,
+    };
+
+    const res = await apiCall('/api/fraud/what-if', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+    });
+
+    btn.disabled = false;
+    btn.innerHTML = '&#9881; Run What-If Scenarios';
+
+    if (res?.data) {
+        const d = res.data;
+        let scenarioCards = d.scenarios.map(s => {
+            const deltaSign = s.delta > 0 ? '+' : '';
+            const deltaClass = s.delta > 0 ? 'positive' : s.delta < 0 ? 'negative' : 'neutral';
+            return `
+                <div class="whatif-card ${s.direction}">
+                    <div class="scenario-label">${s.scenario}</div>
+                    <div class="scenario-delta ${deltaClass}">${deltaSign}${s.delta} pts</div>
+                    <div class="scenario-detail">New score: ${s.new_score} (${s.new_level})</div>
+                </div>
+            `;
+        }).join('');
+
+        $('whatif-content').innerHTML = `
+            <div class="stats-grid" style="margin-bottom:16px;">
+                <div class="stat-card info">
+                    <div class="stat-value">${d.base_score}</div>
+                    <div class="stat-label">Base Risk Score</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">${d.base_level}</div>
+                    <div class="stat-label">Base Risk Level</div>
+                </div>
+            </div>
+            <h4 style="margin-bottom:12px;">How would changing factors affect the score?</h4>
+            <div class="whatif-grid">${scenarioCards}</div>
+        `;
+        $('whatif-result').style.display = 'block';
+    }
+});
+
+// -------------------------------------------------------------------
+// RISK PROFILE COMPARISON
+// -------------------------------------------------------------------
+$('btn-risk-profile').addEventListener('click', async () => {
+    const btn = $('btn-risk-profile');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span> Loading profiles...';
+
+    const res = await apiCall('/api/fraud/risk-profile');
+
+    btn.disabled = false;
+    btn.innerHTML = '&#128202; Load Risk Profiles';
+
+    if (res?.data) {
+        const fp = res.data.fraud_profile;
+        const lp = res.data.legitimate_profile;
+        const diffs = res.data.key_differentiators;
+
+        function profileStats(p) {
+            return `
+                <div class="profile-stat"><span class="label">Avg Age</span><span class="value">${p.avg_age}</span></div>
+                <div class="profile-stat"><span class="label">Avg Credit Score</span><span class="value">${p.avg_credit_score}</span></div>
+                <div class="profile-stat"><span class="label">Avg Claim Amount</span><span class="value">${formatMoney(p.avg_claim_amount)}</span></div>
+                <div class="profile-stat"><span class="label">Avg Prior Claims</span><span class="value">${p.avg_prior_claims}</span></div>
+                <div class="profile-stat"><span class="label">Avg Report Delay</span><span class="value">${p.avg_report_delay} days</span></div>
+                <div class="profile-stat"><span class="label">Has Violations</span><span class="value">${p.pct_with_violations}%</span></div>
+                <div class="profile-stat"><span class="label">No Police Report</span><span class="value">${p.pct_no_police_report}%</span></div>
+                <div class="profile-stat"><span class="label">Total Cases</span><span class="value">${p.count}</span></div>
+            `;
+        }
+
+        $('risk-profile-content').innerHTML = `
+            <div class="profile-compare">
+                <div class="profile-panel fraud">
+                    <h4 style="color:var(--danger);">&#9888; Fraudulent Claims Profile</h4>
+                    ${profileStats(fp)}
+                </div>
+                <div class="profile-panel legit">
+                    <h4 style="color:var(--success);">&#9989; Legitimate Claims Profile</h4>
+                    ${profileStats(lp)}
+                </div>
+            </div>
+        `;
+        $('risk-profile-result').style.display = 'block';
+
+        // Chart comparing key differentiators
+        const labels = diffs.map(d => d.factor);
+        const fraudVals = diffs.map(d => d.fraud_avg);
+        const legitVals = diffs.map(d => d.legit_avg);
+
+        makeChart('chart-risk-comparison', {
+            type: 'bar',
+            data: {
+                labels,
+                datasets: [
+                    { label: 'Fraud Avg', data: fraudVals, backgroundColor: '#ef4444' },
+                    { label: 'Legitimate Avg', data: legitVals, backgroundColor: '#10b981' },
+                ]
+            },
+            options: {
+                responsive: true,
+                scales: { y: { beginAtZero: true } },
+                plugins: {
+                    legend: { position: 'bottom' },
+                    title: { display: true, text: 'Key Differentiators: Fraud vs Legitimate' }
+                }
+            }
+        });
+    }
+});
+
+// -------------------------------------------------------------------
 // CLAIMS PROCESSING
 // -------------------------------------------------------------------
 $('btn-process-claim').addEventListener('click', async () => {

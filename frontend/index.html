@@ -38,6 +38,9 @@
         <div class="nav-item" data-page="analytics">
             <span class="icon">&#128202;</span> Analytics
         </div>
+        <div class="nav-item" data-page="domain">
+            <span class="icon">&#128218;</span> Domain Guide
+        </div>
     </nav>
 
     <!-- ========== MAIN CONTENT ========== -->
@@ -155,6 +158,37 @@
                 <div class="card-title">Feature Importances (Model Explainability)</div>
                 <canvas id="chart-feature-imp" style="max-height:350px;"></canvas>
             </div>
+
+            <!-- What-If Scenario Analysis -->
+            <div class="card">
+                <div class="card-title">&#128300; What-If Scenario Analysis</div>
+                <p style="font-size:0.88rem;color:#6b7280;margin-bottom:12px;">
+                    After scoring a claim above, click below to see how changing individual risk factors
+                    would affect the fraud score. This helps adjusters understand which factors are driving risk.
+                </p>
+                <button class="btn btn-primary" id="btn-what-if" style="margin-bottom:16px;">
+                    &#9881; Run What-If Scenarios
+                </button>
+                <div id="whatif-result" style="display:none;">
+                    <div id="whatif-content"></div>
+                </div>
+            </div>
+
+            <!-- Risk Profile Comparison -->
+            <div class="card">
+                <div class="card-title">&#128202; Fraud vs Legitimate Risk Profiles</div>
+                <p style="font-size:0.88rem;color:#6b7280;margin-bottom:12px;">
+                    Side-by-side comparison of average characteristics between fraudulent and legitimate claims
+                    from our dataset. These patterns drive the ML model's decisions.
+                </p>
+                <button class="btn btn-primary" id="btn-risk-profile" style="margin-bottom:16px;">
+                    &#128202; Load Risk Profiles
+                </button>
+                <div id="risk-profile-result" style="display:none;">
+                    <div id="risk-profile-content"></div>
+                    <canvas id="chart-risk-comparison" style="max-height:400px;margin-top:16px;"></canvas>
+                </div>
+            </div>
         </div>
 
         <!-- ===== CLAIMS PROCESSING PAGE ===== -->
@@ -244,6 +278,113 @@
                 <div class="card">
                     <div class="card-title">Top States by Policy Count</div>
                     <canvas id="chart-state-dist"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== DOMAIN KNOWLEDGE PAGE ===== -->
+        <div id="page-domain" class="page">
+            <h2 style="margin-bottom:20px;">Insurance Domain Knowledge</h2>
+            <div class="card">
+                <div class="card-title">&#127919; Why AI in Insurance?</div>
+                <div class="domain-section">
+                    <p>The insurance industry loses <strong>$80+ billion annually</strong> to fraud in the US alone.
+                    Traditional rule-based detection catches only <strong>10-20%</strong> of fraudulent claims.
+                    AI/ML models can boost detection to <strong>70-90%</strong> while reducing false positives,
+                    operating expenses, and claims processing cycle time by <strong>50-70%</strong>.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">&#128214; Insurance Glossary</div>
+                <div class="glossary-grid">
+                    <div class="glossary-item">
+                        <strong>Premium</strong>
+                        <p>The amount paid by the policyholder to the insurer for coverage. Higher risk = higher premium.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>Claim</strong>
+                        <p>A formal request by the policyholder to the insurer for compensation for a covered loss event.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>Underwriting</strong>
+                        <p>The process of evaluating risk to decide whether to insure someone and at what premium.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>Loss Ratio</strong>
+                        <p>Claims paid / Premiums earned. A key measure of insurer profitability. Below 100% is profitable.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>Subrogation</strong>
+                        <p>The insurer's right to pursue a third party that caused the loss to recover paid claim costs.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>Deductible</strong>
+                        <p>The amount the policyholder pays out-of-pocket before insurance coverage kicks in.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>Actuarial Science</strong>
+                        <p>Using statistics and mathematics to assess risk. The foundation of insurance pricing and reserving.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>Moral Hazard</strong>
+                        <p>The tendency for insured individuals to take greater risks because they are protected against losses.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>SIU (Special Investigation Unit)</strong>
+                        <p>A dedicated team within insurers that investigates suspicious claims for potential fraud.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>First-Party Fraud</strong>
+                        <p>When the policyholder itself submits a false or inflated claim. Most common type of insurance fraud.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>Soft Fraud vs Hard Fraud</strong>
+                        <p>Soft fraud: exaggerating a legitimate claim. Hard fraud: staging an incident or fabricating a claim entirely.</p>
+                    </div>
+                    <div class="glossary-item">
+                        <strong>Combined Ratio</strong>
+                        <p>Loss ratio + expense ratio. Below 100% means underwriting profit. Industry average is ~95-100%.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">&#128640; Regulatory & Compliance Context</div>
+                <div class="domain-section">
+                    <p><strong>Why explainability matters:</strong> Insurance regulators (e.g., NAIC in the US, EIOPA in EU)
+                    increasingly require that AI-driven decisions be <em>explainable</em>. Insurers must be able to
+                    justify why a claim was flagged or denied. This is why we chose Random Forest (interpretable
+                    feature importances) over black-box models like deep neural networks.</p>
+                    <p style="margin-top:12px;"><strong>Key regulations:</strong></p>
+                    <ul style="margin-left:20px;margin-top:8px;line-height:2;">
+                        <li><strong>GDPR (EU)</strong>: Right to explanation for automated decisions</li>
+                        <li><strong>HIPAA (US)</strong>: Protection of health-related insurance data</li>
+                        <li><strong>NAIC Model Laws</strong>: Fair credit reporting and anti-discrimination</li>
+                        <li><strong>AI Act (EU, 2025)</strong>: Insurance AI classified as high-risk, requires conformity assessment</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">&#128161; Innovation Highlights</div>
+                <div class="stats-grid">
+                    <div class="stat-card success">
+                        <div class="stat-value" style="font-size:1.4rem;">Dual-Model</div>
+                        <div class="stat-label">Supervised RF + Unsupervised ISO Forest ensemble</div>
+                    </div>
+                    <div class="stat-card info">
+                        <div class="stat-value" style="font-size:1.4rem;">What-If</div>
+                        <div class="stat-label">Scenario analysis for each claim assessment</div>
+                    </div>
+                    <div class="stat-card warning">
+                        <div class="stat-value" style="font-size:1.4rem;">Auto-Clean</div>
+                        <div class="stat-label">One-click data quality remediation</div>
+                    </div>
+                    <div class="stat-card danger">
+                        <div class="stat-value" style="font-size:1.4rem;">NLP Pipeline</div>
+                        <div class="stat-label">Entity extraction & claims classification</div>
+                    </div>
                 </div>
             </div>
         </div>
