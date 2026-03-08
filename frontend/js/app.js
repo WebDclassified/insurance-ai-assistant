@@ -9,7 +9,7 @@ const API = '';  // Same origin — FastAPI serves both API and frontend
 
 // -------------------------------------------------------------------
 // Navigation
-// -------------------------------------------------------------------
+
 document.querySelectorAll('.nav-item').forEach(item => {
     item.addEventListener('click', () => {
         const page = item.dataset.page;
@@ -25,9 +25,8 @@ document.querySelectorAll('.nav-item').forEach(item => {
     });
 });
 
-// -------------------------------------------------------------------
+
 // Utility helpers
-// -------------------------------------------------------------------
 async function apiCall(url, options = {}) {
     try {
         const res = await fetch(API + url, options);
